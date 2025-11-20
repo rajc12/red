@@ -1,0 +1,708 @@
+:: StoryTitle
+Untitled Story 1
+
+
+:: StoryData
+{
+  "ifid": "EE635094-B9D2-4632-9D61-B35027E1A4DC",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "disclailmer",
+  "zoom": 1
+}
+
+
+:: Advance Time {"position":"862.5,850","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
+@time_passes.gif@
+<br><br>
+<<switch $time>>
+  <<case "morning">>
+    The house wakes up slowly.  
+    Showers hiss. Coffee drips.  
+    They still think today will be ordinary.
+    <br><br><<set $time to "noon">>
+  <<case "noon">>
+    Sunlight crawls across the floors like an intruder.  
+    Someone laughs in the kitchen.  
+    The sound makes your teeth ache.
+    <br><br><<set $time to "evening">>
+  <<case "evening">>
+    Plates clatter. TV murmurs.  
+    They sit together like a family.  
+    They have no idea the table is already rotting from the inside.
+    <br><br><<set $time to "night">>
+  <<case "night">>
+    Lights dim. Doors close.  
+    Breathing slows behind thin walls.  
+    They believe they are safe now.
+    <br><br><<set $time to "late night">>
+  <<case "late night">>
+    The house holds its breath.  
+    Even the clocks seem afraid to tick too loud.  
+    Dawn is coming.  
+    You will be ready.
+    <br><br>
+    <<set $time to "morning">>
+    <<set $day += 1>>
+    <<set $dailyActions to 0>>
+    <<run setupNewDaySchedule()>>
+<</switch>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Age Confirmed {"position":"675,475","size":"100,100"}
+
+<div style="text-align:center;padding:140px 40px;background:#000;color:#0ff;font-family:Courier New,monospace;">
+@name_prompt.jpg@
+<br><br>
+They never even bothered to learn how to spell your real name right<br>
+in the comments under the video of you dying.
+<br><br><br>
+Type the name they mocked one last time.<br>
+(You will never need it again after tonight.)
+<br><br>
+<<set $playerName to prompt("Your name in life was…", "")>>
+<br><br>
+[[Remember it for them |Prologue]]
+</div>
+
+
+:: Back to the Player Room {"position":"450,525","size":"100,100"}
+[[go back |Player Room]]
+
+
+:: CorruptionStats {"position":"800,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.6;">
+@stats_screen.gif@
+<br><br>
+<span style="font-size:1.8em;letter-spacing:8px;">CORRUPTION LEVELS</span>
+<br><br><br>
+Father (cuckold)  $fatherCorr<br>
+Mother (slave)  $motherCorr<br>
+Brother (sissy)  $brotherCorr<br>
+Sister (prostitute)  $sisterCorr<br>
+Uncle (sissy)  $uncleCorr<br>
+Aunt (dominant slave)  $auntCorr<br>
+Cousin Ryan (your vessel)  $cousinCorr<br>
+Brother’s GF  $broGFcorr<br>
+Sister’s BF  $sisBFcorr<br>
+<br><br>
+The higher the number, the more broken they are.<br>
+There is no upper limit.
+<br><br><br>
+[[← close|House Hub]]
+</div>
+
+
+:: CurrentLocations {"position":"550,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.6;">
+@location_map.gif@
+<br><br>
+<span style="font-size:1.8em;letter-spacing:8px;">WHERE THEY ARE — $time</span>
+<br><br><br>
+Father  → $schedule[$time].father<br>
+Mother  → $schedule[$time].mother<br>
+Brother  → $schedule[$time].brother<br>
+Sister  → $schedule[$time].sister<br>
+Uncle  → $schedule[$time].uncle<br>
+Aunt  → $schedule[$time].aunt<br>
+Ryan  → $schedule[$time].cousin<br>
+Bro’s GF  → $schedule[$time].broGF<br>
+Sis’s BF  → $schedule[$time].sisBF<br>
+<br><br><br>
+[[← close|House Hub]]
+</div>
+
+
+:: House Hub {"position":"487.5,850","size":"100,100"}
+\:: House Hub
+<div style="text-align:center;background:#000;color:#0ff;padding:60px 20px;font-family:Courier New,monospace;line-height:2.6;">
+@househub.jpg@
+<br><br>
+<span style="font-size:2.2em;letter-spacing:6px;">DAY $day — $time</span>
+<br><br><br>
+<<if $possessed>>
+  <span style="color:#0ff;">You wear Ryan’s face.</span><br>
+  
+<<else>>
+  <span style="color:#088;">You are only cold air and memory.</span>
+<</if>>
+<br><br>
+
+<div style="columns:2; column-gap:40px; max-width:800px; margin:0 auto;">
+[[Main Bedroom|Location MainBedroom]]  [[Brother’s Room|Location BrotherRoom]]<br>
+[[Sister’s Room|Location SisterRoom]]   [[Uncle & Aunt’s Room|Location UncleRoom]]<br>
+[[Bathroom|Location Bathroom]]     [[Kitchen|Location Kitchen]]<br>
+[[Living Room|Location LivingRoom]]
+</div>
+<br><br><br>
+[[← Return to Ryan’s room|Player Room]]
+</div>
+
+
+:: Location Bathroom {"position":"612.5,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location BrotherRoom {"position":"237.5,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location Kitchen {"position":"737.5,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location LivingRoom {"position":"850,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location MainBedroom {"position":"450,1275","size":"100,100"}
+\:: Location MainBedroom
+<div style="text-align:center;background:#000;color:#0ff;padding:100px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_night.jpg@
+<br><br>
+<span style="font-size:2.2em;letter-spacing:10px;">MAIN BEDROOM</span>
+<br><br>
+This is where they conceived the children who held the camera.<br>
+This is where they fucked the night you died, laughing about it between thrusts.
+<br><br>
+Father Corruption: <<$fatherCorr>>  Mother Corruption: <<$motherCorr>>
+<br><br><br>
+
+<<if $schedule[$time].father is "mainbedroom">>Father is here, pretending to be a man.<</if>>
+<<if $schedule[$time].mother is "mainbedroom">>Mother is here, still wearing the perfume you can never forget.<</if>>
+
+<br><br>
+<<if $possessed  and not $traps.mainbedroom>>
+  <strong>Choose whose soul to poison tonight:</strong><br><br>
+
+  <strong>Father (cuckold path)</strong><br>
+  [[Second phone — “Your wife’s new owner” chat (+10 Father)|Set Trap mainbedroom phone]]<br>
+  [[Replace wedding photo with Mother collared (+12 Father)|Set Trap mainbedroom photo]]<br>
+  [[Used condom under mattress (+14 Father)|Set Trap mainbedroom condom]]<br>
+  [[Carve “CUCK” into headboard (+9 Father, permanent)|Set Trap mainbedroom carving]]<br><br>
+
+  <strong>Mother (slave path)</strong><br>
+  [[Spike her perfume with obedience pheromones (+11 Mother)|Set Trap mainbedroom perfume]]<br>
+  [[Hide collar & leash under her pillow (+13 Mother)|Set Trap mainbedroom collar]]<br>
+  [[Leave “How to Serve” book on her side (+9 Mother)|Set Trap mainbedroom book]]<br>
+  [[Slip remote vibrator into her drawer (+15 Mother, high risk)|Set Trap mainbedroom vibe]]
+
+<<elseif $traps.mainbedroom and not $traps.mainbedroom.triggered>>
+  <<if $schedule[$time].father is "mainbedroom">>Father<</if>>
+  <<if $schedule[$time].mother is "mainbedroom">>Mother<</if>>
+  <<if not $traps.mainbedroom.witnessed>>is about to find it…<br>[[Watch|Trigger Trap mainbedroom]]<</if>>
+  <<if $traps.mainbedroom.witnessed>>already saw it. Poison spreads.<</if>>
+
+<<else>>
+  <<if $traps.mainbedroom.triggered>>Their bed is broken forever.<</if>>
+  <<if not $traps.mainbedroom>>Nothing to do here right now.<</if>>
+<</if>>
+
+<br><br><br>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Location SisterRoom {"position":"362.5,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location UncleRoom {"position":"487.5,975","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Player Room {"position":"675,750","size":"100,100"}
+\:: Player Room
+<div style="text-align:center;background:#000;color:#0ff;padding:120px;font-family:Courier New,monospace;">
+@player_room_nightmare.gif@
+<br><br>
+<<if $day <= 3>>It still feels strange wearing a pulse.<</if>>
+<<if $day > 3 and $day <= 7>>You can taste their fear in the air now.<</if>>
+<<if $day > 7>>Some of them have started sleeping with the lights on.<</if>>
+<br><br><br>
+<<if $possessed>>You are inside Ryan.
+<<else>>You are smoke and memory.<</if>>
+<br><br>
+<<if $possessed>>[[Walk the house in Stolen flesh|House Hub]]
+<br><br>
+<<elseif not $possessed and $time is "morning">> [[Take the body|Possess Ryan]]
+
+<</if>>
+<<if not $possessed>>[[Haunt the House|House Hub]]<</if>>
+<<if $possessed>>[[Relese the Body|Release Body]]<</if>>
+<br><br>
+
+<<if $time is not "late night">> [[Advance time|Advance Time]] <</if>>
+</div>
+
+
+:: Possess Ryan {"position":"275,800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@possess_ryan.gif@
+<br><br>
+You sink into Ryan like frost into warm skin.
+<br><br>
+His sleeping lungs seize, then fill with your cold.<br>
+His heart stutters, skips, then beats exactly the way you want it to.<br>
+The cock between his legs twitches, hardens, remembers every filthy thing you plan to do with it today.
+<br><br>
+His eyes snap open, pupils blown wide, reflecting nothing.
+<br><br>
+For the next nineteen hours this body is yours.<br>
+Every finger.<br>
+Every tooth.<br>
+Every drop of come.
+<br><br><br>
+You smile with his mouth.<br>
+It feels like coming home.
+<br><br><br>
+<<set $possessed to true>>
+[[Begin the day wearing stolen flesh|Player Room]]
+</div>
+
+
+:: Prologue {"position":"675,600","size":"100,100"}
+
+@prologue_darkroom.gif@
+<br><br>
+The funeral was closed-casket.<br>
+They still posted selfies in front of it.
+<br><br>
+You watched from the ceiling the whole time.<br>
+Invisible. Weightless. Learning how their throats work when they laugh.
+<br><br>
+Now you drift through the walls of the house that killed you.<br>
+Every bedroom still smells like the people who filmed your last breath.
+<br><br>
+Ryan’s room smells like cheap vodka and cruelty.<br>
+’s bed is still warm from the body that kicked you until something cracked.
+<br><br>
+Ryan’s room is different.<br>
+At 5:12 a.m. every morning his soul slips out to dream.<br>
+For exactly nineteen minutes the body is empty, heart beating, lungs breathing, cock twitching.<br>
+Nineteen minutes is all you need.
+<br><br><br>
+You will wear Ryan like a second skin.<br>
+You will smile with his mouth.<br>
+And one by one you will teach them what the word “sorry” feels like when it’s forced down a broken throat.
+<br><br><br>
+<<set $possessed to false>>
+<<set $time to 'morning'>>
+[[Dawn is coming |Player Room]]
+
+
+:: Release Body {"position":"450,675","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@release_body.gif@
+<br><br>
+You pull out of Ryan like smoke leaving a cigarette burn.
+<br><br>
+His body jerks once, eyes rolling white, mouth gasping.<br>
+He collapses to the floor, drooling, confused, heart racing at 140 bpm.
+<br><br>
+He will remember nothing of what his hands did while you were inside him.<br>
+He will only feel the ache between his legs and the taste of someone else’s tears in his throat.
+<br><br><br>
+You are weightless again.<br>
+Cold again.<br>
+Perfect.
+<br><br><br>
+[[Back to the Player Room|Player Room]]
+</div>
+
+
+:: Set Trap mainbedroom book {"position":"700,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You leave a dog-eared paperback on Mother’s nightstand.<br>
+Title: “How to Serve Your Master: A Slave Wife’s Guide”.<br>
+Page 47 is already bookmarked — the chapter on thanking your bull after he breeds you.
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"book", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $motherCorr += 9>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom carving {"position":"325,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You take Ryan’s pocket knife and carve one word into the headboard above their bed.<br>
+Big letters. Deep.<br>
+CUCK<br><br>
+It will never sand out.
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"carving", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $fatherCorr += 9>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom collar {"position":"575,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You place a thick leather collar and long leash under Mother’s pillow.<br>
+The tag already engraved:<br>
+“Property of Ryan”
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"collar", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $motherCorr += 13>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom condom {"position":"200,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You come inside a condom using Ryan’s body, knot it, and slide it under Father’s pillow.<br>
+Still warm. Still dripping.<br>
+The smell of another man’s load right where he rests his head every night.
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"condom", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $fatherCorr += 14>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom perfume {"position":"450,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You empty half her perfume bottle and refill it with concentrated obedience pheromones.<br>
+One spray and her clit will throb for orders.<br>
+Three sprays and she’ll crawl.
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"perfume", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $motherCorr += 11>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom phone {"position":"100,1250","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You slide a second phone under Father’s side of the mattress.<br>
+Already unlocked. Already open to a chat titled<br>
+“Your wife’s new owner”.<br><br>
+
+The last message is a video thumbnail:<br>
+Mother on her knees, mouth open, eyes empty, your stolen cock down her throat.<br>
+Time-stamp: tonight.<br><br>
+
+Below it you typed with Ryan’s fingers:<br>
+“Tell her thank you for me, cuck.”<br><br>
+
+You leave the chat glowing.<br>
+You leave the sound on max.
+
+<br><br><br>
+<<set $traps.mainbedroom to {
+    type: "phone",
+    triggered: false,
+    witnessed: false
+}>>
+<<set $dailyActions += 1>>
+<<set $fatherCorr += 10>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom photo {"position":"75,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You replace their wedding photo with a new one.<br>
+Mother on her knees, collared, mouth stretched around Ryan’s cock.<br>
+Father’s face has been blurred out — he wasn’t even worth keeping in the picture.<br><br>
+The frame is already on the nightstand when they come to bed.
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"photo", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $fatherCorr += 12>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: Set Trap mainbedroom vibe {"position":"825,1400","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trap.gif@
+<br><br>
+You hide a remote vibrator in her underwear drawer.<br>
+The remote is already in Ryan’s pocket.<br>
+High risk — if she finds it early she might suspect.<br>
+But when it goes off in the middle of dinner…
+
+<br><br><br>
+<<set $traps.mainbedroom to {type:"vibe", triggered:false, witnessed:false}>>
+<<set $dailyActions += 1>>
+<<set $motherCorr += 15>>
+<br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: StoryCaption {"position":"675,1575","size":"100,100"}
+\:: StoryCaption
+<div style="font-family:Courier New,monospace; color:#0ff; background:#000; padding:15px 12px; font-size:0.95em; line-height:1.8;">
+DAY $day — $time
+
+<<if $possessed>>
+<span style="color:#0ff">Wearing Ryan’s skin</span><br>
+Actions left today: <<if $dailyActions is 0>>3<<elseif $dailyActions is 1>>2<<elseif $dailyActions is 2>>1<<else>>0<</if>>
+<<else>>
+<span style="color:#088">Ghost form</span>
+<</if>>
+
+<br><br>
+<<button "CORRUPTION STATS">><<goto [[CorruptionStats]]>>
+
+<</button>>
+
+<<button "CURRENT LOCATIONS">><<goto [[CurrentLocations]]>>
+
+<</button>>
+</div>
+
+
+
+
+:: StoryInit {"position":"875,1150","size":"100,100"}
+
+<<set $day to 1>>
+<<set $time to "morning">>
+<<set $possessed to false>>
+<<set $dailyActions to 0>>
+<<set $playerName to "">>
+
+<!-- Corruption trackers -->
+<<set $fatherCorr to 0, $motherCorr to 0, $brotherCorr to 0, $sisterCorr to 0>>
+<<set $uncleCorr to 0, $auntCorr to 0, $cousinCorr to 0>>
+<<set $broGFcorr to 0, $sisBFcorr to 0>>
+
+<<set $traps to {
+    mainbedroom: null, brotherroom: null, sisterroom: null,
+    uncleroom: null, bathroom: null, kitchen: null, livingroom: null
+}>>
+
+/* FIXED DAILY SCHEDULE — locked forever */
+<<set $schedule to {
+    morning: {
+        father:    "kitchen",       // coffee + newspaper
+        mother:    "kitchen",       // making breakfast
+        brother:   "bathroom",      // long shower
+        sister:    "sisterroom",    // getting ready, makeup
+        uncle:     "livingroom",    // watching news
+        aunt:      "kitchen",       // helping mother
+        cousin:    "uncleroom",     // still asleep or packing (your vessel)
+        broGF:     "brotherroom",   // stayed over, still in bed
+        sisBF:     "sisterroom"     // sometimes stays over
+    },
+    noon: {
+        father:    "livingroom",    // lunch + TV
+        mother:    "kitchen",       // cleaning up
+        brother:   "brotherroom",   // gaming / porn
+        sister:    "livingroom",    // scrolling phone
+        uncle:     "kitchen",       // second coffee
+        aunt:      "mainbedroom",   // nap or reading
+        cousin:    "livingroom",    // hanging out
+        broGF:     "brotherroom",   // usually with brother
+        sisBF:     "livingroom"
+    },
+    evening: {
+        father:    "livingroom",    // family dinner + TV
+        mother:    "kitchen",       // cooking dinner
+        brother:   "livingroom",
+        sister:    "sisterroom",    // getting ready to go out
+        uncle:     "livingroom",
+        aunt:      "kitchen",
+        cousin:    "livingroom",
+        broGF:     "livingroom",    // often invited to dinner
+        sisBF:     "sisterroom"     // picking sister up
+    },
+    night: {
+        father:    "mainbedroom",   // in bed with mother
+        mother:    "mainbedroom",
+        brother:   "brotherroom",   // late-night gaming or jerking off
+        sister:    "sisterroom",    // either home or sneaking back in
+        uncle:     "uncleroom",
+        aunt:      "uncleroom",
+        cousin:    "uncleroom",     // asleep → your possession window
+        broGF:     "brotherroom",   // sometimes sleeps over
+        sisBF:     "sisterroom"     // sometimes sleeps over
+    }
+}>>
+
+
+:: Trigger Trap mainbedroom {"position":"650,1250","size":"100,100"}
+\:: Trigger Trap mainbedroom
+<div style="text-align:center;background:#000;color:#0ff;padding:120px 40px;font-family:Courier New,monospace;line-height:2.8;">
+@mainbedroom_trigger.gif@
+<br><br>
+
+<<set $traps.mainbedroom.triggered to true>>
+<<set $traps.mainbedroom.witnessed to true>>
+
+<<switch $traps.mainbedroom.type>>
+
+  <<case "phone">>
+    Father finds the glowing phone.<br><br>
+    He watches his wife choke on his nephew’s cock while the bull calls him a cuck in real time.<br>
+    His hands shake so hard the phone falls.<br>
+    He comes in his pajamas without touching himself.<br><br>
+
+
+  <<case "photo">>
+    Father stares at the new wedding photo: his wife collared, crawling, staring up at a blurred Master.<br>
+    He tears it off the wall. The glass cuts his hand.<br>
+    He keeps the photo anyway.<br><br>
+
+
+  <<case "condom">>
+    Father pulls back the sheet and finds the used condom knotted and dripping under his pillow.<br>
+    Still warm.<br>
+    He brings it to his nose before he realises what he’s doing.<br><br>
+
+
+  <<case "carving">>
+    Father runs his fingers over the fresh word carved into the headboard: CUCK.<br>
+    Splinters under his nails.<br>
+    He sleeps on the wet spot that night and every night after.<br><br>
+
+
+  <<case "perfume">>
+    Mother sprays the spiked perfume.<br>
+    Within minutes she is on her knees in the closet, rubbing herself raw, whispering “please use me” to no one.<br>
+    Father watches through the crack in the door and does nothing.<br><br>
+    
+
+  <<case "collar">>
+    Mother finds the leather collar and leash under her pillow.<br>
+    She buckles it on before she can stop herself.<br>
+    Leads herself to the mirror and comes just looking at her reflection.<br><br>
+
+
+  <<case "book">>
+    Mother reads one page of “How to Serve” and wakes up three hours later naked on the floor with the book soaked.<br>
+    Father finds her like that and just closes the door again.<br><br>
+
+
+  <<case "vibe">>
+    Mother opens the drawer and the remote vibrator turns itself on in her hand.<br>
+    She drops to all fours in the bedroom, screaming into the carpet within sixty seconds.<br>
+    Father records it on his phone for “later”.<br><br>
+
+
+<</switch>>
+
+<br><br>
+The damage is permanent.<br>
+They will never sleep the same way again.
+
+<br><br><br>
+[[Location MainBedroom]]
+</div>
+
+
+:: disclailmer {"position":"675,350","size":"100,100"}
+
+<div style="text-align:center;padding:100px 40px;background:#000;color:#fff;font-family:Courier New,monospace;">
+@disclaimer_blood.jpg@
+<br><br>
+<span style="font-size:4em;color:#0ff;text-shadow:0 0 30px #0ff;letter-spacing:8px;">THE GHOST'S REVENGE</span>
+<br><br><br>
+This game contains:<br>
+• Graphic psychological torment<br>
+• Forced feminization & cuckolding<br>
+• Non-consensual corruption & permanent mental breaking<br>
+• Explicit sexual violence and humiliation<br><br>
+Everyone in this house bullied, tortured, and laughed while you died.<br>
+Now you will make them beg for the mercy they never showed you.
+<br><br>
+Explicit 18+ • permanent enslavement • worship
+<br><br>
+[[Yes, I am 18+|Age Confirmed]]
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+\:: StoryStylesheet
+/* Core */
+body, #story, #passages, .passage {
+    background: #000 !important;
+    color: #0ff !important;
+    font-family: "IBM Plex Mono", "Courier New", monospace !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    letter-spacing: 0.5px;
+}
+
+#passages {
+    margin: 0 !important;
+    padding: 40px 60px !important;
+}
+
+#ui-bar {
+    width: 280px !important;
+    padding: 25px 20px !important;
+    background: rgba(0,0,0,0.97) !important;
+    border-right: 1px solid #0ff !important;
+    box-shadow: 0 0 20px #0ff;
+    font-size: 15px !important;
+    line-height: 2.2 !important;
+}
+
+/* ALL LINKS → BOLD + NEON PINK */
+a,
+a.internalLink,
+a.externalLink,
+a.macro-link,
+.passage a {
+    color: #ff00ff !important;          /* bright magenta / hot pink */
+    font-weight: bold !important;
+    text-shadow: 0 0 12px #ff00ff !important;
+    text-decoration: none !important;
+}
+
+a:hover,
+a.internalLink:hover {
+    color: #ff00ff !important;
+    text-shadow: 0 0 25px #ff00ff, 0 0 35px #ff00ff !important;
+}
+
+/* Sidebar buttons stay cyan (so they don’t clash) */
+
+
+
+button:hover {
+    background: #0ff !important;
+    color: #000 !important;
+}
+
+]
