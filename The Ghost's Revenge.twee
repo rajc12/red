@@ -261,26 +261,27 @@ Change any you want. Leave blank to keep the default.
 <<if $day > 3 and $day <= 7>>You can taste their fear in the air now.<</if>>
 <<if $day > 7>>Some of them have started sleeping with the lights on.<</if>>
 <br><br><br>
-<<if $possessed>>You are inside Ryan.
-<<else>>You are smoke and memory.<</if>>
-<br><br>
-<<if $possessed>>[[Walk the house in Stolen flesh|House Hub]]
-<br><br>
-<<elseif not $possessed and $time is "early morning">> [[Take the body|Possess Ryan]]
-
+<<if $possessed>>
+  You are inside Ryan.<br><br>
+  [[Walk the house in stolen flesh|House Hub]]
+<<else>>
+  You are only cold air and memory.<br><br>
+  <<if $time is "early morning">>
+    [[Take the body|Possess Ryan]]
+  <<else>>
+    You cannot act until you wear flesh.<br>
+    Wait for early morning or use the buttons below.
+  <</if>>
 <</if>>
-<<if not $possessed>>[[Haunt the House(not implemented)|House Hub]]<</if>>
-<<if $possessed>>[[Release the Body(not implemented)|Release Body]]<</if>>
 <br><br>
 
-<<if $time is "early morning or $time is "morning" or $time is "afternoon" or $time is "evening">>
+<<if $time is "early morning" or $time is "morning" or $time is "afternoon" or $time is "evening">>
   [[Next time of day|Advance Time]]
 <</if>>
 <<if $time is "night">>
   [[Sleep|Sleep]]
 <</if>>
 </div>
-
 :: Possess Ryan {"position":"275,800","size":"100,100"}
 <img src="img/4.1.jpg">
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
