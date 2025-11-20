@@ -17,12 +17,15 @@ The Ghost's Revenge
 @time_passes.gif@
 <br><br>
 <<switch $time>>
+  <<case "early morning">>
+    The house is still half-dreaming.  
+    First light creeps under doors like a thief.
+    <br><br><<set $time to "morning">>
   <<case "morning">>
-    The house wakes up slowly.  
     Showers hiss. Coffee drips.  
     They still think today will be ordinary.
-    <br><br><<set $time to "noon">>
-  <<case "noon">>
+    <br><br><<set $time to "afternoon">>
+  <<case "afternoon">>
     Sunlight crawls across the floors like an intruder.  
     Someone laughs in the kitchen.  
     The sound makes your teeth ache.
@@ -36,20 +39,33 @@ The Ghost's Revenge
     Lights dim. Doors close.  
     Breathing slows behind thin walls.  
     They believe they are safe now.
-    <br><br><<set $time to "late night">>
-  <<case "late night">>
-    The house holds its breath.  
-    Even the clocks seem afraid to tick too loud.  
-    Dawn is coming.  
-    You will be ready.
     <br><br>
-    <<set $time to "morning">>
-    <<set $day += 1>>
-    <<set $dailyActions to 0>>
-    <<run setupNewDaySchedule()>>
+    (Use the Sleep button in Ryan’s room to end the day.)
 <</switch>>
 <br><br>
 [[Continue|House Hub]]
+</div>
+
+
+:: Sleep {"position":"950,750","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
+@sleep_transition.gif@
+<br><br>
+The house falls completely silent.<br>
+Even the clocks seem afraid to tick too loud.<br><br>
+
+Ryan’s borrowed body grows heavy.<br>
+You let it collapse onto the bed, spent and aching from everything you made it do.<br><br>
+
+Tomorrow the sun will rise on a house that is one day closer to ruin.<br><br>
+
+<<set $time to "early morning">>
+<<set $day += 1>>
+<<set $dailyActions to 0>>
+<<run setupNewDaySchedule()>>
+
+<br><br>
+[[A new day begins|Player Room]]
 </div>
 
 
@@ -114,7 +130,6 @@ Demo Ends here Thank you for playing
 <br><br><br>
 <<if $possessed>>
   <span style="color:#0ff;">You wear Ryan’s face.</span><br>
-  
 <<else>>
   <span style="color:#088;">You are only cold air and memory.</span>
 <</if>>
@@ -251,16 +266,20 @@ Change any you want. Leave blank to keep the default.
 <br><br>
 <<if $possessed>>[[Walk the house in Stolen flesh|House Hub]]
 <br><br>
-<<elseif not $possessed and $time is "morning">> [[Take the body|Possess Ryan]]
+<<elseif not $possessed and $time is "early morning">> [[Take the body|Possess Ryan]]
 
 <</if>>
 <<if not $possessed>>[[Haunt the House(not implemented)|House Hub]]<</if>>
-<<if $possessed>>[[Relese the Body(not implemented)|Release Body]]<</if>>
+<<if $possessed>>[[Release the Body(not implemented)|Release Body]]<</if>>
 <br><br>
 
-<<if $time is not "late night">> [[Advance time|Advance Time]] <</if>>
+<<if $time is "early morning or $time is "morning" or $time is "afternoon" or $time is "evening">>
+  [[Next time of day|Advance Time]]
+<</if>>
+<<if $time is "night">>
+  [[Sleep|Sleep]]
+<</if>>
 </div>
-
 
 :: Possess Ryan {"position":"275,800","size":"100,100"}
 <img src="img/4.1.jpg">
@@ -500,10 +519,8 @@ But when it goes off in the middle of dinner…
 
 
 :: StoryCaption {"position":"675,1575","size":"100,100"}
-\:: StoryCaption
 <div style="font-family:Courier New,monospace; color:#0ff; background:#000; padding:15px 12px; font-size:0.95em; line-height:1.8;">
 DAY $day — $time
-<
 <<if $possessed>>
 <span style="color:#0ff">Wearing Ryan’s skin</span><br>
 Actions left today: <<if $dailyActions is 0>>3<<elseif $dailyActions is 1>>2<<elseif $dailyActions is 2>>1<<else>>0<</if>>
@@ -513,20 +530,17 @@ Actions left today: <<if $dailyActions is 0>>3<<elseif $dailyActions is 1>>2<<el
 
 <br><br>
 <<button "CORRUPTION STATS">><<goto [[CorruptionStats]]>>
-
 <</button>>
 
 <<button "CURRENT LOCATIONS">><<goto [[CurrentLocations]]>>
-
 <</button>>
 By Redcupid
 </div>
 
 
-
 :: StoryInit {"position":"875,1150","size":"100,100"}
 <<set $day to 1>>
-<<set $time to "morning">>
+<<set $time to "early morning">>
 <<set $possessed to false>>
 <<set $dailyActions to 0>>
 <<set $playerName to "">>
@@ -541,51 +555,62 @@ By Redcupid
     uncleroom: null, bathroom: null, kitchen: null, livingroom: null
 }>>
 
-/* FIXED DAILY SCHEDULE — locked forever */
+/* UPDATED SCHEDULE FOR 5 TIME SLOTS */
 <<set $schedule to {
-    morning: {
-        father:    "kitchen",       // coffee + newspaper
-        mother:    "kitchen",       // making breakfast
-        brother:   "bathroom",      // long shower
-        sister:    "sisterroom",    // getting ready, makeup
-        uncle:     "livingroom",    // watching news
-        aunt:      "kitchen",       // helping mother
-        cousin:    "uncleroom",     // still asleep or packing (your vessel)
-        broGF:     "brotherroom",   // stayed over, still in bed
-        sisBF:     "sisterroom"     // sometimes stays over
+    "early morning": {
+        father:    "mainbedroom",
+        mother:    "mainbedroom",
+        brother:   "brotherroom",
+        sister:    "sisterroom",
+        uncle:     "uncleroom",
+        aunt:      "uncleroom",
+        cousin:    "uncleroom",
+        broGF:     "brotherroom",
+        sisBF:     "sisterroom"
     },
-    noon: {
-        father:    "livingroom",    // lunch + TV
-        mother:    "kitchen",       // cleaning up
-        brother:   "brotherroom",   // gaming / porn
-        sister:    "livingroom",    // scrolling phone
-        uncle:     "kitchen",       // second coffee
-        aunt:      "mainbedroom",   // nap or reading
-        cousin:    "livingroom",    // hanging out
-        broGF:     "brotherroom",   // usually with brother
+    morning: {
+        father:    "kitchen",
+        mother:    "kitchen",
+        brother:   "bathroom",
+        sister:    "sisterroom",
+        uncle:     "livingroom",
+        aunt:      "kitchen",
+        cousin:    "uncleroom",
+        broGF:     "brotherroom",
+        sisBF:     "sisterroom"
+    },
+    afternoon: {
+        father:    "livingroom",
+        mother:    "kitchen",
+        brother:   "brotherroom",
+        sister:    "livingroom",
+        uncle:     "kitchen",
+        aunt:      "mainbedroom",
+        cousin:    "livingroom",
+        broGF:     "brotherroom",
         sisBF:     "livingroom"
     },
     evening: {
-        father:    "livingroom",    // family dinner + TV
-        mother:    "kitchen",       // cooking dinner
+        father:    "livingroom",
+        mother:    "kitchen",
         brother:   "livingroom",
-        sister:    "sisterroom",    // getting ready to go out
+        sister:    "sisterroom",
         uncle:     "livingroom",
         aunt:      "kitchen",
         cousin:    "livingroom",
-        broGF:     "livingroom",    // often invited to dinner
-        sisBF:     "sisterroom"     // picking sister up
+        broGF:     "livingroom",
+        sisBF:     "sisterroom"
     },
     night: {
-        father:    "mainbedroom",   // in bed with mother
+        father:    "mainbedroom",
         mother:    "mainbedroom",
-        brother:   "brotherroom",   // late-night gaming or jerking off
-        sister:    "sisterroom",    // either home or sneaking back in
+        brother:   "brotherroom",
+        sister:    "sisterroom",
         uncle:     "uncleroom",
         aunt:      "uncleroom",
-        cousin:    "uncleroom",     // asleep → your possession window
-        broGF:     "brotherroom",   // sometimes sleeps over
-        sisBF:     "sisterroom"     // sometimes sleeps over
+        cousin:    "uncleroom",
+        broGF:     "brotherroom",
+        sisBF:     "sisterroom"
     }
 }>>
 
@@ -844,22 +869,22 @@ button:hover {
 
 .ryan { background: linear-gradient(145deg, #8b0000, #ff0000); margin-left: auto; margin-right: 0; }
 .ryan::after { left: auto; right: 30px; border-top-color: #8b0000; }
-.ryan .avatar { background-image: url("images/ryan-possessed.png"); }
+.ryan .avatar { background-image: url("img/ryan-possessed.png"); }
 
 .father { background: linear-gradient(145deg, #663300, #cc6600); }
-.father .avatar { background-image: url("images/father.png"); }
+.father .avatar { background-image: url("img/father.png"); }
 
 .mother { background: linear-gradient(145deg, #4b0082, #9932cc); }
-.mother .avatar { background-image: url("images/mother.png"); }
+.mother .avatar { background-image: url("img/mother.png"); }
 
 .brother { background: linear-gradient(145deg, #ff69b4, #ff1493); }
-.brother .avatar { background-image: url("images/brother.png"); }
+.brother .avatar { background-image: url("img/brother.png"); }
 
 .sister { background: linear-gradient(145deg, #ff4500, #ff6347); }
-.sister .avatar { background-image: url("images/sister.png"); }
+.sister .avatar { background-image: url("img/sister.png"); }
 
 .uncle { background: linear-gradient(145deg, #daa520, #ffd700); }
-.uncle .avatar { background-image: url("images/uncle.png"); }
+.uncle .avatar { background-image: url("img/uncle.png"); }
 
 .aunt { background: linear-gradient(145deg, #800080, #ba55d3); }
-.aunt .avatar { background-image: url("images/aunt.png"); }
+.aunt .avatar { background-image: url("img/aunt.png"); }
