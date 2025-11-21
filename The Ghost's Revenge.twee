@@ -12,64 +12,16 @@ The Ghost's Revenge
 }
 
 
-:: Advance Time {"position":"862.5,850","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
-@time_passes.gif@
-<br><br>
-<<switch $time>>
-  <<case "early morning">>
-    The house is still half-dreaming.  
-    First light creeps under doors like a thief.
-    <br><br><<set $time to "morning">>
-  <<case "morning">>
-    Showers hiss. Coffee drips.  
-    They still think today will be ordinary.
-    <br><br><<set $time to "afternoon">>
-  <<case "afternoon">>
-    Sunlight crawls across the floors like an intruder.  
-    Someone laughs in the kitchen.  
-    The sound makes your teeth ache.
-    <br><br><<set $time to "evening">>
-  <<case "evening">>
-    Plates clatter. TV murmurs.  
-    They sit together like a family.  
-    They have no idea the table is already rotting from the inside.
-    <br><br><<set $time to "night">>
-  <<case "night">>
-    Lights dim. Doors close.  
-    Breathing slows behind thin walls.  
-    They believe they are safe now.
-    <br><br>
-    (Use the Sleep button in Ryan’s room to end the day.)
-<</switch>>
-<br><br>
+:: Advance Time {"position":"950,875","size":"100,100"}
+\:: Advance Time
+<<set $time += 1>>
+<<if $time > 4>>
+  <<set $time to 4>>
+<</if>>
 [[Continue|House Hub]]
-</div>
 
 
-:: Sleep {"position":"950,750","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
-@sleep_transition.gif@
-<br><br>
-The house falls completely silent.<br>
-Even the clocks seem afraid to tick too loud.<br><br>
-
-Ryan’s borrowed body grows heavy.<br>
-You let it collapse onto the bed, spent and aching from everything you made it do.<br><br>
-
-Tomorrow the sun will rise on a house that is one day closer to ruin.<br><br>
-
-<<set $time to "early morning">>
-<<set $day += 1>>
-<<set $dailyActions to 0>>
-<<run setupNewDaySchedule()>>
-
-<br><br>
-[[A new day begins|Player Room]]
-</div>
-
-
-:: Back to the Player Room {"position":"450,525","size":"100,100"}
+:: Back to the Player Room {"position":"1075,375","size":"100,100"}
 [[go back |Player Room]]
 
 
@@ -118,111 +70,184 @@ Sis’s BF  → $schedule[$time].sisBF<br>
 
 :: Demo End {"position":"1050,1325","size":"100,100"}
 Demo Ends here Thank you for playing
-[[House Hub]] 
+[[House Hub]]
 
 
-:: House Hub {"position":"487.5,850","size":"100,100"}
-<img src="img/5.jpg">
-<div style="text-align:center;background:#000;color:#0ff;padding:60px 20px;font-family:Courier New,monospace;line-height:2.6;">
-@househub.jpg@
-<br><br>
-<span style="font-size:2.2em;letter-spacing:6px;">DAY $day — $time</span>
-<br><br><br>
-<<if $possessed>>
-  <span style="color:#0ff;">You wear Ryan’s face.</span><br>
+:: House Hub {"position":"2500,575","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:10px 5px;font-family:Courier New,monospace;">
+
+<img src="img/5.jpg" style="width:100%;max-width:900px;height:auto;border-radius:10px;margin-bottom:10px;">
+
+<<if $possessed>>You wear Ryan’s face.<</if>>
+<<if not $possessed>>You are only cold air and memory.<</if>>
+
+<div style="max-width:860px;margin:0 auto;">
+<table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:9px;">
+  <tr>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/masterbedroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Main Bedroom|Location MainBedroom]]
+      </div>
+    </td>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/brother_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Brother’s Room|Location BrotherRoom]]
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/sister_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+ <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Sister’s Room|Location SisterRoom]]
+      </div>
+    </td>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/uncle_aunt_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Uncle & Aunt’s Room|Location UncleRoom]]
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/bathroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Bathroom|Location Bathroom]]
+      </div>
+    </td>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/kitchen.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Kitchen|Location Kitchen]]
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/livingroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Living Room|Location LivingRoom]]
+      </div>
+    </td>
+    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
+      <img src="img/3.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+ 
+      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
+      [[Ryan’s Room|Player Room]]
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+<br>
+[[← Back|Player Room]]
+</div>
+
+
+:: Location Bathroom {"position":"3100,1800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/bathroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">BATHROOM — When alone</span><br><br>
+
+<<if $schedule[$time].mother is "bathroom" >>
+  <<switch $motherTier>>
+    <<case 1>> [[Spike body wash (+5)|Place Mother Trap gel1]]
+    <<case 2>> [[Leave used boxers in laundry (+8)|Place Mother Trap boxers1]]
+    <<case 3>> [[Leave cum towel on rack (+12)|Place Mother Trap towel1]]
+    <<case 4>> [[Walk in shirtless during her shower (+15)|Place Mother Trap showerwalk1]]
+    <<case 5>> [[Shower together — she kneels (+25)|Place Mother Trap kneel1]]
+  <</switch>>
 <<else>>
-  <span style="color:#088;">You are only cold air and memory.</span>
+  Wait until Mother is alone in the bathroom.
 <</if>>
-<br><br>
 
-<div style="columns:2; column-gap:40px; max-width:800px; margin:0 auto;">
-[[Main Bedroom|Location MainBedroom]]  [[Brother’s Room(not implemented)|Location BrotherRoom]]<br>
-[[Sister’s Room (not implemented)|Location SisterRoom]]   [[Uncle & Aunt’s Room(not implemented)|Location UncleRoom]]<br>
-[[Bathroom(not implemented)|Location Bathroom]]     [[Kitchen(not implemented)|Location Kitchen]]<br>
-[[Living Room(not implemented)|Location LivingRoom]]
-</div>
-<br><br><br>
-[[← Return to Ryan’s room|Player Room]]
+<br><br>[[← House Hub|House Hub]]
 </div>
 
 
-:: Location Bathroom {"position":"612.5,975","size":"100,100"}
+:: Location BrotherRoom {"position":"2175,2500","size":"100,100"}
 [[← House Hub|House Hub]]
 
 
-:: Location BrotherRoom {"position":"237.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
+:: Location Kitchen {"position":"3450,2450","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/kitchen.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">KITCHEN — Morning / Afternoon</span><br><br>
 
-
-:: Location Kitchen {"position":"737.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
-
-
-:: Location LivingRoom {"position":"850,975","size":"100,100"}
-[[← House Hub|House Hub]]
-
-
-:: Location MainBedroom {"position":"450,1275","size":"100,100"}
-
-<div style="text-align:center;background:#000;color:#0ff;padding:100px 40px;font-family:Courier New,monospace;line-height:2.8;">
-
-<span style="font-size:2.2em;letter-spacing:10px;">MAIN BEDROOM</span>
-
-This is where they conceived the children who held the camera.<br>
-This is where they fucked the night you died, laughing about it between thrusts.
-<br><br>
-Father Corruption: <<$fatherCorr>>  Mother Corruption: <<$motherCorr>>
-<br><br><br>
-<img src="img/6.1.jpg">
-<<if $schedule[$time].father is "mainbedroom">>Father is here, pretending to be a man.<</if>>
-<<if $schedule[$time].mother is "mainbedroom">>Mother is here, still wearing the perfume you can never forget.<</if>>
-
-<br><br>
-<<if not $traps.mainbedroom  >>
-  <strong>Choose whose soul to poison tonight:</strong><br><br>
-
-  <strong>Father (cuckold path)</strong><br>
-  <<if $fatherCorr < 45>>
-  [[Second phone — “Your wife’s new owner” chat (+10 Father)|Set Trap mainbedroom phone]]<br>
-  [[Replace wedding photo with Mother collared (+12 Father)|Set Trap mainbedroom photo]]<br>
-  [[Used condom under mattress (+14 Father)|Set Trap mainbedroom condom]]<br>
-  [[Carve “CUCK” into headboard (+9 Father, permanent)|Set Trap mainbedroom carving]]<br><br>
-  <<else>>[[Demo End]]
-  <</if>>
-
-  <strong>Mother (slave path)</strong><br>
-  <<if $motherCorr <=48>>
-  [[Spike her perfume with obedience pheromones (+11 Mother)|Set Trap mainbedroom perfume]]<br>
-  [[Hide collar & leash under her pillow (+13 Mother)|Set Trap mainbedroom collar]]<br>
-  [[Leave “How to Serve” book on her side (+9 Mother)|Set Trap mainbedroom book]]<br>
-  [[Slip remote vibrator into her drawer (+15 Mother, high risk)|Set Trap mainbedroom vibe]]
-<<else>>[[Demo End]]
-<</if>>
-<<elseif $traps.mainbedroom and not $traps.mainbedroom.triggered>>
-  <<if $schedule[$time].father is "mainbedroom">>Father<</if>>
-  <<if $schedule[$time].mother is "mainbedroom">>Mother<</if>>
-  <<if not $traps.mainbedroom.witnessed>> the target is about to fall for the trap<br>[[Watch|Trigger Trap mainbedroom]]<</if>>
-  <<if $traps.mainbedroom.witnessed>>already saw it. Poison spreads.<</if>>
-
+<<if $time is 0 or $time is 1>>
+  <<switch $motherTier>>
+    <<case 1>> [[Spike coffee creamer (+6)|Place Mother Trap creamer1]]
+    <<case 2>> [[Press against her while cooking (+10)|Place Mother Trap press1]]
+    <<case 3>> [[Hang collar from cabinet (+11)|Place Mother Trap cabinet1]]
+    <<case 4>> [[Bend her over island (+18)|Place Mother Trap island1]]
+    <<case 5>> [[Cook naked, cum dripping (+23)|Place Mother Trap cooknaked1]]
+  <</switch>>
 <<else>>
-  <<if $traps.mainbedroom and $traps.mainbedroom.triggered>>
-    Their bed is broken forever.<br><br>
-    <<set $traps.mainbedroom to null>>   /* ← THIS LINE IS THE FIX */
-  <<else>>
-    Nothing to do here right now.
-  <</if>>
+  Kitchen is quiet now. Return morning or afternoon.
 <</if>>
 
-<br><br><br>
-[[← House Hub|House Hub]]
+<br><br>[[← House Hub|House Hub]]
 </div>
 
 
-:: Location SisterRoom {"position":"362.5,975","size":"100,100"}
+:: Location LivingRoom {"position":"3425,1175","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/livingroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">LIVING ROOM — Evening only</span><br><br>
+
+<<if $time is "evening">>
+  <<switch $motherTier>>
+    <<case 1>> [[Drop cum on remote (+5)|Place Mother Trap remote1]]
+    <<case 2>> [[Sit too close, thigh contact (+8)|Place Mother Trap thigh1]]
+    <<case 3>> [[Leave collar on coffee table (+12)|Place Mother Trap tablecollar1]]
+    <<case 4>> [[Fuck her on couch, door open (+17)|Place Mother Trap couch1]]
+    <<case 5>> [[Make her crawl naked across room (+20)|Place Mother Trap crawl1]]
+  <</switch>>
+<<else>>
+  They only relax here in the evening.
+<</if>>
+
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location MainBedroom {"position":"2350,1125","size":"100,100"}
+\:: Location MainBedroom
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/6.1.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">MAIN BEDROOM — Night only</span><br><br>
+
+<<if $time is 3>>
+  <<switch $motherTier>>
+    <<case 1>> [[Spike perfume with pheromones (+6)|Place Mother Trap perfume1]] 
+    <<case 2>> [[Leave velvet choker on pillow (+9)|Place Mother Trap choker1 9]]
+    <<case 3>> [[Lock leather collar while she sleeps (+13)|Place Mother Trap collar1 13]]
+    <<case 4>> [[Cum on wedding photo (+16)|Place Mother Trap photo1 16]]
+    <<case 5>> [[Engrave permanent collar (+22)|Place Mother Trap permanent1 22]]
+  <</switch>>
+<<else>>
+  Come back at night for the strongest traps.
+<</if>>
+
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location SisterRoom {"position":"2175,2075","size":"100,100"}
 [[← House Hub|House Hub]]
 
 
-:: Location UncleRoom {"position":"487.5,975","size":"100,100"}
+:: Location UncleRoom {"position":"2050,1700","size":"100,100"}
 [[← House Hub|House Hub]]
 
 
@@ -247,41 +272,178 @@ Change any you want. Leave blank to keep the default.
 <<textbox "$broGFname" "Megan">> ← Brother’s girlfriend<br>
 <<textbox "$sisBFname" "Jake">> ← Sister’s boyfriend<br><br><br>
 
-[[Begin the haunting |Prologue]]
-
+[[Begin the haunting|Prologue]]
 </div>
 
 
-:: Player Room {"position":"675,750","size":"100,100"}
+:: Place Mother Trap boxers1 {"position":"3100,625","size":"100,100"}
+You hide your used boxers in her laundry basket so the scent fills the entire bathroom…  
+<<run placeMotherTrap("boxers1", 8)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap cabinet1 {"position":"2750,350","size":"100,100"}
+You hang the collar from the kitchen-cabinet handle so it swings every time she opens it…  
+<<run placeMotherTrap("cabinet1", 11)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap choker1 {"position":"2600,1150","size":"100,100"}
+While she sleeps, you place a soft velvet choker on her pillow. She will wake up and see it first thing…  
+<<run placeMotherTrap("choker1", 9)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap choker1 9 {"position":"1737.5,1200","size":"100,100"}
+
+
+
+:: Place Mother Trap collar1 {"position":"2975,1150","size":"100,100"}
+In the dead of night you lock a real leather collar around her throat while she’s unconscious. She won’t be able to take it off without waking…  
+<<run placeMotherTrap("collar1", 13)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap collar1 13 {"position":"1862.5,1200","size":"100,100"}
+
+
+
+:: Place Mother Trap cooknaked1 {"position":"2750,1050","size":"100,100"}
+She now cooks dinner completely naked, cum still dripping down her thighs while the family eats…  
+<<run placeMotherTrap("cooknaked1", 23)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap couch1 {"position":"2800,575","size":"100,100"}
+With the front door wide open, you fuck her on the living-room couch for anyone to see…  
+<<run placeMotherTrap("couch1", 17)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap crawl1 {"position":"2925,450","size":"100,100"}
+You make her strip and crawl naked across the living room to kneel at your feet…  
+<<run placeMotherTrap("crawl1", 20)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap creamer1 {"position":"2900,175","size":"100,100"}
+You spike her coffee creamer with pheromones. Every morning cup will taste like you…  
+<<run placeMotherTrap("creamer1", 6)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap gel1 {"position":"3125,800","size":"100,100"}
+You replace her body wash with pheromone-laced gel. Every shower will make her ache for you…  
+<<run placeMotherTrap("gel1", 5)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap island1 {"position":"2975,950","size":"100,100"}
+At 3 a.m. you bend her over the kitchen island and take her hard while the house sleeps…  
+<<run placeMotherTrap("island1", 18)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap kneel1 {"position":"3075,475","size":"100,100"}
+She drops to her knees in the shower every day and washes you obediently, mouth ready…  
+<<run placeMotherTrap("kneel1", 25)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap perfume1 {"position":"2475,1250","size":"100,100"}
+You carefully spike Lydia’s favourite perfume with the first dose of pheromones. The scent will cling to her skin all day…  
+<<run placeMotherTrap("perfume1", 6)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap permanent1 {"position":"2475,900","size":"100,100"}
+You engrave “Ryan’s” into a steel collar and lock it around her neck forever. There is no key…  
+<<run placeMotherTrap("permanent1", 22)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap permanent1 22 {"position":"2112.5,1200","size":"100,100"}
+
+
+
+:: Place Mother Trap photo1 {"position":"2825,1200","size":"100,100"}
+You cum all over their wedding photo and leave it face-up on the nightstand for her to find…  
+<<run placeMotherTrap("photo1", 16)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap photo1 16 {"position":"1987.5,1200","size":"100,100"}
+
+
+
+:: Place Mother Trap press1 {"position":"2750,125","size":"100,100"}
+While she cooks, you press your hard cock against her back and stay there, breathing on her neck…  
+<<run placeMotherTrap("press1", 10)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap remote1 {"position":"3225,1050","size":"100,100"}
+You leave a single drop of cum on the TV remote. She will touch it every time she watches anything…  
+<<run placeMotherTrap("remote1", 5)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap showerwalk1 {"position":"3100,125","size":"100,100"}
+You walk in shirtless while she showers and lock eyes with her in the fogged mirror…  
+<<run placeMotherTrap("showerwalk1", 15)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap tablecollar1 {"position":"2800,775","size":"100,100"}
+You drape the collar and leash over the coffee table in plain sight for the whole evening…  
+<<run placeMotherTrap("tablecollar1", 12)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap thigh1 {"position":"2600,875","size":"100,100"}
+You sit deliberately close on the couch, letting your thigh press against hers for the entire movie…  
+<<run placeMotherTrap("thigh1", 8)>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap towel1 {"position":"3075,325","size":"100,100"}
+You leave a cum-soaked towel hanging on the rack for her to find…  
+<<run placeMotherTrap("towel1", 12)>>
+[[← House Hub|House Hub]]
+
+
+:: Player Room {"position":"2525,200","size":"100,100"}
 <img src="img/3.jpg">
 <div style="text-align:center;background:#000;color:#0ff;padding:120px;font-family:Courier New,monospace;">
+
 @player_room_nightmare.gif@
 <br><br>
 <<if $day <= 3>>It still feels strange wearing a pulse.<</if>>
 <<if $day > 3 and $day <= 7>>You can taste their fear in the air now.<</if>>
 <<if $day > 7>>Some of them have started sleeping with the lights on.<</if>>
 <br><br><br>
+
+DAY $day — $timeNames[$time]
+<br><br>
+
 <<if $possessed>>
   You are inside Ryan.<br><br>
-  [[Walk the house in stolen flesh|House Hub]]
+  [[Walk the house →|House Hub]]
 <<else>>
-  You are only cold air and memory.<br><br>
-  <<if $time is "early morning">>
-    [[Take the body|Possess Ryan]]
+  <<if $time == 0>>   /* early morning only */
+    [[Take Ryan’s body|Possess Ryan]]
   <<else>>
-    You cannot act until you wear flesh.<br>
-    Wait for early morning or use the buttons below.
+    You are only smoke and hatred.<br>
+    You cannot act until early morning.
   <</if>>
 <</if>>
 <br><br>
 
-<<if $time is "early morning" or $time is "morning" or $time is "afternoon" or $time is "evening">>
-  [[Next time of day|Advance Time]]
-<</if>>
-<<if $time is "night">>
-  [[Sleep|Sleep]]
-<</if>>
+<<if $time < 4>>[[Next time of day →|Advance Time]]<</if>>
+<<if $time == 4>>[[Sleep|Sleep]]<</if>>
 </div>
+
+
 :: Possess Ryan {"position":"275,800","size":"100,100"}
 <img src="img/4.1.jpg">
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
@@ -309,6 +471,7 @@ It feels like coming home.
 
 
 :: Prologue {"position":"675,600","size":"100,100"}
+\:: Prologue
 <div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.8;">
 <img src="img/2.1.jpg">
 The funeral was closed-casket.<br>
@@ -320,23 +483,17 @@ Invisible. Weightless. Learning how their throats work when they laugh.
 Now you drift through the walls of the house that killed you.<br>
 Every bedroom still smells like the people who filmed your last breath.
 <br><br>
-Ryan’s room smells like cheap vodka and cruelty.<br>
-’s bed is still warm from the body that kicked you until something cracked.
-<br><br>
-<img src="img/2.3.jpg">
 Ryan’s room is different.<br>
 At 5:12 a.m. every morning his soul slips out to dream.<br>
-For exactly nineteen minutes the body is empty, heart beating, lungs breathing, cock twitching.
+For exactly nineteen minutes the body is empty.
 Nineteen minutes is all you need.
-<br>
+<br><br>
 <img src="img/2.4.jpg">
 You will wear Ryan like a second skin.<br>
 You will smile with his mouth.<br>
-And one by one you will teach them what the word “sorry” feels like when it’s forced down a broken throat.
+And one by one you will teach them what “sorry” feels like when it’s forced down a broken throat.
 <br><br><br>
-<<set $possessed to false>>
-<<set $time to 'morning'>>
-[[Dawn is coming |Player Room]]
+[[The first dawn|Player Room]]
 </div>
 
 
@@ -431,7 +588,8 @@ The smell of another man’s load right where he rests his head every night.
 </div>
 
 
-:: Set Trap mainbedroom perfume {"position":"450,1400","size":"100,100"}
+:: Set Trap mainbedroom perfume {"position":"2350,1350","size":"100,100"}
+{"position":"450,1400","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
 @mainbedroom_trap.gif@
 <br>
@@ -449,7 +607,7 @@ Three sprays and she’ll crawl.
 </div>
 
 
-:: Set Trap mainbedroom phone {"position":"100,1250","size":"100,100"}
+:: Set Trap mainbedroom phone {"position":"425,1275","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
 @mainbedroom_trap.gif@
 <br>
@@ -477,11 +635,12 @@ You leave the sound on max.
 <<set $dailyActions += 1>>
 <<set $fatherCorr += 10>>
 <br><br>
+<<set $time += 1>>
 [[Location MainBedroom]]
 </div>
 
 
-:: Set Trap mainbedroom photo {"position":"75,1400","size":"100,100"}
+:: Set Trap mainbedroom photo {"position":"2175,875","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
 @mainbedroom_trap.gif@
 <br>
@@ -519,9 +678,26 @@ But when it goes off in the middle of dinner…
 </div>
 
 
+:: Sleep {"position":"950,750","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
+@sleep_transition.gif@
+<br><br>
+The house falls silent.<br><br>
+Ryan’s body collapses, spent.<br><br>
+Tomorrow they will wake up one day closer to breaking.<br><br>
+
+<<set $day += 1>>
+<<set $dailyActions to 0>>
+<<set $time to 0>>   /* back to early morning */
+
+<br><br>
+[[Dawn — Day $day|Player Room]]
+</div>
+
+
 :: StoryCaption {"position":"675,1575","size":"100,100"}
 <div style="font-family:Courier New,monospace; color:#0ff; background:#000; padding:15px 12px; font-size:0.95em; line-height:1.8;">
-DAY $day — $time
+DAY $day — $timeNames[$time]
 <<if $possessed>>
 <span style="color:#0ff">Wearing Ryan’s skin</span><br>
 Actions left today: <<if $dailyActions is 0>>3<<elseif $dailyActions is 1>>2<<elseif $dailyActions is 2>>1<<else>>0<</if>>
@@ -539,80 +715,29 @@ By Redcupid
 </div>
 
 
-:: StoryInit {"position":"875,1150","size":"100,100"}
+:: StoryInit {"position":"825,350","size":"100,100"}
+\:: StoryInit
 <<set $day to 1>>
-<<set $time to "early morning">>
+<<set $time to 0>>   
+<<set $timeNames to ["morning", "afternoon", "evening", "night"]>>
 <<set $possessed to false>>
 <<set $dailyActions to 0>>
 <<set $playerName to "">>
-
-<!-- Corruption trackers -->
+<<set $motherTier to 1>>   /* 1 = Tier 1, 2 = Tier 2 … 5 = Tier 5 */
+<<set $motherTrapsUsed to 0>>  
+<<set $motherTrapsUsed to {}>>    /* remembers which exact traps you already used */
 <<set $fatherCorr to 0, $motherCorr to 0, $brotherCorr to 0, $sisterCorr to 0>>
 <<set $uncleCorr to 0, $auntCorr to 0, $cousinCorr to 0>>
 <<set $broGFcorr to 0, $sisBFcorr to 0>>
 
-<<set $traps to {
-    mainbedroom: null, brotherroom: null, sisterroom: null,
-    uncleroom: null, bathroom: null, kitchen: null, livingroom: null
-}>>
+<<set $traps to {mainbedroom:null, brotherroom:null, sisterroom:null, uncleroom:null, bathroom:null, kitchen:null, livingroom:null}>>
 
-/* UPDATED SCHEDULE FOR 5 TIME SLOTS */
+/* SCHEDULE NOW USES NUMBERS 0–3 SO IT CAN NEVER BE UNDEFINED */
 <<set $schedule to {
-    "early morning": {
-        father:    "mainbedroom",
-        mother:    "mainbedroom",
-        brother:   "brotherroom",
-        sister:    "sisterroom",
-        uncle:     "uncleroom",
-        aunt:      "uncleroom",
-        cousin:    "uncleroom",
-        broGF:     "brotherroom",
-        sisBF:     "sisterroom"
-    },
-    morning: {
-        father:    "kitchen",
-        mother:    "kitchen",
-        brother:   "bathroom",
-        sister:    "sisterroom",
-        uncle:     "livingroom",
-        aunt:      "kitchen",
-        cousin:    "uncleroom",
-        broGF:     "brotherroom",
-        sisBF:     "sisterroom"
-    },
-    afternoon: {
-        father:    "livingroom",
-        mother:    "kitchen",
-        brother:   "brotherroom",
-        sister:    "livingroom",
-        uncle:     "kitchen",
-        aunt:      "mainbedroom",
-        cousin:    "livingroom",
-        broGF:     "brotherroom",
-        sisBF:     "livingroom"
-    },
-    evening: {
-        father:    "livingroom",
-        mother:    "kitchen",
-        brother:   "livingroom",
-        sister:    "sisterroom",
-        uncle:     "livingroom",
-        aunt:      "kitchen",
-        cousin:    "livingroom",
-        broGF:     "livingroom",
-        sisBF:     "sisterroom"
-    },
-    night: {
-        father:    "mainbedroom",
-        mother:    "mainbedroom",
-        brother:   "brotherroom",
-        sister:    "sisterroom",
-        uncle:     "uncleroom",
-        aunt:      "uncleroom",
-        cousin:    "uncleroom",
-        broGF:     "brotherroom",
-        sisBF:     "sisterroom"
-    }
+    0: { father:"kitchen",    mother:"kitchen",    brother:"bathroom",   sister:"sisterroom", uncle:"livingroom", aunt:"kitchen",    cousin:"uncleroom",   broGF:"brotherroom", sisBF:"sisterroom" },
+    1: { father:"livingroom", mother:"bathroom",    brother:"brotherroom", sister:"livingroom", uncle:"kitchen",    aunt:"mainbedroom", cousin:"livingroom",  broGF:"brotherroom", sisBF:"livingroom" },
+    2: { father:"livingroom", mother:"livingroom",    brother:"livingroom", sister:"sisterroom", uncle:"livingroom", aunt:"kitchen",    cousin:"livingroom",  broGF:"livingroom",  sisBF:"sisterroom" },
+    3: { father:"mainbedroom", mother:"mainbedroom", brother:"brotherroom", sister:"sisterroom", uncle:"uncleroom",  aunt:"uncleroom",  cousin:"uncleroom",   broGF:"brotherroom", sisBF:"sisterroom" }
 }>>
 
 <<set $playerName to $playerName || "Alex">>
@@ -627,7 +752,12 @@ By Redcupid
 <<set $sisBFname to $sisBFname || "Jake">>
 
 
-:: Trigger Trap mainbedroom {"position":"650,1250","size":"100,100"}
+:: TimeDisplay {"position":"1150,875","size":"100,100"}
+\:: TimeDisplay [script]
+<<set $timeNames to ["early morning", "morning", "afternoon", "evening", "night"]>>
+
+
+:: Trigger Trap mainbedroom {"position":"2500,1875","size":"100,100"}
 \:: Trigger Trap mainbedroom
 <div style="text-align:center;background:#000;color:#0ff;padding:120px 40px;font-family:Courier New,monospace;line-height:2.8;">
 @mainbedroom_trigger.gif@
@@ -745,6 +875,34 @@ Macro.add('speech', {
         $(this.output).wiki(output);
     }
 });
+
+/* Safe time-advance function – works in every SugarCube version */
+window.advanceTime = function() {
+    const order = ["early morning", "morning", "afternoon", "evening", "night"];
+    const currentIndex = order.indexOf(State.variables.time);
+
+    if (currentIndex === -1) return;                   // safety
+    if (currentIndex + 1 >= order.length) {
+        // It's already night → force player to bed
+        Engine.play("Sleep");
+    } else {
+        State.variables.time = order[currentIndex + 1];
+    }
+};
+window.placeMotherTrap = function(trapID, points, location) {
+    State.variables.motherCorr += points;
+    State.variables.motherTrapsUsed[trapID] = true;
+    State.variables.motherTrapsThisTier += 1;
+    
+    // advance tier when 3 traps of current tier are placed
+    if (State.variables.motherTrapsThisTier >= 3 && State.variables.motherTier < 5) {
+        State.variables.motherTier += 1;
+        State.variables.motherTrapsThisTier = 0;
+    }
+    
+    // optional: advance time after placing any trap
+    // <<run advanceTime()>>
+};
 
 :: StoryStylesheet [stylesheet]
 \:: StoryStylesheet
