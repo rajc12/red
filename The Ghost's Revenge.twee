@@ -80,7 +80,26 @@ Demo Ends here Thank you for playing
 
 <<if $possessed>>You wear Ryan’s face.<</if>>
 <<if not $possessed>>You are only cold air and memory.<</if>>
-
+<<if $motherQuestReady > 0>>
+  <div style="text-align:center;margin:30px 0;">
+    <button style="background:#000;border:4px solid #f0f;color:#f0f;padding:20px 60px;font-size:2em;border-radius:20px;box-shadow:0 0 40px #f0f;cursor:pointer;">
+      <<link "▶ PLAY MOTHER QUEST $motherQuestReady">>
+        <<switch $motherQuestReady>>
+          <<case 1>><<goto "Mother Quest 1">>
+          <<case 2>><<goto "Mother Quest 2">>
+          <<case 3>><<goto "Mother Quest 3">>
+          <<case 4>><<goto "Mother Quest 4">>
+          <<case 5>><<goto "Mother Quest 5">>
+          <<case 6>><<goto "Mother Quest 6">>
+          <<case 7>><<goto "Mother Quest 7">>
+          <<case 8>><<goto "Mother Quest 8">>
+          <<case 9>><<goto "Mother Quest 9">>
+          <<case 10>><<goto "Mother Quest 10">>
+        <</switch>>
+      <</link>>
+    </button>
+  </div>
+<</if>>
 <div style="max-width:860px;margin:0 auto;">
 <table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:9px;">
   <tr>
@@ -200,12 +219,12 @@ Demo Ends here Thank you for playing
 </div>
 
 
-:: Location LivingRoom {"position":"3425,1175","size":"100,100"}
+:: Location LivingRoom {"position":"3150,1050","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
 <img src="img/livingroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
 <span style="font-size:2.2em;letter-spacing:8px;">LIVING ROOM — Evening only</span><br><br>
 
-<<if $time is "evening">>
+<<if $time is 2>>
   <<switch $motherTier>>
     <<case 1>> [[Drop cum on remote (+5)|Place Mother Trap remote1]]
     <<case 2>> [[Sit too close, thigh contact (+8)|Place Mother Trap thigh1]]
@@ -230,10 +249,10 @@ Demo Ends here Thank you for playing
 <<if $time is 3>>
   <<switch $motherTier>>
     <<case 1>> [[Spike perfume with pheromones (+6)|Place Mother Trap perfume1]] 
-    <<case 2>> [[Leave velvet choker on pillow (+9)|Place Mother Trap choker1 9]]
-    <<case 3>> [[Lock leather collar while she sleeps (+13)|Place Mother Trap collar1 13]]
-    <<case 4>> [[Cum on wedding photo (+16)|Place Mother Trap photo1 16]]
-    <<case 5>> [[Engrave permanent collar (+22)|Place Mother Trap permanent1 22]]
+    <<case 2>> [[Leave velvet choker on pillow (+9)|Place Mother Trap choker1]]
+    <<case 3>> [[Lock leather collar while she sleeps (+13)|Place Mother Trap collar1]]
+    <<case 4>> [[Cum on wedding photo (+16)|Place Mother Trap photo1]]
+    <<case 5>> [[Engrave permanent collar (+22)|Place Mother Trap permanent1]]
   <</switch>>
 <<else>>
   Come back at night for the strongest traps.
@@ -249,6 +268,145 @@ Demo Ends here Thank you for playing
 
 :: Location UncleRoom {"position":"2050,1700","size":"100,100"}
 [[← House Hub|House Hub]]
+
+
+:: Mother Quest 1 {"position":"4000,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/quest1.jpg" style="border-radius:15px;box-shadow:0 0 30px #f0f;max-width:900px;">
+<br><br>
+She wakes up tasting you in her dreams for the first time.<br>
+The perfume has done its work.<br>
+She touches herself without knowing why.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[The night swallows her moan|House Hub]]
+</div>
+
+
+:: Mother Quest 10 {"position":"3100,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:3;">
+<img src="img/quest10.jpg" style="border-radius:20px;box-shadow:0 0 50px #f0f;max-width:900px;">
+<br><br>
+She crawls to every room wearing only her permanent collar.<br>
+She thanks you for breaking her.<br>
+The house is finally yours.
+<br><br>
+Final quest complete. She will never be human again.
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue your revenge|House Hub]]
+</div>
+
+
+:: Mother Quest 2 {"position":"3900,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/quest2.jpg" style="border-radius:15px;box-shadow:0 0 30px #f0f;max-width:900px;">
+<br><br>
+She finds the velvet choker under her pillow.<br>
+She puts it on “just to see”.<br>
+She never takes it off again.
+<br><br>
+Tier 1 complete → Tier 2 unlocked
+<<set $motherTier to 2>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[A new hunger awakens|House Hub]]
+</div>
+
+
+:: Mother Quest 3 {"position":"3800,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She starts wearing the collar openly at night.<br>
+She doesn’t remember putting it on.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue the fall|House Hub]]
+</div>
+
+
+:: Mother Quest 4 {"position":"3700,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She sends you a nude “by accident”.<br>
+She begs you to delete it.<br>
+You don’t.
+<br><br>
+Tier 2 complete → Tier 3 unlocked
+<<set $motherTier to 3>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[She is yours now|House Hub]]
+</div>
+
+
+:: Mother Quest 5 {"position":"3600,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She calls you “Master” for the first time.<br>
+No one else is home.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Mother Quest 6 {"position":"3500,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She greets you at the door on her knees, naked except for the collar.<br>
+The family is minutes away.
+<br><br>
+Tier 3 complete → Tier 4 unlocked
+<<set $motherTier to 4>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[The house is no longer theirs|House Hub]]
+</div>
+
+
+:: Mother Quest 7 {"position":"3400,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She cooks dinner naked while the family eats.<br>
+No one says a word.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Mother Quest 8 {"position":"3300,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She signs the slave contract with her mouth full.<br>
+The pen is still warm.
+<br><br>
+Tier 4 complete → Tier 5 unlocked
+<<set $motherTier to 5>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Total ownership achieved|House Hub]]
+</div>
+
+
+:: Mother Quest 9 {"position":"3200,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She begs you to breed her in the living room while the family watches TV.<br>
+They pretend not to notice.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[One last step|House Hub]]
+</div>
 
 
 :: Name Entry {"position":"675,475","size":"100,100"}
@@ -276,139 +434,263 @@ Change any you want. Leave blank to keep the default.
 </div>
 
 
-:: Place Mother Trap boxers1 {"position":"3100,625","size":"100,100"}
-You hide your used boxers in her laundry basket so the scent fills the entire bathroom…  
-<<run placeMotherTrap("boxers1", 8)>>
+:: Place Mother Trap boxers1 {"position":"3600,400","size":"100,100"}
+You hide your used boxers in her laundry…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("boxers1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap cabinet1 {"position":"2750,350","size":"100,100"}
-You hang the collar from the kitchen-cabinet handle so it swings every time she opens it…  
-<<run placeMotherTrap("cabinet1", 11)>>
+:: Place Mother Trap cabinet1 {"position":"4000,400","size":"100,100"}
+You hang the collar from the cabinet handle…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("cabinet1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap choker1 {"position":"2600,1150","size":"100,100"}
-While she sleeps, you place a soft velvet choker on her pillow. She will wake up and see it first thing…  
-<<run placeMotherTrap("choker1", 9)>>
+:: Place Mother Trap choker1 {"position":"4600,400","size":"100,100"}
+While she sleeps, you place a soft velvet choker on her pillow…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("choker1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap choker1 9 {"position":"1737.5,1200","size":"100,100"}
+:: Place Mother Trap collar1 {"position":"4600,400","size":"100,100"}
+In the dead of night you lock a real leather collar around her throat…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("collar1", 5)>>
 
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
 
-
-:: Place Mother Trap collar1 {"position":"2975,1150","size":"100,100"}
-In the dead of night you lock a real leather collar around her throat while she’s unconscious. She won’t be able to take it off without waking…  
-<<run placeMotherTrap("collar1", 13)>>
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap collar1 13 {"position":"1862.5,1200","size":"100,100"}
+:: Place Mother Trap cooknaked1 {"position":"3800,400","size":"100,100"}
+She cooks naked, cum dripping down her thighs…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("cooknaked1", 5)>>
 
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
 
-
-:: Place Mother Trap cooknaked1 {"position":"2750,1050","size":"100,100"}
-She now cooks dinner completely naked, cum still dripping down her thighs while the family eats…  
-<<run placeMotherTrap("cooknaked1", 23)>>
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap couch1 {"position":"2800,575","size":"100,100"}
-With the front door wide open, you fuck her on the living-room couch for anyone to see…  
-<<run placeMotherTrap("couch1", 17)>>
+:: Place Mother Trap couch1 {"position":"4400,400","size":"100,100"}
+You fuck her on the couch with the door wide open…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("couch1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap crawl1 {"position":"2925,450","size":"100,100"}
-You make her strip and crawl naked across the living room to kneel at your feet…  
-<<run placeMotherTrap("crawl1", 20)>>
+:: Place Mother Trap crawl1 {"position":"4300,400","size":"100,100"}
+You make her crawl naked across the living room…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("crawl1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap creamer1 {"position":"2900,175","size":"100,100"}
-You spike her coffee creamer with pheromones. Every morning cup will taste like you…  
-<<run placeMotherTrap("creamer1", 6)>>
+:: Place Mother Trap creamer1 {"position":"4200,400","size":"100,100"}
+You spike her coffee creamer…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("creamer1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap gel1 {"position":"3125,800","size":"100,100"}
-You replace her body wash with pheromone-laced gel. Every shower will make her ache for you…  
+:: Place Mother Trap gel1 {"position":"3700,400","size":"100,100"}
+You replace her body wash with pheromone gel…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
 <<run placeMotherTrap("gel1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap island1 {"position":"2975,950","size":"100,100"}
-At 3 a.m. you bend her over the kitchen island and take her hard while the house sleeps…  
-<<run placeMotherTrap("island1", 18)>>
+:: Place Mother Trap island1 {"position":"3900,400","size":"100,100"}
+You bend her over the island at 3 a.m.…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("island1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap kneel1 {"position":"3075,475","size":"100,100"}
-She drops to her knees in the shower every day and washes you obediently, mouth ready…  
-<<run placeMotherTrap("kneel1", 25)>>
+:: Place Mother Trap kneel1 {"position":"3300,400","size":"100,100"}
+She kneels in the shower and washes you every day…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("kneel1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap perfume1 {"position":"2475,1250","size":"100,100"}
-You carefully spike Lydia’s favourite perfume with the first dose of pheromones. The scent will cling to her skin all day…  
-<<run placeMotherTrap("perfume1", 6)>>
+:: Place Mother Trap perfume1 {"position":"4600,400","size":"100,100"}
+You carefully spike Lydia’s favourite perfume with the first dose of pheromones…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("perfume1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap permanent1 {"position":"2475,900","size":"100,100"}
-You engrave “Ryan’s” into a steel collar and lock it around her neck forever. There is no key…  
-<<run placeMotherTrap("permanent1", 22)>>
+:: Place Mother Trap permanent1 {"position":"4600,400","size":"100,100"}
+You engrave “Ryan’s” into the steel collar and lock it forever…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("permanent1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap permanent1 22 {"position":"2112.5,1200","size":"100,100"}
+:: Place Mother Trap photo1 {"position":"4600,400","size":"100,100"}
+You cum all over their wedding photo and leave it on the nightstand…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("photo1", 5)>>
 
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
 
-
-:: Place Mother Trap photo1 {"position":"2825,1200","size":"100,100"}
-You cum all over their wedding photo and leave it face-up on the nightstand for her to find…  
-<<run placeMotherTrap("photo1", 16)>>
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap photo1 16 {"position":"1987.5,1200","size":"100,100"}
+:: Place Mother Trap press1 {"position":"4100,400","size":"100,100"}
+You press against her back while she cooks…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("press1", 5)>>
 
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
 
-
-:: Place Mother Trap press1 {"position":"2750,125","size":"100,100"}
-While she cooks, you press your hard cock against her back and stay there, breathing on her neck…  
-<<run placeMotherTrap("press1", 10)>>
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap remote1 {"position":"3225,1050","size":"100,100"}
-You leave a single drop of cum on the TV remote. She will touch it every time she watches anything…  
+:: Place Mother Trap remote1 {"position":"4600,400","size":"100,100"}
+You leave a drop of cum on the TV remote…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
 <<run placeMotherTrap("remote1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap showerwalk1 {"position":"3100,125","size":"100,100"}
-You walk in shirtless while she showers and lock eyes with her in the fogged mirror…  
-<<run placeMotherTrap("showerwalk1", 15)>>
+:: Place Mother Trap showerwalk1 {"position":"3400,400","size":"100,100"}
+You walk in shirtless during her shower…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("showerwalk1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap tablecollar1 {"position":"2800,775","size":"100,100"}
-You drape the collar and leash over the coffee table in plain sight for the whole evening…  
-<<run placeMotherTrap("tablecollar1", 12)>>
+:: Place Mother Trap tablecollar1 {"position":"4500,400","size":"100,100"}
+You drape the collar over the coffee table…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("tablecollar1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap thigh1 {"position":"2600,875","size":"100,100"}
-You sit deliberately close on the couch, letting your thigh press against hers for the entire movie…  
-<<run placeMotherTrap("thigh1", 8)>>
+:: Place Mother Trap thigh1 {"position":"4700,400","size":"100,100"}
+You sit too close and press your thigh against hers…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("thigh1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap towel1 {"position":"3075,325","size":"100,100"}
-You leave a cum-soaked towel hanging on the rack for her to find…  
-<<run placeMotherTrap("towel1", 12)>>
+:: Place Mother Trap towel1 {"position":"3500,400","size":"100,100"}
+You leave a cum-soaked towel on the rack…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("towel1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+
 [[← House Hub|House Hub]]
 
 
@@ -439,8 +721,8 @@ DAY $day — $timeNames[$time]
 <</if>>
 <br><br>
 
-<<if $time < 4>>[[Next time of day →|Advance Time]]<</if>>
-<<if $time == 4>>[[Sleep|Sleep]]<</if>>
+<<if $time < 3>>[[Next time of day →|Advance Time]]<</if>>
+[[Sleep|Sleep]]
 </div>
 
 
@@ -466,7 +748,7 @@ You smile with his mouth.<br>
 It feels like coming home.
 <br><br><br>
 <<set $possessed to true>>
-[[Begin the day wearing stolen flesh|Player Room]]
+[[Begin the day wearing stolen flesh|House Hub]]
 </div>
 
 
@@ -719,12 +1001,17 @@ By Redcupid
 \:: StoryInit
 <<set $day to 1>>
 <<set $time to 0>>   
-<<set $timeNames to ["morning", "afternoon", "evening", "night"]>>
+<<set $timeNames to ["morning", "afternoon", "evening", "night","late night","late night"]>>
 <<set $possessed to false>>
 <<set $dailyActions to 0>>
 <<set $playerName to "">>
 <<set $motherTier to 1>>   /* 1 = Tier 1, 2 = Tier 2 … 5 = Tier 5 */
-<<set $motherTrapsUsed to 0>>  
+<<set $motherTrapsUsed to 0>>
+
+<<set $motherCorr to 0>>
+<<set $motherLastQuest to 0>>   /* 0 = none, 1 = Quest 1 played, 2 = Quest 2 played … 10 = final */
+<<set $motherQuestReady to 0>>
+
 <<set $motherTrapsUsed to {}>>    /* remembers which exact traps you already used */
 <<set $fatherCorr to 0, $motherCorr to 0, $brotherCorr to 0, $sisterCorr to 0>>
 <<set $uncleCorr to 0, $auntCorr to 0, $cousinCorr to 0>>
