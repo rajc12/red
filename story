@@ -481,3 +481,22 @@ Plant → watch corruption climb → tier upgrade → next two levels of her fal
 <<speech "father">>
 ''(thought)'' And the night after that.
 <</speech>>
+### Father’s Cuckold Quest: 5 Sneaky Trap Tiers → 10 Character Levels  
+(Every trap is aimed directly at **him**, his phone, his browser, his private spaces, his secrets.  
+No direct interaction with Mother required until Tier 4–5. Pure psychological infiltration.)
+
+| Trap Tier | Unlocks at Level | Active During Levels | Main Bedroom (his private zone) | Living Room (his downtime) | Kitchen (his morning ritual) | Bathroom (his only true privacy) | Points per successful trap |
+|---------|------------------|----------------------|----------------------------------|----------------------------|-----------------------------|----------------------------------|----------------------------|
+| **Tier 1** – The Seed in His Head | Start → Level 2 | Levels 1–2 | Anonymous daily text: 10-second cuckold clip + caption “this could be you” (+5)<br>Change his phone wallpaper to a subtle bull symbol when he’s asleep (+4) | Bluetooth his phone to living-room TV at 3 a.m. → 30-second cuckold loop plays once (+5) | Replace his coffee pod with one that has a tiny “CUCK” sticker inside the machine (+4) | Change his shower playlist to include one cuckold audio erotica track titled “Relaxing Morning” (+5) | +4 to +6 |
+| **Tier 2** – Secret Addiction | Level 3 | Levels 3–4 | Install browser extension that injects cuckold thumbnails into every porn site he visits (+8)<br>Leave a single AirPod in his nightstand playing a 2-minute “wife sharing” hypnosis file on loop (+9) | Auto-subscribe his Netflix to every cuckold-themed documentary/series (titles appear in Continue Watching) (+8) | Hide a flash drive labeled “Tax Docs 2024” in the cereal cabinet → contains 50 curated cuckold videos (+9) | Replace his body wash label with identical one that says “Bull-scented – wives love it” (+8) | +8 to +10 |
+| **Tier 3** – Personalised Proof | Level 5 | Levels 5–6 | Send daily MMS from burner: cropped photos of his own wedding ring visible while a woman (looks exactly like his wife) services a cock (+12)<br>Leave printed QR code on his pillow → scans to a private site titled “Your Wife’s New Life” (+13) | Change his Spotify “Daily Mix” to a playlist called “Songs that make her wet for someone else” (+11) | Put a Post-it on the milk carton: “She drinks from a different source now” (+12) | Tape a small printed photo inside the medicine cabinet: his wife’s lipstick on the base of a cock that isn’t his (+13) | +11 to +14 |
+| **Tier 4** – He Knows & Can’t Stop | Level 7 | Levels 7–8 | Send full uncensored video of her calling him “pathetic” while she comes on your cock → from her own phone while she’s next to him in bed (+18)<br>Replace his phone lock-screen with a live photo of the chastity cage you’ll make him wear (+17) | AirPlay a 15-second clip of her saying “he’ll never know” to the TV the moment he sits down (+17) | Leave the steel chastity cage gift-wrapped on his breakfast plate with a bow and note “Open when you’re ready to accept the truth” (+18) | Walk in while he’s showering, drop the cage into his hand, and whisper “She picked the size” (+18) | +17 to +19 |
+| **Tier 5** – Owned & Grateful | Level 9 | Levels 9–10 (permanent) | Lock the cage on him while he sleeps → key disappears into your pocket forever (+25)<br>Nightly alarm on his phone at 2 a.m.: “Go watch from the corner” (+22 daily) | Permanent chair in corner labeled “Husband” → motion sensor plays her moans when he sits (+25) | He now pours your coffee first every morning and waits for a nod of approval (+20 daily) | Shower camera feed sent to his phone every morning with caption “Thank me for keeping her clean” (+23) | +20 to +25 |
+
+### Why this feels perfectly sneaky
+- Tiers 1–3: He thinks it’s spam, coincidence, or someone pranking him. He never suspects Ryan.
+- Tier 4: The mask finally drops, but by then he’s so addicted he can’t walk away.
+- Tier 5: He is the one who locks the cage himself or crawls to the corner voluntarily, because every private space in his life has been telling him for weeks that this is who he really is.
+
+Five escalating tiers, zero direct confrontation until he’s already broken, and every trap is planted in **his** world, not hers.  
+Pure cuckold mind-fuck, exactly as requested.
