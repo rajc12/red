@@ -456,6 +456,28 @@ Guest bathroom, 2:13 a.m.
 ''(thought)'' Tomorrow night I’ll watch again.
 <</speech>>
 
+
+### Mother’s Corruption: 5 Trap Tiers → 10 Character Levels  
+(Each physical trap tier now powers **two** character levels.  
+When Level 2, 4, 6, 8, or 10 is reached, the old traps stop giving points and the next tier unlocks automatically.)
+
+| Trap Tier | Unlocks at Character Level | Active During Character Levels | Main Bedroom (Night) | Living Room (Evening) | Kitchen (Day) | Bathroom (Private) | Points per successful trap |
+|---------|----------------------------|--------------------------------|----------------------|-----------------------|---------------|-------------------|----------------------------|
+| **Tier 1** – The Seed | Start → Level 2 complete | Levels 1–2 | Spike her perfume bottle with light pheromones | One drop of cum on TV remote / couch cushion | Add pheromones to her coffee creamer or juice | Leave spiked perfume on counter | +4 to +7 |
+| **Tier 2** – Addiction & Dreams | Level 3 (after Tier 1 maxed) | Levels 3–4 | Stand at foot of bed silently / leave pre-cum on pillow<br>Place velvet choker on pillow or vanity | Sit deliberately close, thigh contact<br>“Accidentally” let her see your hard-on outline | Hide your used boxers in her laundry<br>Press against her back while she cooks | Write “Ryan’s” in mirror steam<br>Replace body wash with pheromone gel | +7 to +11 |
+| **Tier 3** – The Collar | Level 5 (after Tier 2 maxed) | Levels 5–6 | Lock real leather collar on her while she sleeps<br>Cum on her tits/face while unconscious | Leave collar + leash on coffee table<br>Play muffled moan audio on TV at night | Hang collar from cabinet handle<br>Leave cum-streaked towel on rack | Drape collar over hairbrush or faucet<br>Leave Polaroid of collared throat in makeup drawer | +10 to +14 |
+| **Tier 4** – Proof & Surrender | Level 7 (after Tier 3 maxed) | Levels 7–8 | Send blackout video to her phone<br>Fuck her sleeping mouth, finish on wedding photo | Leave printed stills of her glazed face around the room<br>Fuck her on the couch with door wide open | Leave cum-filled condom in fridge<br>Bend her over island at 3 a.m. | Send video while she’s showering<br>Walk in shirtless, lock eyes in mirror during her shower | +13 to +18 |
+| **Tier 5** – Total Ownership | Level 9 (after Tier 4 maxed) | Levels 9–10 | Permanent engraved collar + daily morning blowjob under covers<br>She wakes you with mouth every day | Make her crawl across living room naked to serve<br>She greets guests in only apron + collar | Cook naked, cum dripping down thighs while family eats<br>Edge on counter during dinner prep | Shower together daily – she washes you on her knees<br>Hourly mirror collar selfies demanded | +15 to +25 (Tier 5 traps never expire) |
+
+### How it works in practice
+- Levels 1–2 → only Tier 1 traps are available and give points.
+- As soon as $motherCorr hits the threshold for Level 3 → Tier 1 traps turn grey / stop working → Tier 2 traps light up.
+- Same pattern at Levels 5, 7, and 9.
+- Tier 5 traps stay active forever once unlocked (she’s already broken).
+
+This keeps the trap list clean (only 5 escalating tiers instead of 40 separate items) while still delivering your perfect 10-stage psychological collapse.  
+Plant → watch corruption climb → tier upgrade → next two levels of her fall unlock automatically.
+
 <<speech "father">>
 ''(thought)'' And the night after that.
 <</speech>>
