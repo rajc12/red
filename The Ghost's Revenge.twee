@@ -203,10 +203,10 @@ Demo Ends here Thank you for playing
 <img src="img/kitchen.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
 <span style="font-size:2.2em;letter-spacing:8px;">KITCHEN — Morning / Afternoon</span><br><br>
 
-<<if $time is 0 or $time is 1>>
+<<if $time is 0>>
   <<switch $motherTier>>
-    <<case 1>> [[Spike coffee creamer (+6)|Place Mother Trap creamer1]]
-    <<case 2>> [[Press against her while cooking (+10)|Place Mother Trap press1]]
+    <<case 1>> [[Spike coffee creamer |Place Mother Trap creamer1]]
+    <<case 2>> [[Press against her while cooking|Place Mother Trap press1]]
     <<case 3>> [[Hang collar from cabinet (+11)|Place Mother Trap cabinet1]]
     <<case 4>> [[Bend her over island (+18)|Place Mother Trap island1]]
     <<case 5>> [[Cook naked, cum dripping (+23)|Place Mother Trap cooknaked1]]
@@ -271,17 +271,76 @@ Demo Ends here Thank you for playing
 
 
 :: Mother Quest 1 {"position":"4000,50","size":"100,100"}
-<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
-<img src="img/quest1.jpg" style="border-radius:15px;box-shadow:0 0 30px #f0f;max-width:900px;">
-<br><br>
-She wakes up tasting you in her dreams for the first time.<br>
-The perfume has done its work.<br>
-She touches herself without knowing why.
-<br><br>
+
+<div style="text-align:center;background:#000;color:#0ff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#001);">
+
+
+
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 30px #0ff;">LEVEL 1 – THE SEED</span>
+<br><br><br>
+
+The next morning.
+
+Lydia wakes before the alarm, strangely restless.  
+She pads into the master bathroom in her silk robe, hair tousled, eyes still soft with sleep.  
+The perfume bottle waits exactly where it always does.
+<img src="img/mother/q11.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She smiles at her little private smile (the one she’s had since college), lifts the crystal stopper, and spritzes once on each wrist, once at the hollow of her throat, and (on impulse) once more just above the swell of her breasts.
+
+The mist settles on her warm skin.
+
+One heartbeat.  
+Two.
+
+<<speech "lydia">>…oh.<</speech>>
+
+Her pupils blow wide, black swallowing hazel.  
+A violent, liquid heat detonates low in her belly and surges downward so fast her knees buckle.  
+<img src="img/mother/q12.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She grips the marble counter with both hands, gasping, robe slipping off one shoulder.
+
+<<speech "lydia">>What… what the hell…?<</speech>>
+
+Her nipples stiffen instantly, aching against the silk.  
+Between her thighs she is suddenly, shamefully soaked — slickness coating her inner lips, dripping down one leg.
+<img src="img/mother/q13.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+<<speech "lydia">>It’s just a hot flash… menopause… something…<<i>>oh god<</i>><</speech>>
+
+She tries to laugh. It comes out strangled.
+
+Her reflection stares back — flushed cheeks, parted lips, eyes wild.  
+She watches her own hand drift up, almost against her will, to press the fabric between her breasts where the perfume landed.  
+<img src="img/mother/q14.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She inhales again, deeper this time, chasing the scent.
+
+<<speech "lydia">>Why does it smell so…<<i>>good<</i>>…?<</speech>>
+
+Another wave hits. Her hips jerk forward involuntarily, grinding against nothing.  
+A soft, desperate whimper escapes before she clamps her mouth shut.
+
+Somewhere in the house a door closes — Ryan leaving for class.  
+The sound of his name in her mind is enough to make her clit throb so hard she has to bite her lip until she tastes blood.
+<img src="img/mother/q15.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She forces herself upright, legs shaking, and stumbles to the shower on, slamming it behind her.  
+Cold water. She needs cold water.
+
+But even under the icy spray she can still smell it.  
+Still feel it.  
+Still taste something dark and metallic and<<i>>male<</i>> on the back of her tongue.
+
+<<speech "lydia">>This is insane… this is insane…<</speech>>
+<img src="img/mother/25.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She whispers it like a prayer, but her fingers are already sliding between her folds, frantic, chasing a release that feels<<i>>wrong<</i>> and<<i>>perfect<</i>> at the same time.
+
+You watch from the mirror, unseen, smiling with Ryan’s mouth.
+
+<<speech "ryan">>Good morning, Mommy.<</speech>>
+<<speech "ryan">>Welcome to the rest of your life.<</speech>>
+
 <<set $time += 1>>
 <<set $motherQuestReady to 0>>
-<br><br>
-[[The night swallows her moan|House Hub]]
+
+[[Continue|House Hub]]
 </div>
 
 
@@ -302,19 +361,104 @@ Final quest complete. She will never be human again.
 
 
 :: Mother Quest 2 {"position":"3900,50","size":"100,100"}
-<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
-<img src="img/quest2.jpg" style="border-radius:15px;box-shadow:0 0 30px #f0f;max-width:900px;">
-<br><br>
-She finds the velvet choker under her pillow.<br>
-She puts it on “just to see”.<br>
-She never takes it off again.
-<br><br>
-Tier 1 complete → Tier 2 unlocked
-<<set $motherTier to 2>>
-<<set $time += 1>>
-<<set $motherQuestReady to 0>>
-<br><br>
-[[A new hunger awakens|House Hub]]
+<div style="text-align:center;background:#000;color:#0ff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#002);">
+
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 40px #0ff;">LEVEL 2 – ADDICTION FORMS</span>
+<br><br><br>
+
+Late afternoon. The house is quiet.
+<img src="img/mother/q21.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+Lydia is in the kitchen, chopping vegetables for dinner, humming nervously.  
+The perfume clings to her skin like a second heartbeat.  
+She’s been wet since breakfast.
+
+Her phone buzzes on the counter.  
+Unknown number. No name. Just a text:
+
+Unknown: You need to see this.
+
+A video link.
+
+
+She frowns, wipes her hands, thumbs it open.
+<img src="img/mother/q24.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+The screen fills with a woman on her knees, naked, leather collar tight around her throat.  
+A man circles her slowly, crop in hand.  
+The woman’s eyes are glassy, lips parted, drool shining on her chin.
+
+A low, velvet voice begins — hypnotic, looping, impossible to ignore.
+
+Hypno voice:  
+“You want to be owned…  
+You want to kneel…  
+You want to feel the collar click shut and know there is no going back…”
+<img src="img/mother/q22.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+The crop lands. The woman moans like it’s pleasure itself.
+
+Lydia’s breath catches.
+
+<<speech "lydia">>What the fuck…<</speech>>
+
+She tries to close the video.  
+Her thumb hovers.  
+The hypno voice keeps talking, burrowing.
+
+Hypno voice:  
+“Every time you fight it, you lose a little more…  
+Every time you watch, you fall a little deeper…”
+
+Another crack of the crop.  
+The woman on screen whimpers “thank you, Master.”
+<img src="img/mother/q23.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+Lydia’s nipples are suddenly so hard they hurt.  
+A pulse throbs between her legs, violent, undeniable.
+
+<<speech "lydia">>No… no no no…<</speech>>
+
+She finally manages to close the app.  
+The screen goes black, but the voice keeps echoing in her head.
+
+She drops the knife.  
+It clatters on the cutting board.
+
+<<speech "lydia">>I need… I need a minute…<</speech>>
+
+She practically runs to the downstairs bathroom, locks the door, yanks her yoga pants down.
+
+She’s soaked.  
+Absolutely drenched.
+
+<<speech "lydia">>Oh god, what is wrong with me…?<</speech>>
+<img src="img/mother/q25.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She leans against the sink, fingers sliding inside instantly, frantic.  
+Her other hand claws at her throat where the phantom collar should be.
+
+In her mind the video plays on loop: the woman’s broken eyes, the crop, the word “Master.”
+
+She comes in less than a minute, biting her own forearm to stay quiet, hips bucking against her hand like she’s being fucked.
+
+Tears mix with sweat on her cheeks.
+
+<<speech "lydia">>This isn’t me… this isn’t…<<i>>fuck<</i>>…<</speech>>
+
+<img src="img/mother/q26.webp" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+
+She comes again, harder, legs shaking so badly she almost falls.
+
+When it’s over she stares at her reflection — flushed, wrecked, terrified.
+
+Her phone buzzes again in the kitchen.
+
+She already knows she’s going to watch it again tonight.
+
+You smile from Ryan’s bedroom upstairs.
+
+<<speech "ryan">>That’s right, Mommy. Close it all you want<</speech>>
+<<speech "ryan">>.<</speech>>
+
+
+<<set $motherTier to 2>><<set $time += 1>><<set $motherQuestReady to 0>>
+[[The addiction takes root|House Hub]]
 </div>
 
 
@@ -460,7 +604,7 @@ You hang the collar from the cabinet handle…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap choker1 {"position":"4600,400","size":"100,100"}
+:: Place Mother Trap choker1 {"position":"4425,625","size":"100,100"}
 While she sleeps, you place a soft velvet choker on her pillow…
 <<set $motherCorr += 5>>
 <<set $time += 1>>
@@ -473,7 +617,7 @@ While she sleeps, you place a soft velvet choker on her pillow…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap collar1 {"position":"4600,400","size":"100,100"}
+:: Place Mother Trap collar1 {"position":"4750,525","size":"100,100"}
 In the dead of night you lock a real leather collar around her throat…
 <<set $motherCorr += 5>>
 <<set $time += 1>>
@@ -526,29 +670,87 @@ You make her crawl naked across the living room…
 
 
 :: Place Mother Trap creamer1 {"position":"4200,400","size":"100,100"}
-You spike her coffee creamer…
-<<set $motherCorr += 5>>
-<<set $time += 1>>
-<<run placeMotherTrap("creamer1", 5)>>
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/41.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+
+Morning. Lydia is still asleep. The house is empty.
+
+You open the fridge. Her vanilla coffee creamer waits on the door shelf.
+
+<<speech "ryan">>Two splashes every morning, right, Mom?<</speech>>
+<img src="img/mother/42.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+You jerk Ryan’s cock over the open bottle, letting three thick ropes shoot straight in.  
+Shake. Perfect.
+
+<<speech "ryan">>From now on you’ll start every day drinking my cum… and you’ll love it.<</speech>>
+
+
+<hr style="border-color:#0ff;">
+<span style="color:#f0f;font-size:1.6em;">Minutes later…</span><br><br>
+
+Lydia pads into the kitchen in her robe, pours coffee, adds the creamer.
+
+First sip.
+
+Her eyes flutter shut. A soft, pornographic moan slips out before she can stop it.<br>
+<img src="img/mother/43.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "lydia">>Oh… oh my god… why does it taste so…<<i>>perfect<</i>> today…?<</speech>>
+
+She takes another, bigger sip, licking her lips.
+
+<<speech "lydia">>Mmm…<<i>>more<</i>>…<</speech>>
+Victor looks up from his phone, confused.  
+She blushes crimson, but her tongue keeps chasing the flavour on the rim of the mug.<br>
+
+<<speech "ryan">>That’s it. Swallow every drop like the good little slut you’re becoming.<</speech>>
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("creamer1", 5)>>
 
 <<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
-  <<set $motherQuestReady to ($motherCorr / 40)>>
-<</if>>
-
+  <<set $motherQuestReady to ($motherCorr / 40)>><</if>>
 [[← House Hub|House Hub]]
+</div>
 
 
 :: Place Mother Trap gel1 {"position":"3700,400","size":"100,100"}
-You replace her body wash with pheromone gel…
-<<set $motherCorr += 5>>
-<<set $time += 1>>
-<<run placeMotherTrap("gel1", 5)>>
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/21.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
 
-<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
-  <<set $motherQuestReady to ($motherCorr / 40)>>
-<</if>>
+Steam fills the bathroom. Lydia is in the shower, humming.
 
+You slip in. Her expensive floral body wash waits on the shelf.
+
+<<speech "ryan">>You’re going to wash every inch of yourself with me today.<</speech>>
+
+You pump Ryan’s cock until it’s dripping, then squeeze a thick stream straight into the bottle. Shake. It clears.
+<img src="img/mother/22.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "ryan">>Every time you lather those perfect tits, that ass, between your legs… you’ll be rubbing me into your skin.<</speech>>
+
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">That same morning in the shower…</span><br><br>
+
+The gel foams between her palms. She runs it over her breasts, down her stomach, between her thighs.
+<br>
+<img src="img/mother/23.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Her breath hitches.
+
+<<speech "lydia">>What… what is this feeling…?<</speech>>
+
+Her knees buckle. One hand shoots to the wall, the other keeps rubbing — slower, deliberate circles.
+<img src="img/mother/24.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "lydia">>Oh god… why am I…<<i>>so<</i>> wet…?<</speech>>
+
+Water streams down her body, but she’s trembling for a completely different reason.
+
+<<speech "ryan">>Because you’re mine now.  
+Every shower, every touch, every breath — mine.<</speech>>
+
+She slides down the tile, legs spread, gasping, unable to stop.
+<img src="img/mother/25.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("gel1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>><</if>>
 [[← House Hub|House Hub]]
+</div>
 
 
 :: Place Mother Trap island1 {"position":"3900,400","size":"100,100"}
@@ -577,20 +779,64 @@ She kneels in the shower and washes you every day…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap perfume1 {"position":"4600,400","size":"100,100"}
-You carefully spike Lydia’s favourite perfume with the first dose of pheromones…
-<<set $motherCorr += 5>>
-<<set $time += 1>>
-<<run placeMotherTrap("perfume1", 5)>>
+:: Place Mother Trap perfume1 {"position":"4900,75","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/11.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
 
-<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
-  <<set $motherQuestReady to ($motherCorr / 40)>>
-<</if>>
+3:17 a.m. The house is dead quiet except for Victor’s wet snoring.
 
+You glide into their bedroom like smoke. Lydia lies on her back, silk nightgown slipped off one shoulder, lips parted, chest rising slow.
+<br>
+<img src="img/mother/12.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<br>
+<<speech "ryan">>Still so beautiful when you don’t know you’re being watched, Mom<</speech>>
+
+Her Chanel No.5 sits on the vanity, moonlight glinting off the crystal.
+
+<<speech "ryan">>Remember when you used to spray this on your wrists and let me smell your pulse? Innocent little Ryan…<</speech>>
+
+You unscrew the cap. The scent of jasmine and rose floods the air — her scent.
+
+<<speech "ryan">>Time to add a new note.<</speech>>
+<img src="img/mother/13.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+
+One thick drop of cum falls from Ryan’s stolen cock into the bottle. It vanishes instantly, swallowed by the perfume like it was always meant to be there.
+
+You swirl it gently. The liquid clouds, then clears — perfect.
+
+You lean over her sleeping face, lips almost brushing her ear.
+
+<<speech "ryan">>Sleep tight, Mommy. You’re going to dream about cock tonight.<</speech>>
+
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">The next morning…</span><br><br>
+
+Lydia stands at the mirror in her robe, hair tousled from sleep.  
+<img src="img/mother/14.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+She picks up the bottle, smiles at the familiar weight, and spritzes her throat, wrists, the hollow between her breasts.
+
+The scent hits her — richer today, warmer, almost… alive.
+
+<<speech "lydia">>Mmm… why does it smell so good today…?<</speech>>
+<img src="img/mother/15.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+A sudden flush climbs her neck. Her nipples stiffen against the silk.  
+She freezes, bottle still in hand, thighs pressing together involuntarily.
+
+<<speech "lydia">>What the…?<</speech>>
+
+Her reflection stares back, pupils blown wide.  
+She bites her lip, confused, but doesn’t stop breathing it in.
+
+<<speech "ryan">>That’s it… breathe me in.  
+You’re already addicted and you don’t even know it.<</speech>>
+
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("perfume1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>><</if>>
 [[← House Hub|House Hub]]
+</div>
 
 
-:: Place Mother Trap permanent1 {"position":"4600,400","size":"100,100"}
+:: Place Mother Trap permanent1 {"position":"4750,250","size":"100,100"}
 You engrave “Ryan’s” into the steel collar and lock it forever…
 <<set $motherCorr += 5>>
 <<set $time += 1>>
@@ -603,7 +849,7 @@ You engrave “Ryan’s” into the steel collar and lock it forever…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap photo1 {"position":"4600,400","size":"100,100"}
+:: Place Mother Trap photo1 {"position":"4600,600","size":"100,100"}
 You cum all over their wedding photo and leave it on the nightstand…
 <<set $motherCorr += 5>>
 <<set $time += 1>>
@@ -629,17 +875,56 @@ You press against her back while she cooks…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap remote1 {"position":"4600,400","size":"100,100"}
-You leave a drop of cum on the TV remote…
-<<set $motherCorr += 5>>
-<<set $time += 1>>
-<<run placeMotherTrap("remote1", 5)>>
+:: Place Mother Trap remote1 {"position":"4600,250","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/31.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
 
-<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
-  <<set $motherQuestReady to ($motherCorr / 40)>>
+Evening. The family is watching some brain-dead sitcom. Lydia sits on the couch in yoga pants, legs tucked under her.
+
+She gets up for more wine. The remote lies on the coffee table, still warm from her hand.
+
+<<speech "ryan">>Every time you touch this from now on… you’ll be touching me.<</speech>>
+
+You stroke Ryan’s cock once, twice. A fat drop of pre-cum beads, then smears across the play/pause button until it’s invisible.
+<br>
+<img src="img/mother/32.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "ryan">>Volume up, Mom? Or do you want me louder?<</speech>>
+
+You place it back exactly.
+
+She returns, flops down, grabs the remote without looking.
+
+Her thumb slides straight through your gift.
+<br>
+<img src="img/mother/33.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">Later that same night…</span><br><br>
+
+The show ends. Lydia keeps rubbing her thumb in slow circles, distracted.
+
+<<speech "lydia">>Why is my hand tingling…?<</speech>>
+
+A slow heat spreads from her palm up her arm, pooling between her legs.  
+She shifts, pressing her thighs together again and again.
+
+Victor glances over.
+
+<<speech "victor">>You okay, hon?<</speech>>
+
+<<speech "lydia">>Y-yeah… just a little warm.<</speech>>
+
+She laughs nervously, but her free hand has already slipped between her legs “to adjust her pants.”
+<img src="img/mother/34.webp" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "ryan">>That’s right. Rub it in deeper.<</speech>>
+
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("remote1", 5)>>
+
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>>
 <</if>>
 
 [[← House Hub|House Hub]]
+</div>
 
 
 :: Place Mother Trap showerwalk1 {"position":"3400,400","size":"100,100"}
@@ -655,7 +940,7 @@ You walk in shirtless during her shower…
 [[← House Hub|House Hub]]
 
 
-:: Place Mother Trap tablecollar1 {"position":"4500,400","size":"100,100"}
+:: Place Mother Trap tablecollar1 {"position":"4500,300","size":"100,100"}
 You drape the collar over the coffee table…
 <<set $motherCorr += 5>>
 <<set $time += 1>>
@@ -1179,17 +1464,26 @@ window.advanceTime = function() {
 window.placeMotherTrap = function(trapID, points, location) {
     State.variables.motherCorr += points;
     State.variables.motherTrapsUsed[trapID] = true;
-    State.variables.motherTrapsThisTier += 1;
-    
-    // advance tier when 3 traps of current tier are placed
-    if (State.variables.motherTrapsThisTier >= 3 && State.variables.motherTier < 5) {
-        State.variables.motherTier += 1;
-        State.variables.motherTrapsThisTier = 0;
-    }
+   
     
     // optional: advance time after placing any trap
     // <<run advanceTime()>>
 };
+// <<i>> ... <</i>> for italic
+Macro.add("i", {
+    tags: null,
+    handler: function () {
+        $("<i/>").wiki(this.payload[0].contents).appendTo(this.output);
+    }
+});
+
+// <<b>> ... <</b>> for bold (bonus, optional)
+Macro.add("b", {
+    tags: null,
+    handler: function () {
+        $("<b/>").wiki(this.payload[0].contents).appendTo(this.output);
+    }
+})
 
 :: StoryStylesheet [stylesheet]
 \:: StoryStylesheet
@@ -1315,22 +1609,28 @@ button:hover {
 
 .ryan { background: linear-gradient(145deg, #8b0000, #ff0000); margin-left: auto; margin-right: 0; }
 .ryan::after { left: auto; right: 30px; border-top-color: #8b0000; }
-.ryan .avatar { background-image: url("img/ryan-possessed.png"); }
+.ryan .avatar { background-image: url("img/ryan.png"); }
 
-.father { background: linear-gradient(145deg, #663300, #cc6600); }
-.father .avatar { background-image: url("img/father.png"); }
+.victor { background: linear-gradient(145deg, #663300, #cc6600); }
+.victor .avatar { background-image: url("img/father.png"); }
 
-.mother { background: linear-gradient(145deg, #4b0082, #9932cc); }
-.mother .avatar { background-image: url("img/mother.png"); }
+.lydia { background: linear-gradient(145deg, #4b0082, #9932cc); }
+.lydia .avatar { background-image: url("img/mother.png"); }
 
-.brother { background: linear-gradient(145deg, #ff69b4, #ff1493); }
-.brother .avatar { background-image: url("img/brother.png"); }
+.ethan { background: linear-gradient(145deg, #ff69b4, #ff1493); }
+.ethan .avatar { background-image: url("img/brother.png"); }
 
-.sister { background: linear-gradient(145deg, #ff4500, #ff6347); }
-.sister .avatar { background-image: url("img/sister.png"); }
+.megan { background: linear-gradient(145deg, #ff69b4, #ff1493); }
+.megan .avatar { background-image: url("img/brothergf.png"); }
 
-.uncle { background: linear-gradient(145deg, #daa520, #ffd700); }
-.uncle .avatar { background-image: url("img/uncle.png"); }
+.chloe { background: linear-gradient(145deg, #ff4500, #ff6347); }
+.chloe .avatar { background-image: url("img/sister.png"); }
 
-.aunt { background: linear-gradient(145deg, #800080, #ba55d3); }
-.aunt .avatar { background-image: url("img/aunt.png"); }
+.jake { background: linear-gradient(145deg, #ff4500, #ff6347); }
+.jake .avatar { background-image: url("img/sisterbf.png"); }
+
+.marcus { background: linear-gradient(145deg, #daa520, #ffd700); }
+.marcus .avatar { background-image: url("img/uncle.png"); }
+
+.vanessa { background: linear-gradient(145deg, #800080, #ba55d3); }
+.vanessa .avatar { background-image: url("img/aunt.png"); }
