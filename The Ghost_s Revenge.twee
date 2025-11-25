@@ -1,5 +1,5 @@
 :: StoryTitle
-The Ghost's Revenge
+The Ghost's Revenge v3
 
 
 :: StoryData
@@ -12,8 +12,7 @@ The Ghost's Revenge
 }
 
 
-:: Advance Time {"position":"950,875","size":"100,100"}
-\:: Advance Time
+:: Advance Time {"position":"900,400","size":"100,100"}
 <<set $time += 1>>
 <<if $time > 4>>
   <<set $time to 4>>
@@ -21,13 +20,227 @@ The Ghost's Revenge
 [[Continue|House Hub]]
 
 
-:: Back to the Player Room {"position":"450,525","size":"100,100"}
+:: Aunt Quest 1 {"position":"2525,425","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff0;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#200040);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 40px #ff00ff;">AUNT LEVEL 1 – FIRST TASTE</span>
+Late afternoon. The hallway outside the guest bedroom.
+
+Vanessa’s voice leaks through the cracked door, low and furious, phone pressed to her ear.
+<video src="img/aunt/q11.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "vanessa">>No, I’m serious, Claire. If he doesn’t fuck me properly soon I’m going to lose my goddamn mind.<br>I’m so wound up I could scream. I actually fantasize about just… taking control for once. Pinning him down. Making him beg.<br>God, listen to me… I sound insane.<</speech>>
+
+A long silence. Then a shaky laugh that doesn’t reach her eyes.
+
+<<speech "vanessa">>I have to go.<</speech>>
+
+She ends the call, steps into the hallway—and freezes.
+
+You’re leaning against the wall five feet away, arms crossed, slow smile spreading across Ryan’s face.
+
+<video src="img/aunt/q12.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+Her cheeks ignite crimson.  
+The silk robe she’s wearing suddenly feels paper-thin.
+
+<<speech "vanessa">>Ryan… how long have you—<</speech>>
+
+<<speech "ryan">>Long enough.<</speech>>
+
+You don’t look shocked.  
+You don’t look embarrassed.  
+You look… hungry. Amused. Utterly in control.
+
+She tries to pull the robe tighter, but her hands are shaking.
+
+<<speech "vanessa">>You didn’t hear anything. Forget it. Please.<</speech>>
+
+You push off the wall, take one slow step closer.
+
+<<speech "ryan">>I heard a woman who knows exactly what she wants… and has never been allowed to take it.<</speech>>
+<video src="img/aunt/q13.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Her breath catches.  
+For the first time in weeks, the frustration in her eyes flickers into something else—something dangerous and electric.
+
+She swallows hard, pupils blown wide.
+
+<<speech "ryan">>Don’t worry, Auntie.<br>Your secret is safe with me… for now.<</speech>>
+<video src="img/aunt/q14.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You walk away whistling.
+
+Behind you, Vanessa stands rooted to the spot, thighs pressed together so hard they tremble.
+
+<<speech "vanessa">>…fuck.<</speech>>
+<<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 10 {"position":"3200,1000","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff00ff;padding:100px 20px;font-family:Courier New,monospace;line-height:3;">
+Vanessa is now your permanent collared pet. She crawls behind you everywhere.
+<<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue your revenge|House Hub]]
+</div>
+
+
+:: Aunt Quest 2 {"position":"2425,425","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#300060);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 70px #ff00ff;">AUNT LEVEL 2 – THE BLACKMAIL OFFER</span>
+
+11:42 p.m.  
+The house is silent except for the soft click of the mouse.
+<img src="img/aunt/q21.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+Vanessa is at the dining-room table, laptop open, robe slipping off one shoulder, wine forgotten.
+
+She thinks she’s alone.
+
+You move like a shadow and stop right behind her chair.
+<video src="img/aunt/q22.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+On her screen: a private browser tab full of dominant women in latex, crops in hand, leashed submissives at their feet.  
+<video src="img/aunt/q23.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She’s been scrolling for almost an hour.
+
+You lean in, voice low against her ear.
+
+<<speech "ryan">>Interesting taste, Auntie.<</speech>>
+
+She startles so hard the chair rolls back an inch.  
+The screen slams shut.
+
+<<speech "vanessa">>Ryan! What the hell— get out!<</speech>>
+
+Her face is scarlet, hands trembling.
+
+You sit down beside her, calm as anything, and unlock your phone.
+
+<<speech "ryan">>Relax.<br>I can give you exactly what you’re looking at.<</speech>>
+
+You open the short video you prepared weeks ago and tilt the phone so only she can see.
+
+First frame: a gorgeous woman on her knees, thick leather collar locked tight, leash dangling between her bare breasts.  <video src="img/aunt/q24.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+Next: you (masked, full latex) yank the leash hard; she drops to all fours and crawls, whimpering.  <video src="img/aunt/q25.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+Next: you bring the flogger down across her ass again and again until it’s bright red and she’s sobbing “thank you, Mistress.”
+<video src="img/aunt/q26.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You stop the video.
+
+<<speech "ryan">>I can teach you to be the one holding the leash.<br>Real lessons. Real power.<br>In return… you do small favors for me whenever I ask.<br>Starting right now.<</speech>>
+
+Vanessa is breathing through her mouth, pupils blown wide.
+
+<<speech "vanessa">>You’re insane. I’m your aunt. This is—<</speech>>
+
+<<speech "ryan">>Wrong?<br>Like hiding pictures of dominant women at midnight?<br>Or like secretly wishing you were the one on the floor with the collar?<</speech>>
+
+You Again, open your phone and show her the dominant figure she wants to be.
+<video src="img/aunt/q27.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "ryan">>You want to be her… <</speech>>
+
+Silence stretches for ten long seconds.
+
+Her hands move to the The silk falls away.
+
+Full, perfect breasts spill free, nipples already hard.
+<img src="img/aunt/q28.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+She doesn’t cover herself.
+
+<<speech "vanessa">>…teach me.<</speech>>
+
+Her voice is barely a whisper, but it’s the sound of a lock clicking open forever.
+
+You smile.
+
+<<speech "ryan">>Good girl.<br>Lesson one starts tomorrow.<</speech>>
+<<set $auntTier to 2>>
+<<set $auntQuestReady to 0>>
+<<set $uncleTrapsLocked to false>>   /* instantly unlocks Uncle sissy path */
+
+<div style="color:#ffd700;font-size:1.8em;margin-top:40px;auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+She just bared herself and begged to be taught.  
+Marcus’s world is about to end.
+[[She’s ready to learn|House Hub]]
+</div></div>
+
+
+:: Aunt Quest 3 {"position":"3925,1050","size":"100,100"}
+LEVEL 3 – THE COLLAR APPEARS IN HER DREAMS<br><br>
+<<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 4 {"position":"3800,1050","size":"100,100"}
+LEVEL 4 – FIRST “ACCIDENTAL” NUDE<br><br>
+Tier 3 unlocked
+<<set $auntTier to 3>><<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 5 {"position":"3700,1025","size":"100,100"}
+LEVEL 5 – SHE CALLS YOU MASTER<br><br>
+<<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 6 {"position":"3600,1025","size":"100,100"}
+LEVEL 6 – GREETS YOU ON HER KNEES<br><br>
+Tier 4 unlocked
+<<set $auntTier to 4>><<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 7 {"position":"3500,1025","size":"100,100"}
+LEVEL 7 – COOKS & SERVES NAKED<br><br>
+<<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 8 {"position":"3400,1000","size":"100,100"}
+LEVEL 8 – SIGNS SLAVE CONTRACT<br><br>
+Tier 5 unlocked
+<<set $auntTier to 5>><<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Aunt Quest 9 {"position":"3300,1000","size":"100,100"}
+LEVEL 9 – BEGS TO BE BRED IN FRONT OF FAMILY<br><br>
+<<set $time += 1>><<set $auntQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Back to the Player Room {"position":"900,100","size":"100,100"}
 [[go back |Player Room]]
 
 
-:: CorruptionStats {"position":"800,1700","size":"100,100"}
+:: CorruptionStats {"position":"700,850","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.6;">
-@stats_screen.gif@
 <br><br>
 <span style="font-size:1.8em;letter-spacing:8px;">CORRUPTION LEVELS</span>
 <br><br><br>
@@ -38,7 +251,7 @@ Sister (prostitute)  $sisterCorr<br>
 Uncle (sissy)  $uncleCorr<br>
 Aunt (dominant slave)  $auntCorr<br>
 Cousin Ryan (your vessel)  $cousinCorr<br>
-Brother’s GF  $broGFcorr<br>
+Brother’s GF  $broGFCorr<br>
 Sister’s BF  $sisBFcorr<br>
 <br><br>
 The higher the number, the more broken they are.<br>
@@ -48,9 +261,8 @@ There is no upper limit.
 </div>
 
 
-:: CurrentLocations {"position":"550,1700","size":"100,100"}
+:: CurrentLocations {"position":"700,750","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.6;">
-@location_map.gif@
 <br><br>
 <span style="font-size:1.8em;letter-spacing:8px;">WHERE THEY ARE — $time</span>
 <br><br><br>
@@ -68,235 +280,1778 @@ Sis’s BF  → $schedule[$time].sisBF<br>
 </div>
 
 
-:: Demo End {"position":"1050,1325","size":"100,100"}
-Demo Ends here Thank you for playing
+:: Demo End {"position":"1000,1100","size":"100,100"}
+The game ends here.  I will keep up updating this  game will add storylines for brother and sister as well as uncle and aunt they will include sissyfication, prostitution,etc.
+Support me on Patreon if you wish to see early releases.
+Thank you for playing
+<a href="https://www.patreon.com/RedCupid" target="_blank">
+    <img src="img/patreon.png" style="width:100px; height:auto;">
+</a>
 [[House Hub]]
 
 
-:: House Hub {"position":"487.5,850","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:10px 5px;font-family:Courier New,monospace;">
+:: Father Quest 1 {"position":"2525,250","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#220000);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 40px #fff;">LEVEL 1 – THE FIRST CRACK</span>
+<br>
+<img src="img/father/q11.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Late afternoon. Victor is alone in the living room, flipping channels.
+You slipped two crushed Viagra into his coffee an hour ago.  
+He’s already shifting in his seat, face flushed, trying to ignore the steel-hard erection straining against his slacks.
+You walk in casually, phone in hand.
+<<speech "ryan">>Hey Dad, you gotta see this pathetic shit I found online.<</speech>>
+You shove the phone in his face.
+<img src="img/father/q12.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+A 4K video: a wife riding a young bull while her husband kneels in the corner, stroking himself and thanking them.
+<img src="img/father/q13.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Victor tries to look away. He can’t.  
+His cock throbs visibly.
+<<speech "ryan">>Look at this loser. Gets off watching his own wife get fucked.  
+What kind of man lets that happen?<</speech>>
+<img src="img/father/q14.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+You laugh, loud and cruel.
+<<speech "ryan">>Imagine being that weak.  
+Imagine getting hard from it.  
+Fucking disgusting.<</speech>>
+Victor’s mouth opens, closes.  
+No words come out.  
+His face is scarlet, sweat beading on his forehead.
+You leave the phone on the coffee table and walk out, whistling.
+<img src="img/father/q15.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+The second the door closes behind you, Victor’s hand shoots to his crotch.  
+He hates himself for it, but he can’t stop.
+<img src="img/father/q16.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+<<speech "victor">>No… no no no… What the fuck is wrong with me…?<</speech>>
+He deletes the video.  
+He doesn’t delete it fast enough.
+<<speech "ryan">>One dose down.<</speech>>
+<<speech "ryan">>You’re already broken, Dad.<</speech>>
+<<set $fatherQuestReady to 0>>
+[[The poison spreads|House Hub]]
+</div>
 
-<img src="img/5.jpg" style="width:100%;max-width:900px;height:auto;border-radius:10px;margin-bottom:10px;">
 
-<<if $possessed>>You wear Ryan’s face.<</if>>
-<<if not $possessed>>You are only cold air and memory.<</if>>
+:: Father Quest 10 {"position":"3100,650","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 10 – TOTAL CUCKOLD<br><br>
+Victor is broken. He lives to serve the bull who stole his wife.
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue your revenge|House Hub]]
+</div>
+
+
+:: Father Quest 2 {"position":"2425,250","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330000);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 40px #f00;">LEVEL 2 – THE SEARCH BEGINS</span>
+<br>
+<img src="img/father/q21.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+A few nights later. 2:14 a.m.
+Victor can’t sleep.  
+The house is silent. Lydia is snoring softly beside him.
+He picks up his phone with shaking hands.  
+Opens incognito mode.
+He types, deletes, types again.
+Finally:  
+“cuckold lifestyle”
+Hundreds of results. Forums. Stories. Videos.
+He clicks the first video.  
+<img src="img/father/q22.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Same scene as before — wife on all fours, husband watching, thanking.
+<video src="img/father/q23.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+His cock is instantly hard again.
+<<speech "victor">>Just… just to understand why people…<<i>>fuck<</i>><</speech>>
+Lydia’s sleepy voice:
+<<speech "lydia">>Vic? What are you doing?<</speech>>
+He slams the phone face-down, heart hammering.
+<<speech "victor">>N-nothing! Couldn’t sleep. Work email.<</speech>>
+She mumbles something and rolls over.
+Victor lies there rigid, cock throbbing against his stomach, phone burning in his hand.
+He waits ten agonizing minutes until her breathing evens out again.
+Then, shaking, he opens the phone.
+<video src="img/father/q24.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+The video is still paused on the husband’s tear-streaked, grateful face.
+Victor starts the video again…  
+
+<<speech "victor">>I’m not… I’m not like him…<</speech>>
+<<speech "ryan">>Yes you are, Dad. And tomorrow you’ll watch again.<</speech>>
+<<set $fatherQuestReady to 0>><<set $fatherTier to 2>>
+[[He’s falling faster than she is|House Hub]]
+</div>
+
+
+:: Father Quest 3 {"position":"3800,700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 3 – NIGHTMARES BEGIN<br><br>
+(Scene here)
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 4 {"position":"3700,700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 4 – THE COLLAR APPEARS<br><br>
+(Scene here)
+<<set $fatherTier to 3>>
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 5 {"position":"3600,700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 5 – HE STARTS TO WATCH<br><br>
+(Scene here)
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 6 {"position":"3500,700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 6 – FORCED TO CLEAN<br><br>
+(Scene here)
+<<set $fatherTier to 4>>
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 7 {"position":"3400,650","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 7 – THE CAGE<br><br>
+(Scene here)
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 8 {"position":"3300,650","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 8 – PUBLIC HUMILIATION<br><br>
+(Scene here)
+<<set $fatherTier to 5>>
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Father Quest 9 {"position":"3200,650","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff3366;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+LEVEL 9 – HE THANKS YOU<br><br>
+(Scene here)
+<<set $time += 1>>
+<<set $fatherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: House Hub {"position":"1600,175","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:10px 5px;font-family:Courier New,monospace;"><img src="img/5.jpg" style="width:100%;max-width:900px;height:auto;border-radius:10px;margin-bottom:10px;"><<if $motherTier is 2 && $fatherTier is 2 && $auntTier is 2 && $uncleTier is 2>>[[Thank You|Demo End]]<<else>>
+You wear Ryan’s face.
+<<if not $possessed>>You are only cold air and memory.<</if>><<if $motherQuestReady > 0>>  <div style="text-align:center;margin:30px 0;">    <button style="background:#000;border:4px solid #f0f;color:#f0f;padding:20px 60px;font-size:2em;border-radius:20px;box-shadow:0 0 40px #f0f;">      <<link "▶ PLAY MOTHER QUEST $motherQuestReady">>        <<switch $motherQuestReady>><<case 1>><<goto "Mother Quest 1">>        <<case 2>><<goto "Mother Quest 2">>        <<case 3>><<goto "Mother Quest 3">>        <<case 4>><<goto "Mother Quest 4">>        <<case 5>><<goto "Mother Quest 5">>        <<case 6>><<goto "Mother Quest 6">>        <<case 7>><<goto "Mother Quest 7">>        <<case 8>><<goto "Mother Quest 8">>        <<case 9>><<goto "Mother Quest 9">>        <<case 10>><<goto "Mother Quest 10">>        <</switch>>      <</link>>    </button>  </div><</if>><<if $fatherQuestReady > 0>>  <div style="text-align:center;margin:30px 0;">    <button style="background:#000;border:4px solid #f00;color:#f00;padding:20px 60px;font-size:2em;border-radius:20px;box-shadow:0 0 40px #f00;">      <<link "▶ PLAY FATHER QUEST $fatherQuestReady">>        <<switch $fatherQuestReady>><<case 1>><<goto "Father Quest 1">>        <<case 2>><<goto "Father Quest 2">>        <<case 3>><<goto "Father Quest 3">>        <<case 4>><<goto "Father Quest 4">>        <<case 5>><<goto "Father Quest 5">>        <<case 6>><<goto "Father Quest 6">>        <<case 7>><<goto "Father Quest 7">>        <<case 8>><<goto "Father Quest 8">>        <<case 9>><<goto "Father Quest 9">>        <<case 10>><<goto "Father Quest 10">>        <</switch>>      <</link>>    </button>  </div><</if>><<if $auntQuestReady > 0>>  <div style="text-align:center;margin:30px 0;">    <button style="background:#000;border:4px solid #ba55d3;color:#ba55d3;padding:20px 60px;font-size:2em;border-radius:20px;box-shadow:0 0 40px #ba55d3;">      <<link "▶ PLAY AUNT QUEST $auntQuestReady">>        <<switch $auntQuestReady>><<case 1>><<goto "Aunt Quest 1">>        <<case 2>><<goto "Aunt Quest 2">>        <<case 3>><<goto "Aunt Quest 3">>        <<case 4>><<goto "Aunt Quest 4">>        <<case 5>><<goto "Aunt Quest 5">>        <<case 6>><<goto "Aunt Quest 6">>        <<case 7>><<goto "Aunt Quest 7">>        <<case 8>><<goto "Aunt Quest 8">>        <<case 9>><<goto "Aunt Quest 9">>        <<case 10>><<goto "Aunt Quest 10">>        <</switch>>      <</link>>    </button>  </div><</if>><<if $auntTier >= 2 && $uncleQuestReady > 0>>  <div style="text-align:center;margin:30px 0;">    <button style="background:#000;border:4px solid #ffd700;color:#ffd700;padding:20px 60px;font-size:2.2em;border-radius:20px;box-shadow:0 0 50px #ffd700;">      <<link "◈ PLAY UNCLE QUEST $uncleQuestReady">>        <<switch $uncleQuestReady>><<case 1>><<goto "Uncle Quest 1">>        <<case 2>><<goto "Uncle Quest 2">>        <<case 3>><<goto "Uncle Quest 3">>        <<case 4>><<goto "Uncle Quest 4">>        <<case 5>><<goto "Uncle Quest 5">>        <<case 6>><<goto "Uncle Quest 6">>        <<case 7>><<goto "Uncle Quest 7">>        <<case 8>><<goto "Uncle Quest 8">>        <<case 9>><<goto "Uncle Quest 9">>        <<case 10>><<goto "Uncle Quest 10">>        <</switch>>      <</link>>    </button>  </div><</if>><<if $broGFquestReady > 0>>
+  <div style="text-align:center;margin:30px 0;">
+    <button style="background:#000;border:4px solid #ff69b4;color:#ff69b4;padding:20px 60px;font-size:2em;border-radius:20px;box-shadow:0 0 40px #ff69b4;cursor:pointer;">
+      <<link "▶ PLAY MEGAN QUEST $broGFquestready">>
+        <<switch $broGFquestReady>>
+          <<case 1>><<goto "Megan Quest 1">>
+          <<case 2>><<goto "Megan Quest 2">>
+          <<case 3>><<goto "Megan Quest 3">>
+          <<case 4>><<goto "Megan Quest 4">>
+          <<case 5>><<goto "Megan Quest 5">>
+          <<case 6>><<goto "Megan Quest 6">>
+          <<case 7>><<goto "Megan Quest 7">>
+          <<case 8>><<goto "Megan Quest 8">>
+          <<case 9>><<goto "Megan Quest 9">>
+          <<case 10>><<goto "Megan Quest 10">>
+        <</switch>>
+      <</link>>
+    </button>
+  </div>
+<</if>>
 
 <div style="max-width:860px;margin:0 auto;">
-<table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:9px;">
+<table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:12px;">
   <tr>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/masterbedroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
-
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Main Bedroom|Location MainBedroom]]
-      </div>
+    <td style="border:4px solid #ff00ff;border-radius:12px;box-shadow:0 0 <<* 8 + $motherTier*8>>px #ff00ff;background:#000;padding:10px;">
+      <img src="img/masterbedroom.jpg" style="width:100%;height:auto;border-radius:10px;opacity:<<$motherTier/5.5>>;">
+      <div style="color:#ff00ff;font-size:1.4em;text-shadow:0 0 12px #ff00ff;margin-top:8px;">[[Location MainBedroom]]</div>
     </td>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/brother_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
-
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Brother’s Room|Location BrotherRoom]]
-      </div>
+   <td style="border:4px solid #ba55d3;border-radius:12px;box-shadow:0 0 <<* 8 + $auntTier*8>>px #ba55d3;background:#000;padding:10px;">
+        <img src="img/uncle_aunt_room.jpg" style="width:100%;height:auto;border-radius:10px;opacity:<<$auntTier/5.5>>;">
+        <div style="color:#ba55d3;font-size:1.35em;text-shadow:0 0 12px #ba55d3;margin-top:8px;">[[Location UncleRoom]]</div>
+      </td>
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/brother_room.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Location BrotherRoom]]</div>
     </td>
   </tr>
   <tr>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/sister_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
- <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Sister’s Room|Location SisterRoom]]
-      </div>
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/sister_room.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Location SisterRoom]]</div>
     </td>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/uncle_aunt_room.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
+    
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/kitchen.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Location Kitchen]]</div>
+    </td>
 
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Uncle & Aunt’s Room|Location UncleRoom]]
-      </div>
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/bathroom.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Location Bathroom]]</div>
+    </td></tr>
+    <tr>
+    
+  
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/livingroom.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Location LivingRoom]]</div>
     </td>
-  </tr>
-  <tr>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/bathroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
-
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Bathroom|Location Bathroom]]
-      </div>
+    <td style="border:4px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;">
+      <img src="img/3.jpg" style="width:100%;height:auto;border-radius:10px;"><div style="color:#0ff;font-size:1.35em;text-shadow:0 0 10px #0ff;margin-top:8px;">[[Player Room]]</div>
     </td>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/kitchen.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
-
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Kitchen|Location Kitchen]]
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/livingroom.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
-
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Living Room|Location LivingRoom]]
-      </div>
-    </td>
-    <td style="border:3px solid #0ff;border-radius:12px;box-shadow:0 0 16px #0ff;background:#000;padding:10px;vertical-align:top;">
-      <img src="img/3.jpg" style="width:100%;height:auto;border-radius:10px;display:block;">
- 
-      <div style="color:#f0f;font-size:1.35em;text-shadow:0 0 10px #f0f;margin-top:8px;">
-      [[Ryan’s Room|Player Room]]
-      </div>
-    </td>
+       <<if $basementunlocked >>
+      <td style="border:4px solid #ba55d3;border-radius:12px;box-shadow:0 0 <<* 8 + $auntTier*8>>px #ba55d3;background:#000;padding:10px;">
+        <img src="img/basement.jpg" style="width:100%;height:auto;border-radius:10px;opacity:<<$auntTier/5.5>>;">
+        <div style="color:#ba55d3;font-size:1.35em;text-shadow:0 0 12px #ba55d3;margin-top:8px;">[[Location Basement]]</div>
+      </td>
+      <<else>>
+      <td style="border:4px solid #333;border-radius:12px;background:#000;padding:10px;filter:grayscale(100%);position:relative;">
+        <img src="img/basement.jpg" style="width:100%;height:auto;border-radius:10px;opacity:0.3;">
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:3em;color:#555;">🔒</div>
+        <div style="color:#555;font-size:1.2em;margin-top:8px;">[[Location Basement - locked]]</div>
+      </td>
+    <</if>>
   </tr>
 </table>
 </div>
 
 <br>
 [[← Back|Player Room]]
-</div>
+<</if>></div>
 
 
-:: Location Bathroom {"position":"612.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
+:: Location Basement {"position":"1537.5,300","size":"100,100"}
+[[House Hub]] 
 
 
-:: Location BrotherRoom {"position":"237.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
+:: Location Basement - locked {"position":"1650,300","size":"100,100"}
+[[House Hub]]
 
 
-:: Location Kitchen {"position":"737.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
+:: Location Bathroom {"position":"1650,850","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/bathroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">BATHROOM</span><br>
+<<if $schedule[$time].aunt is "bathroom">>
+    <strong>Aunt traps</strong><br>
+    <<switch $auntTier>>
+      <<case 1>> [[Imaginary Fuck(+5)|Place Aunt t1 Bathroom]]
+     	<</switch>><</if>>
+<<if $schedule[$time].mother is "bathroom">>
+  <strong>Mother traps</strong><br>
+  <<switch $motherTier>>
+    <<case 1>> [[Spike body wash (+5)|Place Mother Trap gel1]]
+    
+   
+  <</switch>><</if>>
+<<if $schedule[$time].father is "bathroom" >>
+  <strong>Father traps</strong><br>
+  <<switch $fatherTier>>
+    <<case 1>> [[Cum on Lydia's panties|Place Father Trap panty1]]
+    
+  <</switch>><</if>>
 
-
-:: Location LivingRoom {"position":"850,975","size":"100,100"}
-[[← House Hub|House Hub]]
-
-
-:: Location MainBedroom {"position":"325,1075","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:100px 40px;font-family:Courier New,monospace;line-height:2.8;">
-
-<span style="font-size:2.2em;letter-spacing:10px;">MAIN BEDROOM</span>
-
-This is where they conceived the children who held the camera.<br>
-This is where they fucked the night you died, laughing about it between thrusts.
-<br><br>
-Father Corruption: <<$fatherCorr>>  Mother Corruption: <<$motherCorr>>
-<br><br><br>
-<img src="img/6.1.jpg">
-<<if $schedule[$time].father is "mainbedroom">>Father is here, pretending to be a man.<</if>>
-<<if $schedule[$time].mother is "mainbedroom">>Mother is here, still wearing the perfume you can never forget.<</if>>
-
-<br><br>
-<<if not $traps.mainbedroom  >>
-  <strong>Choose whose soul to poison tonight:</strong><br><br>
-
-  <strong>Father (cuckold path)</strong><br>
-  <<if $fatherCorr < 45>>
-  [[Second phone — “Your wife’s new owner” chat (+10 Father)|Set Trap mainbedroom phone]]<br>
-  [[Replace wedding photo with Mother collared (+12 Father)|Set Trap mainbedroom photo]]<br>
-  [[Used condom under mattress (+14 Father)|Set Trap mainbedroom condom]]<br>
-  [[Carve “CUCK” into headboard (+9 Father, permanent)|Set Trap mainbedroom carving]]<br><br>
-  <<else>>[[Demo End]]
-  <</if>>
-
-  <strong>Mother (slave path)</strong><br>
-  <<if $motherCorr <=48>>
-  [[Spike her perfume with obedience pheromones (+11 Mother)|Set Trap mainbedroom perfume]]<br>
-  [[Hide collar & leash under her pillow (+13 Mother)|Set Trap mainbedroom collar]]<br>
-  [[Leave “How to Serve” book on her side (+9 Mother)|Set Trap mainbedroom book]]<br>
-  [[Slip remote vibrator into her drawer (+15 Mother, high risk)|Set Trap mainbedroom vibe]]
-<<else>>[[Demo End]]
-<</if>>
-<<elseif $traps.mainbedroom and not $traps.mainbedroom.triggered>>
-  <<if $schedule[$time].father is "mainbedroom">>Father<</if>>
-  <<if $schedule[$time].mother is "mainbedroom">>Mother<</if>>
-  <<if not $traps.mainbedroom.witnessed>> the target is about to fall for the trap<br>[[Watch|Trigger Trap mainbedroom]]<</if>>
-  <<if $traps.mainbedroom.witnessed>>already saw it. Poison spreads.<</if>>
-
+<<if $auntTier < 2 and $schedule[$time].uncle is "bathroom">>
+  <strong style="color:#800;">Locked</strong><br>
+  You cannot touch Marcus yet.<br>
+  Vanessa must fall to Tier 2 first.<br><br>
 <<else>>
-  <<if $traps.mainbedroom and $traps.mainbedroom.triggered>>
-    Their bed is broken forever.<br><br>
-    <<set $traps.mainbedroom to null>>   /* ← THIS LINE IS THE FIX */
-  <<else>>
-    Nothing to do here right now.
-  <</if>>
+  <<if $schedule[$time].uncle is "bathroom">>
+    <strong>Uncle traps </strong><br>
+    <<switch $uncleTier>>
+	<<case 1>> [[Shower Suprise|Place Uncle t1 Bathroom]]
+     	<</switch>><</if>>
+<</if>><<if $time is 1 && $schedule[$time].broGF is "bathroom">>
+  <strong>Megan is here</strong><br>
+  <<switch $broGFtier>>
+    <<case 1>>
+      [[Door unlocked – jerk off calling her name (+5)|place brogf t1 bathroom]]
+      <</switch>>
+  <br>
+<</if>>
+<<if $schedule[$time].mother is "bathroom" or $schedule[$time].aunt is "bathroom" or $schedule[$time].father is "bathroom" or $schedule[$time].uncle is "bathroom">>
+  <<else>>The bathroom is empty or occupied by someone else right now.
+<</if>>
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location BrotherRoom {"position":"2100,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/6.1.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">Brother's BEDROOM</span><br><br>
+<<if $time is 2 && $schedule[$time].broGF is "brotherroom">>
+  <strong>Megan is here</strong><br>
+  <<switch $broGFtier>>
+    <<case 1>>
+      [["Find" her dildo & send comparison pic (+5)|place brogf t1 brotherroom]]
+    <</switch>>
+  <br>
 <</if>>
 
-<br><br><br>
+[[← House Hub|House Hub]]</div>
+
+
+:: Location Kitchen {"position":"1675,500","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/kitchen.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">KITCHEN — Morning / Afternoon</span><br><br>
+  <<if $schedule[$time].mother is "kitchen">>
+    <strong>Mother traps</strong><br>
+    <<switch $motherTier>>
+      <<case 1>> [[Spike coffee creamer (+5)|Place Mother Trap creamer1]]
+    <</switch>><</if>>
+<<if $schedule[$time].aunt is "kitchen">>
+    <strong>Aunt traps</strong><br>
+    <<switch $auntTier>>
+      <<case 1>> [[Hypno-Domme Text(+5)|Place Aunt t1 Kitchen]]
+      <</switch>><</if>>
+  <<if $schedule[$time].father is "kitchen">>
+    <strong>Father traps</strong><br>
+    <<switch $fatherTier>>
+      <<case 1>> [[Stiff Accident(+5)|Place Father Trap sextape1]]
+      <</switch>>
+  <</if>><<if $auntTier < 2>>
+  <strong style="color:#800;">Locked</strong><br>
+  You cannot touch Marcus yet.<br>
+  Vanessa must fall to Tier 2 first.<br><br>
+<<else>>
+  <<if $schedule[$time].uncle is "kitchen">>
+    <strong>Uncle traps </strong><br>
+    <<switch $uncleTier>>
+	<<case 1>> [[Salty Coffee|Place Uncle t1 Kitchen]]
+     	<</switch>><</if>>
+<</if>>
+<<if $time is 0 && $schedule[$time].broGF is "kitchen">>
+  <strong>Megan is here</strong><br>
+  <<switch $broGFtier>>
+    <<case 1>>
+      [[Heart-shaped pancakes & syrup accident (+5)|place brogf t1 kitchen]]
+  <</switch>>
+  <br>
+<</if>>
+<<if $schedule[$time].mother is "kitchen" or $schedule[$time].aunt is "kitchen" or $schedule[$time].father is "kitchen",$schedule[$time].uncle is "kitchen">>
+  Kitchen is quiet outside morning/afternoon.
+<</if>>
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location LivingRoom {"position":"1650,700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/livingroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">LIVING ROOM </span><br><br>
+<<if $schedule[$time].mother is "livingroom">>
+    <strong>Mother traps</strong><br>
+    <<switch $motherTier>>
+      <<case 1>> [[Cum on TV remote (+5)|Place Mother Trap remote1]]
+      
+    <</switch>><</if>>
+<<if $schedule[$time].aunt is "livingroom">>
+    <strong>Aunt traps</strong><br>
+    <<switch $auntTier>>
+      <<case 1>> [[Send her a Dickpic(+5)|Place Aunt t1 Livingroom]]
+      <</switch>><</if>>
+  <<if $schedule[$time].father is "livingroom">>
+    <strong>Father traps</strong><br>
+    <<switch $fatherTier>>
+      <<case 1>> [[Hypno on TV (+5)|Place Father Trap tvhypno1]]
+     
+    <</switch>>
+  <</if>><<if $auntTier < 2 and $schedule[$time].uncle is "livingroom">>
+  <strong style="color:#800;">Locked</strong><br>
+  You cannot touch Marcus yet.<br>
+  Vanessa must fall to Tier 2 first.<br><br>
+<<else>>
+  <<if $schedule[$time].uncle is "livingroom">>
+    <strong>Uncle traps </strong><br>
+    <<switch $uncleTier>>
+	<<case 1>> [[Humilating Fight|Place Uncle t1 Livingroom]]
+     	<</switch>><</if>>
+<</if>><<if $time is 3 && $schedule[$time].broGF is "livingroom">>
+  <strong>Megan is here</strong><br>
+  <<switch $broGFtier>>
+    <<case 1>>
+      [[Movie-night blanket – she thinks it’s Ethan (+5)|place brogf t1 livingroom]]
+    
+  <</switch>>
+  <</if>><br>
+<<if $schedule[$time].mother is "livingroom" or $schedule[$time].aunt is "livingroom" or $schedule[$time].father is "livingroom", $schedule[$time].uncle is "livingroom">>
+  <<else>>
+  No One is here, Try in the Evening.
+<</if>>
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location MainBedroom {"position":"1950,875","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/6.1.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">MAIN BEDROOM — Night only</span><br><br>
+<<if $time is 3>>
+  <<if $schedule[$time].mother is "mainbedroom">>
+    <strong>Mother traps (slave path)</strong><br>
+    <<switch $motherTier>>
+      <<case 1>> [[Spike perfume with pheromones (+5)|Place Mother Trap perfume1]]
+     
+    <</switch>>
+    <br>
+  <</if>>
+  <<if $schedule[$time].father is "mainbedroom">>
+    <strong>Father traps (cuckold path)</strong><br>
+    <<switch $fatherTier>>
+      <<case 1>> [[Put VR on him (+5)|Place Father Trap vr1]]
+     
+    <</switch>>
+    <br>
+  <</if>>
+<<else>>
+  The main bedroom is empty during the day. Return at <b>night</b>.
+<</if>>
+<br><br>[[← House Hub|House Hub]]
+</div>
+
+
+:: Location SisterRoom {"position":"1375,1775","size":"100,100"}
+[[← House Hub|House Hub]]
+
+
+:: Location UncleRoom {"position":"2100,1375","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:20px;font-family:Courier New,monospace;">
+<img src="img/6.1.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
+<span style="font-size:2.2em;letter-spacing:8px;">Uncle's & Aunt's BEDROOM — Night only</span><br><br>
+<<if $schedule[$time].aunt is "uncleroom">>
+    <strong>Aunt traps</strong><br>
+    <<switch $auntTier>>
+      <<case 1>> [[Estrogen in Uncle’s Pills(+5)|Place Aunt t1 Bedroom]]
+     	<</switch>>
+<</if>>
+<<if $auntTier < 2 and $schedule[$time].uncle is "uncleroom">>
+  <strong style="color:#800;">Locked</strong><br>
+  You cannot touch Marcus yet.<br>
+  Vanessa must fall to Tier 2 first.<br><br>
+<<else>>
+  <<if $schedule[$time].uncle is "uncleroom" >>
+    <strong>Uncle traps </strong><br>
+    <<switch $uncleTier>>
+	<<case 1>> [[Monster Dildo|Place Uncle t1 Bedroom]]
+     	<</switch>><</if>>
+<</if>>
 [[← House Hub|House Hub]]
 </div>
 
 
-:: Location SisterRoom {"position":"362.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
-
-
-:: Location UncleRoom {"position":"487.5,975","size":"100,100"}
-[[← House Hub|House Hub]]
-
-
-:: Name Entry {"position":"675,475","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.8;">
-<img src="img/ghost.webp" style="max-width:100%; border-radius:12px; box-shadow:0 0 30px #0ff; margin:30px 0;">  <!-- optional new asset, or reuse @name_prompt.jpg@ -->
+:: Megan Quest 1 {"position":"3200,1300","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330022);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 50px #ff69b4;">MEGAN LEVEL 1 – THE FIRST KISS</span>
 <br><br>
-<span style="font-size:2em;letter-spacing:8px;">NAME YOUR VICTIMS</span>
-<br><br><br>
-You will never say these names with kindness again.<br>
-Change any you want. Leave blank to keep the default.
-<br><br><br>
+<img src="img/megan/q11.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #ff69b4;margin-bottom:30px;">
 
-<<textbox "$playerName" "Alex">> ← Your name when you were alive<br><br>
-<<textbox "$fatherName" "Victor">> ← Father<br>
-<<textbox "$motherName" "Lydia">> ← Mother<br>
-<<textbox "$brotherName" "Ethan">> ← Brother<br>
-<<textbox "$sisterName" " Chloe">> ← Sister<br>
-<<textbox "$uncleName" "Marcus">> ← Uncle<br>
-<<textbox "$auntName" "Vanessa">> ← Aunt<br>
-<<textbox "$cousinName" "Ryan">> ← Your vessel (the cousin)<br>
-<<textbox "$broGFname" "Megan">> ← Brother’s girlfriend<br>
-<<textbox "$sisBFname" "Jake">> ← Sister’s boyfriend<br><br><br>
+Late evening. Everyone asleep. Living room lit only by the flickering TV.
 
-[[Begin the haunting|Prologue]]
+Megan is curled on the couch in Ethan’s hoodie and tiny shorts, pretending to scroll.
+
+You bring two mugs of hot chocolate, sit right beside her, thigh to thigh.
+
+<<speech "ryan">>Couldn’t sleep either?<</speech>>
+
+She smiles shyly and takes the mug.
+
+You set yours down, gently tuck hair behind her ear.
+
+<<speech "ryan">>You’ve been biting your lip all day. It’s driving me insane.<</speech>>
+
+You lean in and kiss her—slow, warm, gentle.  
+She melts instantly, a tiny helpless sound escaping.
+
+You pull the blanket over both of you.  
+Your hand finds her bare knee, then slides slowly up her thigh.  
+She parts her legs on her own.
+
+Your fingers brush the soaked cotton between her legs.
+
+<<speech "ryan">>So wet already… feels nice, doesn’t it?<</speech>>
+<<speech "megan">>…so nice…<</speech>>
+
+You slip inside her shorts and panties, one finger gliding through her slick folds, circling her clit slowly.
+
+She clings to you, hips rocking, soft whimpers muffled against your neck.
+
+You keep her on the edge forever, kissing her through every tremble.
+
+<<speech "ryan">>I’m going to turn Ethan into our perfect little toy. You want that, don’t you?<</speech>>
+
+She stiffens, then moans as you press harder.
+
+<<speech "megan" broken>>Yes… God, yes…<</speech>>
+
+You give her the longest, sweetest orgasm she’s ever had, swallowing her cries with another kiss.
+
+Afterward she curls into your chest, trembling, ruined.
+
+<<speech "ryan">>Good girl. That was just our first secret.<</speech>>
+
+<<set $broGFquestready to 2>>
+
+<div style="color:#ff69b4;font-size:2em;margin-top:50px;">
+She’s terrified. She’s soaked. She’s already yours.
+</div>
+
+[[Tomorrow night…|House Hub]]
 </div>
 
 
-:: Player Room {"position":"675,750","size":"100,100"}
+:: Megan Quest 2 {"position":"3300,1300","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff69b4;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#440033);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 70px #ff69b4;">MEGAN LEVEL 2 – HER CONDITION</span>
+<br><br>
+<img src="img/megan/q21.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 70px #ff69b4;margin-bottom:30px;">
+
+Midnight. The house is dead quiet.  
+Megan slips downstairs wearing only Ethan’s old T-shirt, nothing underneath, thighs already trembling.
+
+She stops in front of you on the couch.
+
+<<speech "megan">>I… I thought about what you said.<</speech>>
+<<speech "megan">>I’m scared. And I feel awful. But…<</speech>>
+
+She climbs into your lap, straddling you, hands trembling on your shoulders.
+
+<<speech "megan">>If we really do this… if I help you break Ethan…<</speech>>
+<<speech "megan" whisper, cheeks burning>>…you have to keep making me feel like last night.  
+Every single time. No matter what we do to him, you pleasure me first. That’s my only condition.<</speech>>
+
+You grin like a wolf.
+
+<<speech "ryan">>Deal.<</speech>>
+
+You hook your fingers in the hem of the T-shirt and peel it up and off in one motion.  
+She stands naked in the dim TV glow, nipples hard, goosebumps racing over her skin.
+
+You pull her forward until she’s straddling your lap, then slide down onto the carpet between her feet.
+
+<<speech "ryan">>Spread.<</speech>>
+
+She obeys instantly, legs shaking as she widens her stance.
+
+<img src="img/megan/q22.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 70px #ff69b4;margin-bottom:30px;">
+
+You start slow: soft kisses up the inside of one thigh, then the other, skipping where she needs you most.  
+She whimpers, tries to rock forward. You pin her hips to the couch edge with firm hands.
+
+<<speech "ryan" against her skin>>No rushing. You set the price. I’m just paying it.<</speech>>
+
+You finally drag your tongue up her slit in one long, deliberate lick.  
+She jolts like she’s been shocked, a broken cry escaping before she slaps a hand over her mouth.
+
+You don’t let her hide. You pull her hand away and lock it behind her back with yours.
+
+<<speech "ryan">>Let me hear how much you’re selling him for.<</speech>>
+
+<img src="img/megan/q23.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 70px #ff69b4;margin-bottom:30px;">
+
+Then you devour her.
+
+Slow, filthy circles around her clit.  
+Long licks that end with the flat of your tongue pressing hard.  
+Two fingers sliding deep, curling, stroking that spot inside until her thighs clamp around your head.
+
+Every time she gets close you back off, blowing cool air over her soaked pussy until she’s sobbing your name.
+
+<<speech "megan" wrecked>>Please… Ryan please don’t stop… I’ll do anything…<</speech>>
+
+You suck her clit into your mouth and hum.  
+She comes instantly, hard, hips bucking so violently you have to hold her down.  
+You don’t stop. You keep licking softly through every aftershock until she’s twitching and oversensitive, tears streaming.
+
+<img src="img/megan/q24.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 70px #ff69b4;margin-bottom:30px;">
+
+When you finally pull back her legs give out.  
+You catch her, ease her down onto the couch, and let her collapse against your chest, shaking and gasping.
+
+She’s still trembling when she finally speaks, voice raw:
+
+<<speech "megan" hoarse, blissful>>Okay… I’m in.  
+Tell me how we start with him.<</speech>>
+
+<<set $broGFtier to 2>>
+<<set $broGFquestteady to 0>>
+<<set $brotherTrapsLocked to false>>
+<<set $time += 1>>
+
+<div style="color:#ff69b4;font-size:1.8em;margin-top:50px;">
+She just traded her boyfriend’s masculinity for the best orgasm of her life.  
+And she’s already impatient for the next payment.
+</div>
+[[Let the real games begin|House Hub]]
+</div>
 
 
+:: Mother Quest 1 {"position":"2525,125","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#001);">
 
-<img src="img/3.jpg">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 30px #0ff;">LEVEL 1 – THE SEED</span>
+<br><br><br>
+The next morning.
+Lydia wakes before the alarm, strangely restless.  
+She pads into the master bathroom in her silk robe, hair tousled, eyes still soft with sleep.  
+The perfume bottle waits exactly where it always does.
+<img src="img/mother/q11.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She smiles at her little private smile (the one she’s had since college), lifts the crystal stopper, and spritzes once on each wrist, once at the hollow of her throat, and (on impulse) once more just above the swell of her breasts.
+The mist settles on her warm skin.
+One heartbeat.  
+Two.
+<<speech "lydia">>…oh.<</speech>>
+Her pupils blow wide, black swallowing hazel.  
+A violent, liquid heat detonates low in her belly and surges downward so fast her knees buckle.  
+<img src="img/mother/q12.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She grips the marble counter with both hands, gasping, robe slipping off one shoulder.
+<<speech "lydia">>What… what the hell…?<</speech>>
+Her nipples stiffen instantly, aching against the silk.  
+Between her thighs she is suddenly, shamefully soaked — slickness coating her inner lips, dripping down one leg.
+<img src="img/mother/q13.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+<<speech "lydia">>It’s just a hot flash… menopause… something…<<i>>oh god<</i>><</speech>>
+She tries to laugh. It comes out strangled.
+Her reflection stares back — flushed cheeks, parted lips, eyes wild.  
+She watches her own hand drift up, almost against her will, to press the fabric between her breasts where the perfume landed.  
+<img src="img/mother/q14.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She inhales again, deeper this time, chasing the scent.
+<<speech "lydia">>Why does it smell so…<<i>>good<</i>>…?<</speech>>
+Another wave hits. Her hips jerk forward involuntarily, grinding against nothing.  
+A soft, desperate whimper escapes before she clamps her mouth shut.
+Somewhere in the house a door closes — Ryan leaving for class.  
+The sound of his name in her mind is enough to make her clit throb so hard she has to bite her lip until she tastes blood.
+<img src="img/mother/q15.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She forces herself upright, legs shaking, and stumbles to the shower on, slamming it behind her.  
+Cold water. She needs cold water.
+But even under the icy spray she can still smell it.  
+Still feel it.  
+Still taste something dark and metallic and<<i>>male<</i>> on the back of her tongue.
+<<speech "lydia">>This is insane… this is insane…<</speech>>
+<img src="img/mother/25.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+She whispers it like a prayer, but her fingers are already sliding between her folds, frantic, chasing a release that feels<<i>>wrong<</i>> and<<i>>perfect<</i>> at the same time.
+You watch from the mirror, unseen, smiling with Ryan’s mouth.
+<<speech "ryan">>Good morning, Mommy.<</speech>>
+<<speech "ryan">>Welcome to the rest of your life.<</speech>>
+
+<<set $motherQuestReady to 0>>
+[[Continue|House Hub]]
+</div>
+
+
+:: Mother Quest 10 {"position":"3100,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:3;">
+<img src="img/quest10.jpg" style="border-radius:20px;box-shadow:0 0 50px #f0f;max-width:900px;">
+<br><br>
+She crawls to every room wearing only her permanent collar.<br>
+She thanks you for breaking her.<br>
+The house is finally yours.
+<br><br>
+Final quest complete. She will never be human again.
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue your revenge|House Hub]]
+</div>
+
+
+:: Mother Quest 2 {"position":"2425,125","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#002);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 40px #0ff;">LEVEL 2 – ADDICTION FORMS</span>
+<br><br><br>
+Late afternoon. The house is quiet.
+<img src="img/mother/q21.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+Lydia is in the kitchen, chopping vegetables for dinner, humming nervously.  
+The perfume clings to her skin like a second heartbeat.  
+She’s been wet since breakfast.
+Her phone buzzes on the counter. 
+<img src="img/aunt/21.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;"> 
+Unknown number. No name. Just a text:
+Unknown: You need to see this.
+A video link.
+
+She frowns, wipes her hands, thumbs it open.
+<img src="img/mother/q24.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+The screen fills with a woman on her knees, naked, leather collar tight around her throat.  
+A man circles her slowly, crop in hand.  
+The woman’s eyes are glassy, lips parted, drool shining on her chin.
+A low, velvet voice begins — hypnotic, looping, impossible to ignore.
+Hypno voice:  
+“You want to be owned…  
+You want to kneel…  
+You want to feel the collar click shut and know there is no going back…”
+<img src="img/mother/q22.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+The crop lands. The woman moans like it’s pleasure itself.
+Lydia’s breath catches.
+<<speech "lydia">>What the fuck…<</speech>>
+She tries to close the video.  
+Her thumb hovers.  
+The hypno voice keeps talking, burrowing.
+Hypno voice:  
+“Every time you fight it, you lose a little more…  
+Every time you watch, you fall a little deeper…”
+Another crack of the crop.  
+The woman on screen whimpers “thank you, Master.”
+<img src="img/mother/q23.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 50px #0ff, inset 0 0 30px #00f;margin-bottom:30px;">
+Lydia’s nipples are suddenly so hard they hurt.  
+A pulse throbs between her legs, violent, undeniable.
+<<speech "lydia">>No… no no no…<</speech>>
+She finally manages to close the app.  
+The screen goes black, but the voice keeps echoing in her head.
+She drops the knife.  
+It clatters on the cutting board.
+<<speech "lydia">>I need… I need a minute…<</speech>>
+She practically runs to the downstairs bathroom, locks the door, yanks her yoga pants down.
+She’s soaked.  
+Absolutely drenched.
+<<speech "lydia">>Oh god, what is wrong with me…?<</speech>>
+<video src="img/mother/q25.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She leans against the sink, fingers sliding inside instantly, frantic.  
+Her other hand claws at her throat where the phantom collar should be.
+In her mind the video plays on loop: the woman’s broken eyes, the crop, the word “Master.”
+She comes in less than a minute, biting her own forearm to stay quiet, hips bucking against her hand like she’s being fucked.
+Tears mix with sweat on her cheeks.
+<<speech "lydia">>This isn’t me… this isn’t…<<i>>fuck<</i>>…<</speech>>
+<video src="img/mother/q26.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She comes again, harder, legs shaking so badly she almost falls.
+When it’s over she stares at her reflection — flushed, wrecked, terrified.
+Her phone buzzes again in the kitchen.
+She already knows she’s going to watch it again tonight.
+You smile from Ryan’s bedroom upstairs.
+<<speech "ryan">>That’s right, Mommy. Close it all you want<</speech>>
+<<set $motherTier to 2>><<set $motherQuestReady to 0>>
+[[The addiction takes root|House Hub]]
+</div>
+
+
+:: Mother Quest 3 {"position":"3800,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She starts wearing the collar openly at night.<br>
+She doesn’t remember putting it on.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue the fall|House Hub]]
+</div>
+
+
+:: Mother Quest 4 {"position":"3700,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She sends you a nude “by accident”.<br>
+She begs you to delete it.<br>
+You don’t.
+<br><br>
+Tier 2 complete → Tier 3 unlocked
+<<set $motherTier to 3>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[She is yours now|House Hub]]
+</div>
+
+
+:: Mother Quest 5 {"position":"3600,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She calls you “Master” for the first time.<br>
+No one else is home.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Mother Quest 6 {"position":"3500,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She greets you at the door on her knees, naked except for the collar.<br>
+The family is minutes away.
+<br><br>
+Tier 3 complete → Tier 4 unlocked
+<<set $motherTier to 4>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[The house is no longer theirs|House Hub]]
+</div>
+
+
+:: Mother Quest 7 {"position":"3400,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She cooks dinner naked while the family eats.<br>
+No one says a word.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Continue|House Hub]]
+</div>
+
+
+:: Mother Quest 8 {"position":"3300,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She signs the slave contract with her mouth full.<br>
+The pen is still warm.
+<br><br>
+Tier 4 complete → Tier 5 unlocked
+<<set $motherTier to 5>>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[Total ownership achieved|House Hub]]
+</div>
+
+
+:: Mother Quest 9 {"position":"3200,50","size":"100,100"}
+<div style="text-align:center;background:#000;color:#f0f;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;">
+She begs you to breed her in the living room while the family watches TV.<br>
+They pretend not to notice.
+<br><br>
+<<set $time += 1>>
+<<set $motherQuestReady to 0>>
+<br><br>
+[[One last step|House Hub]]
+</div>
+
+
+:: Place Aunt t1 Bathroom {"position":"2400,1300","size":"100,100"}
+<div style="text-align:center;background:#000;color:#5d3;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<video src="img/aunt/11.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>Late morning.  
+The plumber is on his knees in the master bathroom, fixing the leaky pipe under the sink.
+She’s watching the way his back muscles flex.  
+The way his jeans stretch tight when he bends.  
+
+Her mind drifts.
+
+In her head the scene is already happening:
+
+<<speech "vanessa">>You’re going to fuck me right here first.<</speech>>
+<video src="img/aunt/12.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She sinks to her knees, pulls his cock out, and takes him deep down her throat — wet, messy, gagging herself on him while he groans.
+<video src="img/aunt/13.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Then she stands, grabs his hand, and drags him to the marital bed — Marcus’s side still warm.
+<video src="img/aunt/14.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She pushes him down, climbs on top, and rides him missionary, slow and deep, moaning loud enough for the neighbors to hear.
+
+<<speech "vanessa">>Feel how wet I am?<br>Marcus hasn’t made me this wet in fifteen years.<br>His little dick couldn’t even find the spot you’re destroying right now.<</speech>>
+<video src="img/aunt/15.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She flips to her side, pulls him behind her, one leg thrown over his hip so he can pound her sideways — skin slapping, headboard banging.
+
+<<speech "vanessa">>That’s it… fuck me like my husband never could.<br>He’s probably jerking his pathetic four inches right now thinking about me.<br>He knows he’s not man enough for this pussy anymore.<</speech>>
+
+The bedroom door creaks open in the fantasy.
+
+Marcus stands there, mouth open, watching the plumber rail his wife on their marital sheets.
+
+Vanessa locks eyes with him and smiles.
+
+<<speech "vanessa">>Don’t just stand there, cuck — watch a real man finish what you never could.<</speech>>
+<video src="img/aunt/16.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+The plumber pulls out, strokes once, twice, and paints thick ropes across her tits while she laughs in Marcus’s face.
+
+<<speech "vanessa">>Look at that load, baby.<br>That’s what a real man leaves on his woman.<</speech>>
+
+Reality snaps back.
+
+The plumber stands, wipes his hands on a rag.
+
+“All fixed, ma’am.”
+<img src="img/aunt/27.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+Vanessa is flushed, thighs pressed together so hard the stool creaks, robe soaked between her legs.
+
+She signs the invoice with a trembling hand.
+
+<<speech "vanessa">>Thank you… you have no idea how much I needed that.<</speech>>
+
+The plumber leaves.
+
+She stays on the stool a long time, grinding slowly against the edge, replaying every filthy second of the fantasy — especially the part where her husband watched and did nothing.
+
+<<speech "ryan">>That one’s going to live in her head forever.<br>And Marcus is going to pay for it every single night.<</speech>>
+<<set $auntCorr += 5>><<set $time += 1>><<run placeAuntTrap("t1 Bathroom", 5)>>
+<<if $auntCorr % 40 == 0 && $auntQuestReady < ($auntCorr / 40)>><<set $auntQuestReady to ($auntCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Aunt t1 Bedroom {"position":"2300,1300","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<video src="img/aunt/41.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You opened the cabinet above Marcus’s side of the sink.  
+His orange prescription bottle sat there like it had for years: “Daily Multivitamin – Take one every morning”.
+
+<<speech "ryan">>Not anymore.<</speech>>
+
+You unscrewed the cap. Thirty identical capsules.
+
+One by one you replaced them with the custom ones you ordered from a discreet Eastern-European pharmacy:  
+Limp Dick Pill
+2 mg micronized estradiol + 5 mg tadalafil blocker.  
+Perfectly encapsulated, perfectly identical.
+<video src="img/aunt/42.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You even kept the cotton ball on top.
+
+<<speech "ryan">>slowly shrinking balls and vanishing erections.<br>Fourteen days of a very, very frustrated wife.<br>Let’s see how long the marriage lasts when the husband can’t get it up at all.<</speech>>
+<video src="img/aunt/43.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<hr style="border-color:#ba55d3;"><br>
+<span style="color:#ff00ff;font-size:1.8em;">next Morning</span><br><br>
+
+Another slammed door.  
+Vanessa storms down the hallway in nothing but an open silk robe, nipples straining against the fabric, face flushed with rage and weeks of denied orgasms.
+<video src="img/aunt/44.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She’s been sleeping in the guest room for eight straight nights “because Marcus snores too loud”.
+
+Tonight he tried again.  
+Reached for her.  
+Nothing happened.
+
+<<speech "vanessa">>I swear to God if he touches me one more time with that limp fucking noodle I’m going to scream.<</speech>>
+
+She doesn’t know it’s impossible now.  
+Doesn’t know his testosterone is crashing, his prostate swelling, his cock slowly forgetting how to be hard.
+
+She only knows she’s thirty-nine, gorgeous, and hasn’t been properly fucked in weeks.
+
+She passes Ryan’s door without seeing the faint smile on your borrowed face.
+
+<<speech "ryan">>Keep climbing those walls, Auntie.<br>You’re almost ready to beg.<</speech>><<set $auntCorr += 5>><<set $time += 1>><<run placeAuntTrap("t1 Bedroom", 5)>>
+<<if $auntCorr % 40 == 0 && $auntQuestReady < ($auntCorr / 40)>><<set $auntQuestReady to ($auntCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Aunt t1 Kitchen {"position":"2500,1300","size":"100,100"}
+<div style="text-align:center;background:#000;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/aunt/21.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+Her phone lights up — unknown number, no preview.
+
+She opens it.
+
+A 45-second vertical video begins instantly, no pause button, no volume control.
+<video src="img/aunt/23.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Purple spirals spin slowly.  
+Layered female moans echo like sirens.  
+<video src="img/aunt/24.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Flashes of latex-clad goddesses: boots on cages, gloved hands stroking denied cocks, red lips whispering ownership.
+
+Your voice — low, calm, intimate — layered over everything:
+
+<<speech "ryan">>Deep down you already know you were born for this.<br>The power. The cruelty. The worship.<br>All you have to do is stop pretending you don’t want it.<</speech>>
+
+A final frame: a woman in full leather, crop raised, smiling like a queen.
+
+Then black.  
+Video deleted forever.
+
+<video src="img/aunt/22.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+Vanessa’s breath is shallow.  
+Her nipples are so hard they ache.  
+She immediately re-opens the empty message thread and watches the cached version again.  
+<video src="img/aunt/25.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Then a third time, one hand unconsciously sliding between her thighs, pressing hard.
+
+<<speech "vanessa">>Holy fuck… holy fuck…<</speech>>
+
+She doesn’t notice the wet spot growing on her panties.
+
+<<speech "ryan">>That’s the first crack, Auntie.<br>Welcome to the rest of your life.<</speech>>
+
+<<set $auntCorr += 5>><<set $time += 1>><<run placeAuntTrap("t1 Kitchen", 5)>>
+<<if $auntCorr % 40 == 0 && $auntQuestReady < ($auntCorr / 40)>><<set $auntQuestReady to ($auntCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Aunt t1 Livingroom {"position":"2600,1300","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+3:27 p.m. Living room. Sunlight pours over the couch.
+
+Vanessa is sprawled sideways, legs over the armrest, scrolling mindlessly.
+
+Your message arrives:
+
+ <img src="img/aunt/31.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">— Ryan’s cock, thick, heavy, perfectly lit, a single bead of precum glistening at the tip.  
+<video src="img/aunt/32.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Caption: fuck, wrong chat… sorry Auntie!!
+
+Twenty seconds later:  
+<img src="img/aunt/33.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+
+She freezes.  
+Screen doesn’t dim for a full seventy-four seconds.
+
+Her thumb hovers.  
+Then zooms.
+
+<<speech "vanessa">>Jesus fucking Christ…<</speech>>
+
+She finally types “deleted ❤️” with shaking fingers…  
+<img src="img/aunt/34.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+but not before long-pressing and saving it to a hidden album titled “Random”.
+
+
+<hr style="border-color:#0ff;">
+That night, 1:11 a.m.  
+Guest bedroom. Lights off.
+
+She’s under the covers, phone brightness turned all the way down, your photo open beside a ten-year-old dick pic Marcus once sent her.
+<img src="img/aunt/35.gif" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+The difference is obscene.  
+Length. Girth. The way yours curves slightly upward like it was built to ruin women.
+
+She zooms in until the pixels blur, mouth open, breathing ragged.
+
+She starts imagining what it would feel like to take it all inside her mouth.
+<video src="img/aunt/36.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "vanessa">>It’s… it’s not even fair…<</speech>>
+
+Her fingers are already between her legs before she realizes she’s started.
+
+<<speech "ryan">>That comparison is branded on her brain now.<br>She’ll never unsee it.<</speech>><<set $auntCorr += 5>><<set $time += 1>><<run placeAuntTrap("Livingroom", 5)>>
+<<if $auntCorr % 40 == 0 && $auntQuestReady < ($auntCorr / 40)>><<set $auntQuestReady to ($auntCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Father Trap panty1 {"position":"2700,975","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/bathroom.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Victor is alone in the bathroom, brushing his teeth.
+<video src="img/father/11.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You left Lydia’s black lace panties — still damp from this morning — folded neatly on the counter with a single drop of Ryan’s cum drying in the crotch.
+He sees them. Freezes.
+<<speech "victor">>What the… Lydia?<</speech>>
+He picks them up to throw them in the hamper.  
+The scent hits him like a fist — perfume, sex, something<<i>>younger<</i>>.
+His hand trembles.  
+<img src="img/father/12.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+He brings them closer.  
+Closer.
+One involuntary inhale.
+
+<br><br><hr style="border-color:#0ff;"><br>
+<span style="color:#ff3366;font-size:1.6em;">That same night…</span><br><br>
+<img src="img/father/13.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Victor sits on the edge of the bathtub, panties pressed to his face, jerking off furiously while whispering “I’m sorry, I’m sorry” over and over.  
+He comes into the lace with a broken sob.
+<<speech "ryan">>Welcome to the beginning of the end, Dad.<</speech>>
+<<set $fatherCorr += 5>><<set $time += 1>><<run placeFatherTrap("panty1", 5)>>
+<<if $fatherCorr % 40 == 0 && $fatherQuestReady < ($fatherCorr / 40)>><<set $fatherQuestReady to ($fatherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Father Trap sextape1 {"position":"2400,975","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/father/31.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Saturday morning. The family is having breakfast.
+Lydia is at the stove in her robe, humming.  
+Victor sits at the island with his coffee, trying to act normal.
+<img src="img/father/32.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+You walk in wearing only boxer briefs — morning wood impossible to hide — and casually pour yourself orange juice.
+Victor’s eyes flick down for half a second, then snap away, face reddening.
+<img src="img/father/33.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+You “accidentally” brush past Lydia on your way to the fridge, letting your erection press against her hip for a full two seconds.  
+She freezes, cheeks pink, but says nothing.
+Victor sees everything.
+<<speech "ryan">>Morning, Dad. Sleep okay?<</speech>>
+<<speech "victor">>Put some clothes on, Ryan.<</speech>>
+His voice cracks on your name.
+You sit directly across from him, legs spread, and take a long drink of juice, and smirk.
+His own cock twitches traitorously under the table.
+<img src="img/father/34.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Lydia pretends not to notice, but her nipples are hard against the silk robe.
+<<set $fatherCorr += 5>><<set $time += 1>><<run placeFatherTrap("kitchen1", 5)>>
+<<if $fatherCorr % 40 == 0 && $fatherQuestReady < ($fatherCorr / 40)>><<set $fatherQuestReady to ($fatherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Father Trap tvhypno1 {"position":"2600,975","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/father/21.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Evening. Victor is alone, flipping channels.
+You rigged the smart TV last night.  
+Channel 666 is now a 24-hour cuckold hypno loop disguised as “snow”.
+He lands on it by “accident”.
+<img src="img/father/22.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+A soothing voice:  
+“You are not enough…  
+Watching is pleasure…  
+Thank the bull…  
+Thank him for taking what’s his…”
+<img src="img/father/23.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Spiral visuals. Flashing images of collared wives, broken husbands, younger men breeding.
+Victor stares, remote forgotten in his hand.
+<br><hr style="border-color:#0ff;"><br>
+<span style="color:#ff3366;font-size:1.6em;">That night…</span><br><br>
+<img src="img/father/24.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+He jerks off in the dark to the spiral, hating himself, coming harder than he has in years.  
+The words “thank you” slip out loud when he finishes.
+<<speech "ryan">>Good boy.<</speech>><<set $fatherCorr += 5>><<set $time += 1>><<run placeFatherTrap("tvhypno1", 5)>>
+<<if $fatherCorr % 40 == 0 && $fatherQuestReady < ($fatherCorr / 40)>><<set $fatherQuestReady to ($fatherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Father Trap vr1 {"position":"2500,975","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/father/41.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+Night. Victor is snoring in the main bedroom, dead to the world.
+You slip the prepared VR headset over his sleeping eyes — wireless, silent, already queued to the 8-hour cuckold hypno loop you made.
+<<speech "ryan">>Sweet dreams, Dad.  
+You’re going to wake up a very different man.<</speech>>
+<img src="img/father/42.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+The video starts: endless scenes of wives begging younger bulls, 
+<video src="img/father/43.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+husbands forced to watch, voices whispering “you deserve this… you love this… thank him for taking her…
+<br><br><hr style="border-color:#0ff;"><br>
+<span style="color:#ff3366;font-size:1.6em;">The next morning…</span><br><br>
+Victor wakes up groggy, headset gone, no memory of putting it on.  
+He rubs his eyes, but something feels… off.
+<img src="img/father/44.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+He looks at Lydia getting dressed and feels an immediate, shameful twitch in his pants.
+<<speech "victor">>…why am I hard?<</speech>>
+The hypno voice echoes in his head:  
+“Watching is your purpose… thank the bull…”
+He shakes it off, red-faced, but the seed is planted.
+<<speech "ryan">>One night down. Nine more to go.<</speech>>
+<<set $fatherCorr += 5>><<set $time += 1>><<run placeFatherTrap("vr1", 5)>><<if $fatherCorr % 40 == 0 && $fatherQuestReady < ($fatherCorr / 40)>><<set $fatherQuestReady to ($fatherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Mother Trap boxers1 {"position":"3600,400","size":"100,100"}
+You hide your used boxers in her laundry…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("boxers1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap cabinet1 {"position":"4000,400","size":"100,100"}
+You hang the collar from the cabinet handle…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("cabinet1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap choker1 {"position":"3200,400","size":"100,100"}
+While she sleeps, you place a soft velvet choker on her pillow…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("choker1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap collar1 {"position":"3800,400","size":"100,100"}
+In the dead of night you lock a real leather collar around her throat…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("collar1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap cooknaked1 {"position":"3700,400","size":"100,100"}
+She cooks naked, cum dripping down her thighs…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("cooknaked1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap couch1 {"position":"4400,400","size":"100,100"}
+You fuck her on the couch with the door wide open…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("couch1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap crawl1 {"position":"4300,400","size":"100,100"}
+You make her crawl naked across the living room…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("crawl1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap creamer1 {"position":"2475,800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/41.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Morning. Lydia is still asleep. The house is empty.
+You open the fridge. Her vanilla coffee creamer waits on the door shelf.
+<<speech "ryan">>Two splashes every morning, right, Mom?<</speech>>
+<img src="img/mother/42.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+You jerk Ryan’s cock over the open bottle, letting three thick ropes shoot straight in.  
+Shake. Perfect.
+<<speech "ryan">>From now on you’ll start every day drinking my cum… and you’ll love it.<</speech>>
+
+<hr style="border-color:#0ff;">
+<span style="color:#f0f;font-size:1.6em;">Minutes later…</span><br><br>
+Lydia pads into the kitchen in her robe, pours coffee, adds the creamer.
+First sip.
+Her eyes flutter shut. A soft, pornographic moan slips out before she can stop it.<br>
+<img src="img/mother/43.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "lydia">>Oh… oh my god… why does it taste so…<<i>>perfect<</i>> today…?<</speech>>
+She takes another, bigger sip, licking her lips.
+<<speech "lydia">>Mmm…<<i>>more<</i>>…<</speech>>
+Victor looks up from his phone, confused.  
+She blushes crimson, but her tongue keeps chasing the flavour on the rim of the mug.<br>
+<<speech "ryan">>That’s it. Swallow every drop like the good little slut you’re becoming.<</speech>>
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("creamer1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Mother Trap gel1 {"position":"2375,800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/21.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Steam fills the bathroom. Lydia is in the shower, humming.
+You slip in. Her expensive floral body wash waits on the shelf.
+<<speech "ryan">>You’re going to wash every inch of yourself with me today.<</speech>>
+You pump Ryan’s cock until it’s dripping, then squeeze a thick stream straight into the bottle. Shake. It clears.
+<img src="img/mother/22.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "ryan">>Every time you lather those perfect tits, that ass, between your legs… you’ll be rubbing me into your skin.<</speech>>
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">That same morning in the shower…</span><br><br>
+The gel foams between her palms. She runs it over her breasts, down her stomach, between her thighs.
+<br>
+<img src="img/mother/23.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Her breath hitches.
+<<speech "lydia">>What… what is this feeling…?<</speech>>
+Her knees buckle. One hand shoots to the wall, the other keeps rubbing — slower, deliberate circles.
+<img src="img/mother/24.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "lydia">>Oh god… why am I…<<i>>so<</i>> wet…?<</speech>>
+Water streams down her body, but she’s trembling for a completely different reason.
+<<speech "ryan">>Because you’re mine now.  
+Every shower, every touch, every breath — mine.<</speech>>
+She slides down the tile, legs spread, gasping, unable to stop.
+<img src="img/mother/25.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("gel1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Mother Trap island1 {"position":"3900,400","size":"100,100"}
+You bend her over the island at 3 a.m.…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("island1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap kneel1 {"position":"3300,400","size":"100,100"}
+She kneels in the shower and washes you every day…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("kneel1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap perfume1 {"position":"2675,800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/11.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+3:17 a.m. The house is dead quiet except for Victor’s wet snoring.
+You glide into their bedroom like smoke. Lydia lies on her back, silk nightgown slipped off one shoulder, lips parted, chest rising slow.
+<br>
+<img src="img/mother/12.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<br>
+<<speech "ryan">>Still so beautiful when you don’t know you’re being watched, Mom<</speech>>
+Her Chanel No.5 sits on the vanity, moonlight glinting off the crystal.
+<<speech "ryan">>Remember when you used to spray this on your wrists and let me smell your pulse? Innocent little Ryan…<</speech>>
+You unscrew the cap. The scent of jasmine and rose floods the air — her scent.
+<<speech "ryan">>Time to add a new note.<</speech>>
+<img src="img/mother/13.gif" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+One thick drop of cum falls from Ryan’s stolen cock into the bottle. It vanishes instantly, swallowed by the perfume like it was always meant to be there.
+You swirl it gently. The liquid clouds, then clears — perfect.
+You lean over her sleeping face, lips almost brushing her ear.
+<<speech "ryan">>Sleep tight, Mommy. You’re going to dream about cock tonight.<</speech>>
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">The next morning…</span><br><br>
+Lydia stands at the mirror in her robe, hair tousled from sleep.  
+<img src="img/mother/14.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+She picks up the bottle, smiles at the familiar weight, and spritzes her throat, wrists, the hollow between her breasts.
+The scent hits her — richer today, warmer, almost… alive.
+<<speech "lydia">>Mmm… why does it smell so good today…?<</speech>>
+<img src="img/mother/15.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+A sudden flush climbs her neck. Her nipples stiffen against the silk.  
+She freezes, bottle still in hand, thighs pressing together involuntarily.
+<<speech "lydia">>What the…?<</speech>>
+Her reflection stares back, pupils blown wide.  
+She bites her lip, confused, but doesn’t stop breathing it in.
+<<speech "ryan">>That’s it… breathe me in.  
+You’re already addicted and you don’t even know it.<</speech>>
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("perfume1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Mother Trap permanent1 {"position":"4600,400","size":"100,100"}
+You engrave “Ryan’s” into the steel collar and lock it forever…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("permanent1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap photo1 {"position":"4500,400","size":"100,100"}
+You cum all over their wedding photo and leave it on the nightstand…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("photo1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap press1 {"position":"4100,400","size":"100,100"}
+You press against her back while she cooks…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("press1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap remote1 {"position":"2575,800","size":"100,100"}
+<div style="text-align:center;background:#000;color:#0ff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+<img src="img/mother/31.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+Evening. The family is watching some brain-dead sitcom. Lydia sits on the couch in yoga pants, legs tucked under her.
+She gets up for more wine. The remote lies on the coffee table, still warm from her hand.
+<<speech "ryan">>Every time you touch this from now on… you’ll be touching me.<</speech>>
+You stroke Ryan’s cock once, twice. A fat drop of pre-cum beads, then smears across the play/pause button until it’s invisible.
+<br>
+<img src="img/mother/32.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<<speech "ryan">>Volume up, Mom? Or do you want me louder?<</speech>>
+You place it back exactly.
+She returns, flops down, grabs the remote without looking.
+Her thumb slides straight through your gift.
+<br>
+<img src="img/mother/33.jpg" style="width:100%;max-width:900px;height:auto;border-radius:15px;box-shadow:0 0 30px #0ff;margin-bottom:20px;">
+<hr style="border-color:#0ff;"><br>
+<span style="color:#f0f;font-size:1.6em;">Later that same night…</span><br>
+The show ends. Lydia keeps rubbing her thumb in slow circles, distracted.
+<<speech "lydia">>Why is my hand tingling…?<</speech>>
+A slow heat spreads from her palm up her arm, pooling between her legs.  
+She shifts, pressing her thighs together again and again.
+Victor glances over.
+<<speech "victor">>You okay, hon?<</speech>>
+<<speech "lydia">>Y-yeah… just a little warm.<</speech>>
+She laughs nervously, but her free hand has already slipped between her legs “to adjust her pants.”
+<video src="img/mother/34.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "ryan">>That’s right. Rub it in deeper.<</speech>>
+<<set $motherCorr += 5>><<set $time += 1>><<run placeMotherTrap("remote1", 5)>><<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>><<set $motherQuestReady to ($motherCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Mother Trap showerwalk1 {"position":"3400,400","size":"100,100"}
+You walk in shirtless during her shower…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("showerwalk1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap tablecollar1 {"position":"3100,400","size":"100,100"}
+You drape the collar over the coffee table…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("tablecollar1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap thigh1 {"position":"4200,400","size":"100,100"}
+You sit too close and press your thigh against hers…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("thigh1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Mother Trap towel1 {"position":"3500,400","size":"100,100"}
+You leave a cum-soaked towel on the rack…
+<<set $motherCorr += 5>>
+<<set $time += 1>>
+<<run placeMotherTrap("towel1", 5)>>
+<<if $motherCorr % 40 == 0 && $motherQuestReady < ($motherCorr / 40)>>
+  <<set $motherQuestReady to ($motherCorr / 40)>>
+<</if>>
+[[← House Hub|House Hub]]
+
+
+:: Place Uncle t1 Bathroom {"position":"2400,1500","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+
+Saturday, 10:03 a.m.
+<img src="img/uncle/21.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 60px #ba55d3;margin-bottom:40px;">
+You and Vanessa are in the kitchen, whispering and laughing like conspirators.
+
+You give the final nod.
+<video src="img/uncle/22.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She calls her friends
+
+Emergency girls’ coffee. Get here NOW. Bring phones and your meanest mouths.
+
+Fourteen minutes later the doorbell rings three times — her two hottest, cruelest friends, already buzzing with anticipation.
+
+Marcus, oblivious, steps into the shower upstairs.
+
+Vanessa counts to thirty, then leads the charge.
+
+The four of the friends burst into the steaming bathroom, phones up, flash on, laughing like hyenas.
+<img src="img/uncle/23.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 60px #ba55d3;margin-bottom:40px;">
+<<speech "vanessa">>SURPRISE, HONEY!<</speech>>
+
+Curtain rips open.
+
+Marcus screams — high, broken — and tries to cover himself with both hands.
+
+The women descend.
+
+<<speech "friend1">>Oh my fucking god, is THAT it?!<</speech>>  
+<<speech "friend2">>I’ve seen bigger clits!<</speech>>  
+<<speech "vanessa">>Look at that pathetic little thing trying to get hard — it’s actually cute!<</speech>>
+
+<img src="img/uncle/24.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 60px #ba55d3;margin-bottom:40px;">
+
+They zoom in mercilessly, voices overlapping in a symphony of cruelty.
+
+<<speech "vanessa">>Smile for the group chat, baby! This is going viral in our book club!<</speech>>
+
+Marcus stands dripping, crimson from chest to hairline, mouth opening and closing soundlessly.
+
+Vanessa leans in until her lips almost brush his ear.
+
+<<speech "vanessa">>Every time you shower from now on, you’ll remember we all saw exactly how small you are.<</speech>>
+
+She blows him a kiss and slams the curtain shut.
+<video src="img/uncle/25.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+The women leave shrieking with laughter, already airdropping the video.
+
+That night Vanessa crawls into your bed, shows you the 4K clip on loop, and rides you while you both rewatch his humiliation.
+
+<<set $uncleCorr += 5>><<set $time += 1>><<run placeUncleTrap("Bathroom", 5)>>
+<<if $uncleCorr % 40 == 0 && $uncleQuestReady < ($uncleCorr / 40)>><<set $uncleQuestReady to ($uncleCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Uncle t1 Bedroom {"position":"2300,1500","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+That afternoon you hand Vanessa a matte-black gift box tied with a pink ribbon.
+
+<video src="img/uncle/41.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Inside: an 11-inch, thick, hyper-realistic silicone cock — veiny, heavy, terrifying.
+<img src="img/uncle/42.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 60px #ff00ff;margin-bottom:40px;">
+You watch her eyes go wide, pupils blown.
+
+<<speech "ryan">>For tonight.<br>Make sure he sees exactly what he can never give you.<</speech>>
+
+She bites her lip so hard it turns white, whispers:
+
+<<speech "vanessa">>I’m going to ruin him with this.<</speech>>
+
+<hr style="border-color:#ba55d3;"><br>
+<span style="color:#ff00ff;font-size:1.8em;">1:47 a.m. – Their bedroom</span><br><br>
+
+The door is cracked exactly four inches — just as you told her.
+
+Vanessa is on all fours on their marital bed, collar locked tight, back arched like an offering.
+
+<video src="img/uncle/43.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She’s already slick with lube and her own wetness, slamming the monstrous dildo into herself with long, brutal strokes — wet, filthy sounds echoing down the hallway.
+
+Marcus walks in for his charger and freezes.
+
+She doesn’t stop.  
+She speeds up.
+
+She locks eyes with him in the dresser mirror and smiles like a demon.
+
+<video src="img/uncle/44.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+She angles her hips so he can see every inch disappear inside her.
+
+<<speech "vanessa">>This is what a real cock feels like.<br>This is what makes me scream.<br>This is what you’ll never be.<</speech>>
+
+She never breaks eye contact.
+<video src="img/uncle/44.5.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She cums screaming — back bowing, toes curling, the dildo buried to the hilt — still staring straight at him.
+
+<<speech "vanessa">>Take a good look, baby.<br>This is the closest you’ll ever get to satisfying me again.<</speech>>
+
+She crawls forward, kisses the tip of the dildo right in front of his face, then kicks the door shut with her foot.
+<video src="img/uncle/45.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Two minutes later your phone buzzes:
+he’s on the couch crying like a bitch 😈  
+<img src="img/uncle/46.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 70px #ba55d3;margin-bottom:40px;">
+video attached — want me to ride you while we watch it tomorrow?
+
+<<set $uncleCorr += 5>><<set $time += 1>><<run placeUncleTrap("Bedroom", 5)>>
+<<if $uncleCorr % 40 == 0 && $uncleQuestReady < ($uncleCorr / 40)>><<set $uncleQuestReady to ($uncleCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Uncle t1 Kitchen {"position":"2600,1500","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+6:08 a.m.  
+The house is still dark. Only the under-cabinet lights glow in the kitchen.
+<video src="img/uncle/11.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+You finish into the crystal shot glass — four thick, pearly ropes.  
+You swirl it once so every inch of glass is coated, then walk to the hallway.
+
+Vanessa is already there in a silk robe that barely reaches mid-thigh, collar peeking above the neckline, eyes glittering with pure evil.
+
+You hand her the glass.
+<video src="img/uncle/12.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "ryan">>Make him drink every last drop, pet.<</speech>>
+
+She licks her lips, takes it like communion, and disappears.
+
+Marcus stumbles in five minutes later, hair wild, reaching blindly for his usual black coffee.
+
+Vanessa is already at the counter, smiling the sweetest wife-smile in the world.
+
+<<speech "vanessa">>Morning, baby. I made your coffee extra special today — new creamer I found. You’re going to love it.<</speech>>
+
+She tips the entire shot glass in, stirs slowly, deliberately, the thick white mixing perfectly with the dark roast.
+
+She hands him the mug.
+
+Marcus drinks without looking — big, trusting gulps.
+
+Gulp.  
+Gulp.  
+Gulp.  
+One last swallow that empties the mug.
+
+He smacks his lips, frowns slightly.
+<img src="img/uncle/13.gif" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #f33;margin-bottom:30px;">
+<<speech "marcus">>Huh… salty today. New brand?<</speech>>
+
+Vanessa locks eyes with you over his shoulder, biting her lower lip so hard it goes white.
+
+<<speech "vanessa">>Something like that.<</speech>>
+
+She has to lean against the counter to stop her knees from shaking.
+
+<<speech "ryan">>Good boy, Uncle Marcus.<br>First of many.<</speech>>
+
+<<set $uncleCorr += 5>><<set $time += 1>><<run placeUncleTrap("Kitchen", 5)>>
+<<if $uncleCorr % 40 == 0 && $uncleQuestReady < ($uncleCorr / 40)>><<set $uncleQuestReady to ($uncleCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Place Uncle t1 Livingroom {"position":"2500,1500","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:40px 20px;font-family:Courier New,monospace;line-height:2.8;">
+9:17 p.m. Living room lights low.
+<img src="img/uncle/31.jpg" style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 60px #ba55d3;margin-bottom:40px;">
+You’re lounging on the couch, phone up, recording discreetly.
+
+The “argument” starts exactly on cue — dishes, laundry, tone rising fast.
+
+Vanessa plays her part perfectly.
+<video src="img/uncle/32.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Then she goes for the kill.
+
+<<speech "vanessa">>Maybe if your dick wasn’t the size of my fucking pinky I wouldn’t be so goddamn frustrated every night of my life!<</speech>>
+<video src="img/uncle/33.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She starts making gestures with her hands as to  she feels inside her, then she asks Ryan to weigh in.
+<video src="img/uncle/34.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "vanessa">>Ryan, look! Look at what I’ve been stuck with for fifteen years!<</speech>>
+
+Marcus scrambles to cover himself, face purple, stammering.
+
+Vanessa keeps going, voice dripping venom.
+
+<<speech "vanessa">>Don’t bother hiding it, honey. Ryan’s seen real cocks. He knows exactly how pathetic you are.<</speech>>
+
+You just sit there, smirking, zooming in casually.
+
+Marcus finally stumbles backward, trips over his own pants, and flees to the bedroom, slamming the door so hard the pictures rattle.
+
+Vanessa collapses beside you, breathless, eyes shining with tears of pure cruel joy.
+
+<<speech "vanessa">>Did you get his face?<</speech>>
+
+<<speech "ryan">>Every second in 4K.<</speech>>
+
+She kisses you hard, whispering against your lips:
+
+<<speech "vanessa">>I’ve never been this wet in my life.<</speech>>
+
+<<set $uncleCorr += 5>><<set $time += 1>><<run placeUncleTrap("Livingroom", 5)>>
+<<if $uncleCorr % 40 == 0 && $uncleQuestReady < ($uncleCorr / 40)>><<set $uncleQuestReady to ($uncleCorr / 40)>><</if>>
+[[← House Hub|House Hub]]
+</div>
+
+
+:: Player Room {"position":"1350,300","size":"100,100"}
+<img src="img/3.jpg" style="width:100%;max-width:900px;height:auto;border-radius:12px;box-shadow:0 0 20px #0ff;">
 <div style="text-align:center;background:#000;color:#0ff;padding:120px;font-family:Courier New,monospace;">
-
-@player_room_nightmare.gif@
 <br><br>
 <<if $day <= 3>>It still feels strange wearing a pulse.<</if>>
 <<if $day > 3 and $day <= 7>>You can taste their fear in the air now.<</if>>
 <<if $day > 7>>Some of them have started sleeping with the lights on.<</if>>
 <br><br><br>
-
 DAY $day — $timeNames[$time]
 <br><br>
-
-<<if $possessed>>
-  You are inside Ryan.<br><br>
-  [[Walk the house →|House Hub]]
-<<else>>
-  <<if $time == 0>>   /* early morning only */
-    [[Take Ryan’s body|Possess Ryan]]
-  <<else>>
-    You are only smoke and hatred.<br>
-    You cannot act until early morning.
-  <</if>>
-<</if>>
-<br><br>
-
-<<if $time < 4>>[[Next time of day →|Advance Time]]<</if>>
-<<if $time == 4>>[[Sleep|Sleep]]<</if>>
+You are inside Ryan.<br><br>
+  [[Walk the house →|House Hub]]<br>
+<<if $time < 3>>[[Next time of day →|Advance Time]]<br><</if>>
+[[Sleep|Sleep]]
 </div>
 
 
-:: Possess Ryan {"position":"275,800","size":"100,100"}
+:: Possess Ryan {"position":"900,600","size":"100,100"}
 <img src="img/4.1.jpg">
 <div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@possess_ryan.gif@
 <br><br>
 You sink into Ryan like frost into warm skin.
 <br><br>
@@ -315,12 +2070,11 @@ You smile with his mouth.<br>
 It feels like coming home.
 <br><br><br>
 <<set $possessed to true>>
-[[Begin the day wearing stolen flesh|Player Room]]
+[[Begin the day wearing stolen flesh|House Hub]]
 </div>
 
 
-:: Prologue {"position":"675,600","size":"100,100"}
-\:: Prologue
+:: Prologue {"position":"700,550","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:80px 40px;font-family:Courier New,monospace;line-height:2.8;">
 <img src="img/2.1.jpg">
 The funeral was closed-casket.<br>
@@ -341,253 +2095,79 @@ Nineteen minutes is all you need.
 You will wear Ryan like a second skin.<br>
 You will smile with his mouth.<br>
 And one by one you will teach them what “sorry” feels like when it’s forced down a broken throat.
-<br><br><br>
-[[The first dawn|Player Room]]
-</div>
+<br> 
+[[Take Ryan’s body|Possess Ryan]]
+  </div>
 
 
-:: Release Body {"position":"450,675","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@release_body.gif@
-<br><br>
-You pull out of Ryan like smoke leaving a cigarette burn.
-<br><br>
-His body jerks once, eyes rolling white, mouth gasping.<br>
-He collapses to the floor, drooling, confused, heart racing at 140 bpm.
-<br><br>
-He will remember nothing of what his hands did while you were inside him.<br>
-He will only feel the ache between his legs and the taste of someone else’s tears in his throat.
-<br><br><br>
-You are weightless again.<br>
-Cold again.<br>
-Perfect.
-<br><br><br>
-[[Back to the Player Room|Player Room]]
-</div>
-
-
-:: Set Trap mainbedroom book {"position":"700,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-
-<br>  <img src="img/12.1.jpg"><br>
-You leave a dog-eared paperback on Mother’s nightstand.<br>
-Title: “How to Serve Your Master: A Slave Wife’s Guide”.<br>
-Page 47 is already bookmarked — the chapter on thanking your bull after he breeds you.
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"book", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $motherCorr += 9>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom carving {"position":"325,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trap.gif@
-<br>
-<img src="img/6.2.jpg">
-<br>
-You take Ryan’s pocket knife and carve one word into the headboard above their bed.<br>
-Big letters. Deep.<br>
-CUCK<br><br>
-It will never sand out.
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"carving", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $fatherCorr += 9>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom collar {"position":"575,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-
-<br><img src="img/11.1.jpg"><br>
-You place a thick leather collar and long leash under Mother’s pillow.<br>
-The tag already engraved:<br>
-“Property of Ryan”
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"collar", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $motherCorr += 13>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom condom {"position":"200,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trap.gif@
-<br><img src="img/9.1.gif"><br><img src="img/9.2.jpg">
-You come inside a condom using Ryan’s body, knot it, and slide it under Father’s pillow.<br>
-Still warm. Still dripping.<br>
-The smell of another man’s load right where he rests his head every night.
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"condom", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $fatherCorr += 14>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom perfume {"position":"450,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trap.gif@
-<br>
-<img src="img/10.1.jpg"><br>
-You empty half her perfume bottle and refill it with concentrated obedience pheromones.<br>
-One spray and her clit will throb for orders.<br>
-Three sprays and she’ll crawl.
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"perfume", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $motherCorr += 11>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom phone {"position":"425,1275","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trap.gif@
-<br>
-<img src="img/7.1.jpg"><br>
-You slide a second phone under Father’s side of the mattress.<br>
-Already unlocked. Already open to a chat titled<br>
-“Your wife’s new owner”.<br><br>
-
-The last message is a video thumbnail:<br>
-Mother on her knees, mouth open, eyes empty, your stolen cock down her throat.<br>
-Time-stamp: tonight.<br><br>
-
-Below it you typed with Ryan’s fingers:<br>
-“Tell her thank you for me, cuck.”<br><br>
-
-You leave the chat glowing.<br>
-You leave the sound on max.
-
-<br><br><br>
-<<set $traps.mainbedroom to {
-    type: "phone",
-    triggered: false,
-    witnessed: false
-}>>
-<<set $dailyActions += 1>>
-<<set $fatherCorr += 10>>
-<br><br>
-<<set $time += 1>>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom photo {"position":"75,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trap.gif@
-<br>
-<img src="img/8.1.jpg"><br>
-You replace their wedding photo with a new one.<br>
-Mother on her knees, collared, mouth stretched around Ryan’s cock.<br>
-Father’s face has been blurred out — he wasn’t even worth keeping in the picture.<br><br>
-<img src="img/8.2.jpg">
-The frame is already on the nightstand when they come to bed.
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"photo", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $fatherCorr += 12>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Set Trap mainbedroom vibe {"position":"825,1400","size":"100,100"}
-<div style="text-align:center;background:#000;color:#0ff;padding:140px 40px;font-family:Courier New,monospace;line-height:2.8;">
-
-<br>  <img src="img/13.1.webp"><br>
-You hide a remote vibrator in her underwear drawer.<br>
-The remote is already in Ryan’s pocket.<br>
-High risk — if she finds it early she might suspect.<br>
-But when it goes off in the middle of dinner…
-
-<br><br><br>
-<<set $traps.mainbedroom to {type:"vibe", triggered:false, witnessed:false}>>
-<<set $dailyActions += 1>>
-<<set $motherCorr += 15>>
-<br><br>
-[[Location MainBedroom]]
-</div>
-
-
-:: Sleep {"position":"950,750","size":"100,100"}
-
+:: Sleep {"position":"1100,600","size":"100,100"}
 <div style="text-align:center;background:#000;color:#0ff;padding:160px 40px;font-family:Courier New,monospace;line-height:3;">
-@sleep_transition.gif@
-<br><br>
+<img src="img/sleep.gif">
 The house falls silent.<br><br>
 Ryan’s body collapses, spent.<br><br>
 Tomorrow they will wake up one day closer to breaking.<br><br>
-
-<<set $day += 1>>
-<<set $dailyActions to 0>>
-<<set $time to 0>>   /* back to early morning */
-
-<br><br>
-[[Dawn — Day $day|Player Room]]
+<<set $day += 1>><<set $dailyActions to 0>><<set $time to 0>>   /* back to early morning */
+[[Dawn|Player Room]]
 </div>
 
 
-:: StoryCaption {"position":"675,1575","size":"100,100"}
+:: StoryCaption {"position":"700,650","size":"100,100"}
 <div style="font-family:Courier New,monospace; color:#0ff; background:#000; padding:15px 12px; font-size:0.95em; line-height:1.8;">
+Version: 0.2
 DAY $day — $timeNames[$time]
-<<if $possessed>>
-<span style="color:#0ff">Wearing Ryan’s skin</span><br>
-Actions left today: <<if $dailyActions is 0>>3<<elseif $dailyActions is 1>>2<<elseif $dailyActions is 2>>1<<else>>0<</if>>
-<<else>>
-<span style="color:#088">Ghost form</span>
-<</if>>
-
-<br><br>
 <<button "CORRUPTION STATS">><<goto [[CorruptionStats]]>>
 <</button>>
-
+<br>
+<<if $time < 3>>
+<<button "Advance Time">><<goto [[Advance Time]]>>
+<</button>>
+<<else>>
+Go to sleep
+<<button "Sleep">><<goto [[Sleep]]>>
+<</button>>
+<</if>>
 <<button "CURRENT LOCATIONS">><<goto [[CurrentLocations]]>>
 <</button>>
+<br>
+Thank you for playing
+<a href="https://www.patreon.com/RedCupid" target="_blank">
+    <img src="img/patreon.png" style="width:100px; height:auto;">
+</a>
 By Redcupid
 </div>
 
 
-:: StoryInit {"position":"875,1150","size":"100,100"}
+:: StoryInit {"position":"700,250","size":"100,100"}
 \:: StoryInit
 <<set $day to 1>>
-<<set $time to 0>>   /* 0 = early morning, 1 = morning, 2 = afternoon, 3 = evening, 4 = night */
-<<set $timeNames to ["early morning", "morning", "afternoon", "evening", "night"]>>
+<<set $time to 0>>   
+<<set $timeNames to ["morning", "afternoon", "evening", "night","late night","late night"]>>
 <<set $possessed to false>>
 <<set $dailyActions to 0>>
 <<set $playerName to "">>
-
+<<set $motherTier to 1>>   /* 1 = Tier 1, 2 = Tier 2 … 5 = Tier 5 */
+<<set $motherTrapsUsed to 0>>
+<<set $motherCorr to 0>>
+<<set $motherLastQuest to 0>>   /* 0 = none, 1 = Quest 1 played, 2 = Quest 2 played … 10 = final */
+<<set $motherQuestReady to 0>>
+<<set $motherTrapsUsed to {}>>    /* remembers which exact traps you already used */
 <<set $fatherCorr to 0, $motherCorr to 0, $brotherCorr to 0, $sisterCorr to 0>>
 <<set $uncleCorr to 0, $auntCorr to 0, $cousinCorr to 0>>
-<<set $broGFcorr to 0, $sisBFcorr to 0>>
-
+<<set $broGFCorr to 0, $sisBFCorr to 0>>
 <<set $traps to {mainbedroom:null, brotherroom:null, sisterroom:null, uncleroom:null, bathroom:null, kitchen:null, livingroom:null}>>
-
-/* SCHEDULE NOW USES NUMBERS 0–4 SO IT CAN NEVER BE UNDEFINED */
+/* SCHEDULE NOW USES NUMBERS 0–3 SO IT CAN NEVER BE UNDEFINED */
+<<set $basementunlocked to false>>
 <<set $schedule to {
-    0: { father:"mainbedroom", mother:"mainbedroom", brother:"brotherroom", sister:"sisterroom", uncle:"uncleroom", aunt:"uncleroom", cousin:"uncleroom", broGF:"brotherroom", sisBF:"sisterroom" },
-    1: { father:"kitchen",    mother:"kitchen",    brother:"bathroom",   sister:"sisterroom", uncle:"livingroom", aunt:"kitchen",    cousin:"uncleroom",   broGF:"brotherroom", sisBF:"sisterroom" },
-    2: { father:"livingroom", mother:"kitchen",    brother:"brotherroom", sister:"livingroom", uncle:"kitchen",    aunt:"mainbedroom", cousin:"livingroom",  broGF:"brotherroom", sisBF:"livingroom" },
-    3: { father:"livingroom", mother:"kitchen",    brother:"livingroom", sister:"sisterroom", uncle:"livingroom", aunt:"kitchen",    cousin:"livingroom",  broGF:"livingroom",  sisBF:"sisterroom" },
-    4: { father:"mainbedroom", mother:"mainbedroom", brother:"brotherroom", sister:"sisterroom", uncle:"uncleroom",  aunt:"uncleroom",  cousin:"uncleroom",   broGF:"brotherroom", sisBF:"sisterroom" }
+    0: { father:"bathroom",    mother:"kitchen",    brother:"bathroom",   sister:"sisterroom", uncle:"kitchen", aunt:"bathroom",    cousin:"uncleroom",   broGF:"kitchen", sisBF:"sisterroom" },
+    1: { father:"livingroom", mother:"bathroom",    brother:"brotherroom", sister:"livingroom", uncle:"bathroom",    aunt:"kitchen", cousin:"livingroom",  broGF:"bathroom", sisBF:"livingroom" },
+    2: { father:"kitchen", 
+    mother:"livingroom",    
+    brother:"livingroom", 
+    sister:"sisterroom", 
+    uncle:"livingroom", 
+    aunt:"livingroom",    cousin:"livingroom",  broGF:"brotherroom",  sisBF:"sisterroom" },
+    3: { father:"mainbedroom", mother:"mainbedroom", brother:"brotherroom", sister:"sisterroom", uncle:"uncleroom",  aunt:"uncleroom",  cousin:"uncleroom",   broGF:"livingroom", sisBF:"sisterroom" },4: { father:"mainbedsleep", mother:"mainbedsleep", brother:"brothersleep", sister:"sistersleep", uncle:"unclesleep",  aunt:"unclesleep",  cousin:"unclesleep",   broGF:"brothersleep", sisBF:"sistersleep" },5: { father:"mainbedsleep", mother:"mainbedsleep", brother:"brothersleep", sister:"sistersleep", uncle:"unclesleep",  aunt:"unclesleep",  cousin:"unclesleep",   broGF:"brothersleep", sisBF:"sistersleep" },6: { father:"mainbedsleep", mother:"mainbedsleep", brother:"brothersleep", sister:"sistersleep", uncle:"unclesleep",  aunt:"unclesleep",  cousin:"unclesleep",   broGF:"brothersleep", sisBF:"sistersleep" },7: { father:"mainbedsleep", mother:"mainbedsleep", brother:"brothersleep", sister:"sistersleep", uncle:"unclesleep",  aunt:"unclesleep",  cousin:"unclesleep",   broGF:"brothersleep", sisBF:"sistersleep" }
 }>>
-
 <<set $playerName to $playerName || "Alex">>
 <<set $fatherName to $fatherName || "Victor">>
 <<set $motherName to $motherName || "Lydia">>
@@ -599,99 +2179,239 @@ By Redcupid
 <<set $broGFname to $broGFname || "Megan">>
 <<set $sisBFname to $sisBFname || "Jake">>
 
+<<set $fatherQuestReady to 0>>   /* 0 = nothing, 1-10 = quest waiting */
+<<set $fatherTier to 1>>
+<<set $fatherTrapsUsed to {}>>
+<<set $auntTier to 1>>   /* 1 = Tier 1, 2 = Tier 2 … 5 = Tier 5 */
+<<set $auntTrapsUsed to 0>>
+<<set $auntCorr to 0>>
+<<set $auntLastQuest to 0>>   /* 0 = none, 1 = Quest 1 played, 2 = Quest 2 played … 10 = final */
+<<set $auntQuestReady to 0>>
+<<set $auntTrapsUsed to {}>> 
+<<set $uncleTier to 1>>
+<<set $uncleQuestReady to 0>>
+<<set $uncleTrapsUsed to {}>>
+<<set $uncleTrapsLocked to true>>   /* ← ADD THIS LINE */
 
-:: TimeDisplay {"position":"1150,875","size":"100,100"}
+
+
+
+
+
+
+
+<<set $auntTier to 1>>
+<<set $auntCorr to 0>>
+<<set $auntQuestReady to 0>>
+<<set $auntTrapsUsed to {}>>
+
+<<set $uncleTier to 1>>
+<<set $uncleCorr to 0>>
+<<set $uncleQuestReady to 0>>
+<<set $uncleTrapsUsed to {}>>
+<<set $uncleTrapsLocked to true>>
+
+
+<<set $broGFCorr to 0>>
+<<set $broGFtier to 1>>
+<<set $broGFquestReady to 0>>   /* 0 = no quest ready, will be set by %40 check */
+<<set $brotherTrapsLocked to true>>
+<<set $brogfTrapsUsed to {}>>
+
+
+
+
+:: TimeDisplay {"position":"1100,200","size":"100,100"}
 \:: TimeDisplay [script]
-<<set $timeNames to ["early morning", "morning", "afternoon", "evening", "night"]>>
+<<set $timeNames to ["early morning", "morning", "afternoon", "evening", "night","late night","late night","late night","late night"]>>
 
 
-:: Trigger Trap mainbedroom {"position":"550,1275","size":"100,100"}
-\:: Trigger Trap mainbedroom
-<div style="text-align:center;background:#000;color:#0ff;padding:120px 40px;font-family:Courier New,monospace;line-height:2.8;">
-@mainbedroom_trigger.gif@
-<br><br>
+:: Uncle Quest 1 {"position":"2500,600","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ffd700;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#332200);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 70px #ffdd00;">UNCLE LEVEL 1 – THE SHEMALE VIDEO</span>
 
-<<set $traps.mainbedroom.triggered to true>>
-<<set $traps.mainbedroom.witnessed to true>>
+1:58 a.m.  
+Their bedroom is lit only by the glow of Vanessa’s phone.
 
-<<switch $traps.mainbedroom.type>>
+Marcus is rock-hard and trembling — three weeks of estrogen have turned every touch into agony.  
+He finally breaks.
 
-  <<case "phone">>
-  <img src="img/7.2.jpg">
-    Father finds the glowing phone.<br>
-    <img src="img/7.3.gif"><br>
-    He watches his wife choke on his nephew’s cock while the bull calls him a cuck in real time.<br>
-    His hands shake so hard the phone falls.<br>
-    <img src="img/7.4.gif">
-    He comes in his pajamas without touching himself.<br><br>
+<<speech "vanessa">>Baby… I found this video… can we watch it together?<</speech>>
 
+Vanessa smiles slow and wicked.  
+She already has the exact clip you sent her queued up.
 
-  <<case "photo">>
-  <img src="img/8.3.webp">
-    Father stares at the new wedding photo: his wife collared, crawling, staring up at a blurred Master.<br>
-    He tears it off the wall. The glass cuts his hand.<br>
-    He keeps the photo anyway.<br><br>
+She presses play.
+<video src="img/uncle/q11.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+On screen: a statuesque domme in glossy latex bending a gorgeous, collared shemale over and pegging her mercilessly.  
+The shemale’s clit-cock swings and leaks with every brutal thrust while she whimpers “thank you, Mistress” in a broken voice.
 
+Vanessa cuddles against Marcus, one hand sliding under the blanket, stroking him slowly, perfectly.
 
-  <<case "condom">>
-  <img src="img/9.3.jpg">
-    Father pulls back the sheet and finds the used condom knotted and dripping under his pillow.<br>
-    Still warm.<br>
-    He brings it to his nose before he realises what he’s doing.<br><br>
+<<speech "vanessa">>Look at her, Marcus…<br>Look how pretty she is taking that cock.<br>Look how hard her little clit gets when she’s being used…<</speech>>
 
+Marcus can’t look away.  
+His breathing turns ragged.  
+His hips jerk into her fist.
+<video src="img/uncle/q12.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "vanessa">>She loves it, doesn’t she?<br>Just like you would.<br>Just like you already do.<</speech>>
 
-  <<case "carving">>
-  <img src="img/6.3.jpg">
-    Father runs his fingers over the fresh word carved into the headboard: CUCK.<br>
-    Splinters under his nails.<br>
-    He sleeps on the wet spot that night and every night after.<br><br>
+<video src="img/uncle/q13.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
 
+The shemale on screen cums hands-free, spurting all over the floor while crying in gratitude.
 
-  <<case "perfume">>
-  <img src="img/10.2.gif">
-    Mother sprays the spiked perfume.<br>
-    <img src="img/10.3.gif">
-    Within minutes she is on her knees in the closet, rubbing herself raw, whispering “please use me” to no one.<br>
-    <img src="img/10.4.gif">
-    Father watches through the crack in the door and does nothing.<br><br>
-    
+Vanessa leans in, lips against his ear.
 
-  <<case "collar">>
-  <img src="img/11.2.jpg">
-    Mother finds the leather collar and leash under her pillow.<br>
-    She buckles it on before she can stop herself.<br>
-    Leads herself to the mirror and comes just looking at her reflection.<br><br>
+<<speech "vanessa">>Tell me you want to be her.<br>Tell me you want to be fucked like that pretty little bitch.<</speech>>
 
+Marcus’s voice cracks.
 
-  <<case "book">>
-  <img src="img/12.2.gif">
-    Mother reads one page of “How to Serve” and wakes up three hours later naked on the floor with the book soaked.<br>
-    Father finds her like that and just closes the door again.<br><br>
+<<speech "marcus">>…yes.<</speech>>
 
+Vanessa’s smile turns razor-sharp.
 
-  <<case "vibe">>
-  <img src="img/13.2.jpg">
-    Mother opens the drawer and the remote vibrator turns itself on in her hand.<br>
-      <img src="img/13.3.jpg">
-    She drops to all fours in the bedroom, screaming into the carpet within sixty seconds.<br>
-      <img src="img/13.4.gif">
-    Father records it on his phone for “later”.<br><br>
+<<speech "vanessa">>Hands at your sides, princess. No touching me. No touching that pathetic thing between your legs. You’re mine now.<</speech>>
 
+She starts jerking him again — slow, cruel, perfect.
 
-<</switch>>
+Every time he gets close she stops, lets him throb in the air, then starts again.
+<video src="img/uncle/q13.5.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+<<speech "vanessa">>You want to be a good girl for me, don’t you?<br>You want to leak and cry and thank me while I ruin you, just like she did?<</speech>>
 
-<br><br>
-The damage is permanent.<br>
-They will never sleep the same way again.
+<<speech "marcus">>Yes… please…<</speech>>
+<video src="img/uncle/q14.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She finally lets him get right to the edge — hips bucking, tears in his eyes — and then squeezes hard at the base.
 
-<br><br><br>
-[[House Hub]]
+His orgasm sputters out in weak, ruined pulses, dripping uselessly onto his stomach.
+
+Vanessa kisses his forehead like he’s a child.
+
+<<speech "vanessa">>Good girl.<br>We’re just getting started.<</speech>>
+
+Marcus lies there panting, destroyed, humiliated, and harder than he’s ever been in his life.
+
+<<speech "ryan">>He just admitted it out loud.<br>There’s no coming back from this.<</speech>>
+<<set $uncleQuestReady to 0>>
+[[He just crossed the line|House Hub]]
 </div>
 
 
-:: disclailmer {"position":"675,350","size":"100,100"}
+:: Uncle Quest 2 {"position":"2400,600","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ffd700;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#554400);">
+<span style="font-size:3em;letter-spacing:12px;text-shadow:0 0 70px #ffdd00;">UNCLE LEVEL 2 – THE LINGERIE TRAP</span>
+
+Late afternoon.  
+Vanessa slips into your room, eyes gleaming.
+
+<<speech "vanessa">>He’s begging again. How do we break him tonight?<</speech>>
+You hand her a delicate pink lingerie set: tiny lace thong with a satin bow, matching bra, sheer white stockings.
+
+<video src="img/uncle/q21.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+<<speech "ryan">>Tell him if he wants to cum tonight, he wears this. Nothing else.<</speech>>
+
+She grins like a wolf.
+
+<hr style="border-color:#ffd700;"><br>
+<span style="color:#ff00ff;font-size:1.8em;">That night – their bedroom</span>
+
+Marcus is already naked from the waist down, shirt still on, cock painfully hard.
+
+Vanessa dangles the thong from one finger.
+
+<<speech "vanessa">>You want to cum tonight, baby?<</speech>>
+
+<<speech "marcus">>God, yes… please…<</speech>>
+
+<<speech "vanessa">>Then you wear these. All of them. Right now.<</speech>>
+He hesitates exactly four seconds.
+
+<video src="img/uncle/q22.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She strips his shirt off first,
+
+<video src="img/uncle/q23.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Then his pants.
+
+<video src="img/uncle/q24.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+She hands him the panties and He instinctively wears is it.
+
+The lace stretches tight over his leaking cock, the string disappearing between his cheeks. 
+
+<video src="img/uncle/q25.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Bra next — clipped with cruel precision.  
+She steps back, circles him, laughing softly.
+
+<<speech "vanessa">>Perfect.<br>Now stay right there.<</speech>>
+
+She pulls out her phone, opens the photo you sent: a stunning shemale in identical lingerie, huge breasts, tiny waist, cock bulging in the same panties.
+
+She holds it inches from his face.
+<div style="display:flex;justify-content:center;gap:20px;margin:40px 0;">
+<img src="img/uncle/q266.jpg" style="width:48%;max-width:450px;height:auto;border-radius:15px;box-shadow:0 0 30px #ff00ff;">
+<img src="img/uncle/q26.gif" style="width:48%;max-width:450px;height:auto;border-radius:15px;box-shadow:0 0 30px #ff00ff;">
+</div>
+<<speech "vanessa">>Look at her.<br>Look how gorgeous she is.<br>With just a few more things… hormones, a little training… you could be her.<br>You could be this pretty.<</speech>>
+Marcus can’t look away.  
+His cock jerks visibly in the lace, a wet spot spreading fast.
+
+<video src="img/uncle/q27.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+Vanessa wraps her hand around him through the panties and **edges** him — slow, cruel, perfect strokes.
+
+Every time he gets close she stops completely, lets him throb in the air, then starts again.
+
+<<speech "vanessa">>Not yet, princess.<br>You don’t get to cum until you’re alone with that picture in your head.<</speech>>
+<<speech "vanessa">>Keep everything on. Sleep in it. Think about her.<br>And no touching until I say so.<</speech>>
+
+Two hours later your phone lights up:
+
+he’s in the bathroom right now  
+door locked  
+staring at that shemale photo on his phone  
+jerking off in the soaked panties  
+<video src="img/uncle/q28.webm" autoplay loop muted playsinline
+       style="width:100%;max-width:950px;height:auto;border-radius:15px;box-shadow:0 0 40px #ba55d3;margin-bottom:30px;">
+</video>
+
+he just came so hard he almost cried
+<<set $uncleTier to 2>>
+<<set $time += 1>><<set $uncleQuestReady to 0>>
+
+<div style="color:#ff00ff;font-size:1.8em;margin-top:50px;">
+He just chose lingerie over his last shred of masculinity.  
+The transformation has begun.
+</div>
+[[He belongs to both of you now|House Hub]]
+</div>
+
+
+:: Untitled Passage {"position":"1800,1300","size":"100,100"}
+
+
+
+:: disclailmer {"position":"700,350","size":"100,100"}
 <div style="text-align:center;padding:100px 40px;background:#000;color:#fff;font-family:Courier New,monospace;">
-@disclaimer_blood.jpg@
 <br><br>
 <span style="font-size:4em;color:#0ff;text-shadow:0 0 30px #0ff;letter-spacing:8px;">THE GHOST'S REVENGE</span>
 <br><br><br>
@@ -705,7 +2425,195 @@ Now you will make them beg for the mercy they never showed you.
 <br><br>
 Explicit 18+ • permanent enslavement • worship
 <br><br><br>
-[[Yes, I am 18+|Name Entry]]
+[[Yes, I am 18+|Prologue]]
+
+</div>
+
+
+:: place brogf t1 bathroom {"position":"2500,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330022);">
+<span style="font-size:2.6em;letter-spacing:8px;text-shadow:0 0 50px #ff69b4;">BATHROOM – DOOR UNLOCKED</span>
+<br><br>
+<img src="img/megan/showerjerk1.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #ff69b4;margin-bottom:30px;">
+
+Late night. Steam fills the bathroom. Megan’s showering, thinking the house is asleep.
+
+You leave the door cracked on purpose and step in naked, leaning against the sink.
+
+You start jerking off loud and slow, making sure every wet slap echoes off the tiles.
+
+<<speech "ryan">>Fuck, Megan… your mouth would feel so good right now…  
+Gonna stretch that tight little pussy… fill you up… breed you deep…<</speech>>
+
+You moan her name over and over, hips bucking, stroking faster.
+
+The door creaks wider.
+
+She’s standing there in just a towel, frozen, eyes wide, cheeks on fire.
+
+You keep going, pretending you don’t see her.
+
+<<speech "ryan">>Come here, baby… let me put a baby in you…<</speech>>
+
+You come hard, thick ropes hitting the mirror while you growl her name one last time.
+
+Only then do you “notice” her.
+
+She bolts, towel clutched tight, slamming her bedroom door behind her.
+
+She never saw you watching her watch you.
+
+<<run placeMeganTrap("bathroom1", 5)>>
+<<set $time += 1>>
+
+<div style="color:#ff69b4;font-size:2em;margin-top:50px;">
+She just heard exactly what you plan to do to her.  
+And didn’t run until after you finished.
+</div>
+
+[[← Back|House Hub]]
+</div>
+
+
+:: place brogf t1 brotherroom {"position":"2400,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#ff69b4;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330022);">
+<span style="font-size:2.6em;letter-spacing:8px;text-shadow:0 0 50px #ff69b4;">ETHAN’S ROOM – THE DILDO COMPARISON</span>
+<br><br>
+<img src="img/megan/dildo1.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #ff69b4;margin-bottom:30px;">
+
+Afternoon. Ethan’s at practice.  
+Megan is tidying his room.
+
+You open the nightstand and pull out her secret pink dildo.
+
+<<speech "ryan">>So this is what keeps you going when he finishes in thirty seconds?<</speech>>
+
+<<speech "megan">>Put it back! Get out!<</speech>>
+
+You hold the toy beside your crotch (still clothed) so the size difference is obvious.
+
+<<speech "ryan">>Don’t worry. I’ll send you a better comparison later.<</speech>>
+
+You drop it on the bed and leave.
+
+Ten minutes later her phone buzzes.
+
+One photo: her little toy next to your thick, bare cock—completely dwarfed.
+
+No caption.
+
+She never replies, but her door stays locked for the next hour.
+
+<<run placeMeganTrap("brotherroom1", 5)>>
+<<set $time += 1>>
+
+<div style="color:#ff69b4;font-size:2em;margin-top:50px;">
+She now has photographic proof of what “bigger” really means.
+</div>
+[[← Back|House Hub]]
+</div>
+
+
+:: place brogf t1 kitchen {"position":"2600,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330022);">
+<span style="font-size:2.6em;letter-spacing:8px;text-shadow:0 0 50px #ff69b4;">KITCHEN – HEART-SHAPED PANCAKES</span>
+<br><br>
+<img src="img/megan/pancake1.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #ff69b4;margin-bottom:30px;">
+
+Saturday morning. Ethan still snoring upstairs.  
+Megan pads into the kitchen in one of his old T-shirts and tiny sleep shorts, hair messy, no bra, rubbing sleep from her eyes.
+
+You’re already at the stove in nothing but low sweatpants, flipping the last pancake.
+
+You slide the plate across the island: three perfect, steaming heart-shaped pancakes stacked just for her, extra butter melting in the center.
+
+<<speech "ryan" >>Made these special. Only the prettiest girl in the house gets hearts.<</speech>>
+
+Her cheeks go pink. She mumbles a shy “thank you” and sits on the high stool, legs dangling.
+
+You grab the warm syrup bottle and “accidentally” tip it way too far.
+
+Thick golden rivers pour straight over the top pancake… and keep going, cascading off the plate, down her bare thighs, dripping onto the chair and floor between her feet.
+
+<<speech "megan">>Ryan!!<</speech>>
+
+<<speech "ryan" >>Shit, my bad. Hold still, I’ll clean you up.<</speech>>
+
+You’re already on your knees in front of her before she can hop down.
+
+Warm, damp dish towel in one hand… but you don’t use it yet.
+
+You start with your mouth.
+
+Slow, deliberate licks up the inside of her left thigh, gathering sticky syrup with your tongue, lips brushing soft skin.  
+She gasps, hands flying to the counter edge.
+
+You switch to the right thigh, higher this time, nose nudging the hem of her shorts.  
+Your hands slide up to her knees, easing them apart just enough to keep going.
+
+<<speech "megan" panicked whisper>>Someone could come down any second…
+<</speech>>
+<<speech "ryan">>Then you’d better keep those pretty legs open and stay quiet.<</speech>>
+
+You finally drag one slow lick all the way up until your tongue barely grazes the damp cotton between her legs.  
+She jerks so hard the stool creaks, a tiny broken whimper escaping before she bites her lip bloody.
+
+You finish with the towel, wiping lazily, thumb “accidentally” pressing the soaked fabric against her clit for three long seconds.
+
+When you stand up you let her see the obvious bulge in your sweats, inches from her face.
+
+<<speech "ryan">>Next time I’ll just skip the pancakes and pour the syrup straight on you.<</speech>>
+
+She can’t even answer; just sits there trembling, thighs clenched, pupils blown wide.
+
+<<set $time += 1>><<run placeMeganTrap("pancake1", 5)>>
+
+
+<div style="color:#ff69b4;font-size:2em;margin-top:50px;">
+Breakfast is served… and she’s already starving for more.
+</div>
+
+[[← Back|House Hub]]
+</div>
+
+
+
+
+:: place brogf t1 livingroom {"position":"2300,1700","size":"100,100"}
+<div style="text-align:center;background:#000;color:#fff;padding:100px 20px;font-family:Courier New,monospace;line-height:2.8;background:linear-gradient(to bottom,#000,#330022);">
+<span style="font-size:2.6em;letter-spacing:8px;text-shadow:0 0 50px #ff69b4;">LIVING ROOM – MOVIE NIGHT BLANKET</span>
+<br><br>
+<img src="img/megan/blanket1.jpg" style="width:100%;max-width:950px;height:auto;border-radius:20px;box-shadow:0 0 60px #ff69b4;margin-bottom:30px;">
+
+Movie night. Lights off. One giant blanket.  
+Ethan left — Megan middle — you right.
+
+A hand slides under the blanket onto her bare thigh.  
+She smiles, thinking it’s Ethan finally being bold.
+
+Fingers slip under her shorts and panties, circling her clit perfectly.
+
+She spreads her legs wider, melting, ready to come.
+
+Just as she’s on the edge, the hand stops dead.
+
+<<speech "ryan">>In case you’re wondering whose fingers just almost made you cream yourself…  
+it wasn’t your boyfriend.<</speech>>
+
+She turns, horrified.  
+Ethan is snoring on her other side.
+
+She spends the rest of the movie soaked and shaking, thighs clenched tight.
+
+<<run placeMeganTrap("livingroom1", 5)>>
+<<set $time += 1>>
+
+<div style="color:#ff69b4;font-size:2em;margin-top:50px;">
+She just got fingered better by her boyfriend’s brother than he’s ever managed.  
+And now she knows it.
+</div>
+
+[[← Back|House Hub]]
 </div>
 
 
@@ -723,12 +2631,10 @@ Macro.add('speech', {
         $(this.output).wiki(output);
     }
 });
-
 /* Safe time-advance function – works in every SugarCube version */
 window.advanceTime = function() {
     const order = ["early morning", "morning", "afternoon", "evening", "night"];
     const currentIndex = order.indexOf(State.variables.time);
-
     if (currentIndex === -1) return;                   // safety
     if (currentIndex + 1 >= order.length) {
         // It's already night → force player to bed
@@ -737,7 +2643,105 @@ window.advanceTime = function() {
         State.variables.time = order[currentIndex + 1];
     }
 };
+window.placeMotherTrap = function(trapID, points, location) {
+    State.variables.motherCorr += points;
+    State.variables.motherTrapsUsed[trapID] = true;
+   
+    
+    // optional: advance time after placing any trap
+    // <<run advanceTime()>>
+};
+// <<i>> ... <</i>> for italic
+Macro.add("i", {
+    tags: null,
+    handler: function () {
+        $("<i/>").wiki(this.payload[0].contents).appendTo(this.output);
+    }
+});
+// <<b>> ... <</b>> for bold (bonus, optional)
+Macro.add("b", {
+    tags: null,
+    handler: function () {
+        $("<b/>").wiki(this.payload[0].contents).appendTo(this.output);
+    }
+})
+window.placeFatherTrap = function(trapID, points) {
+    State.variables.fatherCorr += points;
+    State.variables.fatherTrapsUsed[trapID] = true;
+    };
+window.placeAuntTrap = function(trapID, points) {
+    State.variables.auntCorr += points;
+    State.variables.auntTrapsUsed[trapID] = true;
+};
+window.placeUncleTrap = function(trapID, points) {
+    State.variables.uncleCorr += points;
+    State.variables.uncleTrapsUsed[trapID] = true;
+};
+window.placeMeganTrap = function(trapID, points) {
+    State.variables.broGFCorr += points;
+    State.variables.brogfTrapsUsed[trapID] = true;
+    
+    /* Auto-unlock next quest when corruption hits multiple of 40 */
+    if (State.variables.broGFCorr % 20 === 0 && 
+        State.variables.broGFquestReady < (State.variables.broGFCorr / 20)) {
+        State.variables.broGFquestReady = State.variables.broGFCorr / 20;
+    }
+};
 
+/* ==== OFFICIAL SUGARCUBE SAVE MIGRATION ==== */
+Config.saves.version = 2;   // ← Increment this every time you add new variables
+
+Save.onLoad.add(function (save) {
+    save.state.history.forEach(function (moment) {
+        var v = moment.variables;
+        var version = save.version || 0;   // old saves have no version → treat as 0
+
+        /* -------------------------------------------------
+           Version 1 → 2 : Add Aunt & Uncle + future characters
+           ------------------------------------------------- */
+        if (version < 2) {
+
+            // === AUNT ===
+            if (typeof v.auntTier === "undefined")        v.auntTier = 1;
+            if (typeof v.auntCorr === "undefined")        v.auntCorr = 0;
+            if (typeof v.auntQuestReady === "undefined")  v.auntQuestReady = 0;
+            if (typeof v.auntTrapsUsed === "undefined")   v.auntTrapsUsed = {};
+
+            // === UNCLE ===
+            if (typeof v.uncleTier === "undefined")       v.uncleTier = 1;
+            if (typeof v.uncleCorr === "undefined")       v.uncleCorr = 0;
+            if (typeof v.uncleQuestReady === "undefined") v.uncleQuestReady = 0;
+            if (typeof v.uncleTrapsUsed === "undefined")  v.uncleTrapsUsed = {};
+            if (typeof v.uncleTrapsLocked === "undefined")v.uncleTrapsLocked = true;
+
+            // === FUTURE CHARACTERS (safe defaults) ===
+            if (typeof v.brotherTier === "undefined") v.brotherTier = 1;
+            if (typeof v.brotherCorr === "undefined") v.brotherCorr = 0;
+            if (typeof v.brotherQuestReady === "undefined") v.brotherQuestReady = 0;
+            if (typeof v.brotherTrapsUsed === "undefined") v.brotherTrapsUsed = {};
+
+            if (typeof v.sisterTier === "undefined")  v.sisterTier = 1;
+            if (typeof v.sisterCorr === "undefined")  v.sisterCorr = 0;
+            if (typeof v.sisterQuestReady === "undefined") v.sisterQuestReady = 0;
+            if (typeof v.sisterTrapsUsed === "undefined")  v.sisterTrapsUsed = {};
+
+            if (typeof v.broGFTier === "undefined") v.broGFTier = 1;
+            if (typeof v.broGFCorr === "undefined") v.broGFCorr = 0;
+            if (typeof v.sisBFTier === "undefined") v.sisBFTier = 1;
+            if (typeof v.sisBFCorr === "undefined") v.sisBFCorr = 0;
+
+            // Mark as updated
+            version = 2;
+        }
+
+        /* -------------------------------------------------
+           Future updates: just copy-paste new block here
+           ------------------------------------------------- */
+        // if (version < 3) { ... add new stuff ... version = 3; }
+        // if (version < 4) { ... add more ... version = 4; }
+
+    });
+});
 
 :: StoryStylesheet [stylesheet]
 \:: StoryStylesheet
@@ -758,14 +2762,6 @@ body, #story, #passages, .passage {
     letter-spacing: 0.5px;
 }
 
-#passages {
-    margin: 0 !important;
-    padding: 40px 60px !important;}
-#passages {
-    margin: 0 !important;
-    padding: 40px 60px !important;
-}
-
 #ui-bar {
     width: 280px !important;
     padding: 25px 20px !important;
@@ -775,7 +2771,6 @@ body, #story, #passages, .passage {
     font-size: 15px !important;
     line-height: 2.2 !important;
 }
-
 /* ALL LINKS → BOLD + NEON PINK */
 a,
 a.internalLink,
@@ -787,24 +2782,18 @@ a.macro-link,
     text-shadow: 0 0 12px #ff00ff !important;
     text-decoration: none !important;
 }
-
 a:hover,
 a.internalLink:hover {
     color: #ff00ff !important;
     text-shadow: 0 0 25px #ff00ff, 0 0 35px #ff00ff !important;
 }
-
 /* Sidebar buttons stay cyan (so they don’t clash) */
-
-
 
 button:hover {
     background: #0ff !important;
     color: #000 !important;
 }
-
 ]
-
 .speech {
     color: #fee;
     border: 2px solid #444;
@@ -819,7 +2808,6 @@ button:hover {
     line-height: 1.5;
     background: linear-gradient(145deg, #333, #111);
 }
-
 .avatar {
     display: block;
     height: 90px;
@@ -832,7 +2820,6 @@ button:hover {
     background-position: center;
     box-shadow: 0 0 10px rgba(255,238,0,0.5);
 }
-
 .name {
     font-weight: bold;
     font-size: 1.4em;
@@ -840,12 +2827,10 @@ button:hover {
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px #000;
 }
-
 .text {
     clear: both;
     font-style: italic;
 }
-
 .speech::after {
     content: '';
     position: absolute;
@@ -856,29 +2841,28 @@ button:hover {
     border: 12px solid transparent;
     border-top-color: #333;
 }
-
 /* Character Styles - Left (victims) vs Right (you/Ryan) */
 .father, .mother, .brother, .sister, .uncle, .aunt { margin-left: 0; margin-right: auto; }
 .father::after, .mother::after, .brother::after, .sister::after, .uncle::after, .aunt::after { left: 30px; }
-
 .ryan { background: linear-gradient(145deg, #8b0000, #ff0000); margin-left: auto; margin-right: 0; }
 .ryan::after { left: auto; right: 30px; border-top-color: #8b0000; }
-.ryan .avatar { background-image: url("img/ryan-possessed.png"); }
-
-.father { background: linear-gradient(145deg, #663300, #cc6600); }
-.father .avatar { background-image: url("img/father.png"); }
-
-.mother { background: linear-gradient(145deg, #4b0082, #9932cc); }
-.mother .avatar { background-image: url("img/mother.png"); }
-
-.brother { background: linear-gradient(145deg, #ff69b4, #ff1493); }
-.brother .avatar { background-image: url("img/brother.png"); }
-
-.sister { background: linear-gradient(145deg, #ff4500, #ff6347); }
-.sister .avatar { background-image: url("img/sister.png"); }
-
-.uncle { background: linear-gradient(145deg, #daa520, #ffd700); }
-.uncle .avatar { background-image: url("img/uncle.png"); }
-
-.aunt { background: linear-gradient(145deg, #800080, #ba55d3); }
-.aunt .avatar { background-image: url("img/aunt.png"); }
+.ryan .avatar { background-image: url("img/ryan.png"); }
+.victor { background: linear-gradient(145deg, #663300, #cc6600); }
+.victor .avatar { background-image: url("img/father.png"); }
+.lydia { background: linear-gradient(145deg, #4b0082, #9932cc); }
+.lydia .avatar { background-image: url("img/mother.png"); }
+.ethan { background: linear-gradient(145deg, #ff69b4, #ff1493); }
+.ethan .avatar { background-image: url("img/brother.png"); }
+.megan { background: linear-gradient(145deg, #ff69b4, #ff1493); }
+.megan .avatar { background-image: url("img/brothergf.png"); }
+.chloe { background: linear-gradient(145deg, #ff4500, #ff6347); }
+.chloe .avatar { background-image: url("img/sister.png"); }
+.jake { background: linear-gradient(145deg, #ff4500, #ff6347); }
+.jake .avatar { background-image: url("img/sisterbf.png"); }
+.marcus { background: linear-gradient(145deg, #daa520, #cc6600); }
+.marcus .avatar { background-image: url("img/uncle.png"); }
+.vanessa { background: linear-gradient(145deg, #800080, #cc6600); }
+.vanessa .avatar { background-image: url("img/aunt.png"); }
+.friend1 { background: linear-gradient(145deg, #800080, #cc6600); }
+.friend1 .avatar { background-image: url("img/fr1.png"); }.friend2 { background: linear-gradient(145deg, #800080, #cc6600); }
+.friend2 .avatar { background-image: url("img/fr2.png"); }
