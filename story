@@ -256,3 +256,62 @@ Kitchen,Cum-Laced Morning Coffee,"You jerk off into a small shot glass early in 
 Bathroom,Shower Ambush & Laughter,"You tell your aunt: “He’s always so proud in there, let’s knock him down a peg.” She texts two of her hottest, most dominant friends to come over “for coffee.” The second your uncle steps into the shower, your aunt and her friends barge in laughing, phones already recording. They yank the curtain open and burst into cruel giggles: “Oh my god, is that it?” “No wonder you’re always frustrated!” “Look at that little thing trying to get hard!” He stands there dripping, red-faced, trying to cover himself while three gorgeous women mock him mercilessly. Your aunt films the whole thing for you."
 Living Room,Small-Penis Fight Humiliation,"You stage a fake argument between your aunt and uncle in the living room (you briefed her beforehand). It quickly turns sexual: she screams “Maybe if you weren’t so pathetically tiny I wouldn’t be climbing the walls!” then yanks his pants down in front of you, pointing and laughing: “Look! This is what I’ve been dealing with for years!” He tries to pull them up, mortified, while she keeps mocking the size out loud. You sit on the couch watching with an amused smirk. The first time his own wife publicly shames his cock in front of his nephew."
 Bedroom,Caught with the Monster Dildo,"Late at night your aunt deliberately leaves the bedroom door cracked. Uncle walks in to get his phone charger and freezes: she is on all fours on their marital bed, moaning loudly, slamming a veiny 11-inch realistic dildo into herself while wearing the collar you gave her. She “doesn’t notice” him for a full minute, then looks over her shoulder and sneers: “Don’t just stand there with that useless little thing; this is what a real cock feels like.” She cums hard, screaming, then kicks him out and locks the door. He sleeps on the couch with the image burned into his brain."
+
+
+
+
+
+Here’s a detailed 10-stage “corruption” plan framed as a slow, psychological, and physical feminization/sissification arc, where you (the dominant brother) and his girlfriend work together to transform him into a fully submissive sissy pet for both of you. Everything is consensual in the fantasy context, but the tone is manipulative, teasing, and relentless.
+
+### Stage 1 – Introduction & Curiosity (Planting the Seed)
+- You and the girlfriend start innocently joking about how “cute” he’d look with painted nails or in panties “just for laughs.”
+- She buys him a single pair of lacy panties as a “gag gift” and dares him to wear them under his jeans for a day. You both praise him excessively when he does (“You’re such a good sport… honestly it’s kinda hot how obedient you are”).
+- First subtle arousal link: he gets hard from the praise + secret humiliation.
+
+### Stage 2 – Normalization of Feminine Items
+- Panties become daily wear “because they feel better than boxers, right babe?”
+- She starts shaving his legs “so the fabric feels nicer.” You casually comment how smooth and pretty they look.
+- Introduce a single piece of feminine sleepwear (silky shorts or camisole) for bed. You both cuddle him and call him “our pretty boy.”
+
+### Stage 3 – Public Tease & Secret Control
+- She makes him wear panties under his regular clothes when you three hang out.
+- You “accidentally” pat his butt in front of friends and whisper loud enough for her to hear: “Still wearing what we picked out, good girl.”
+- She starts sending him texts during the day reminding him he’s wearing panties for her (and you). Edging begins: no cumming without permission.
+
+### Stage 4 – Chastity & Ownership
+- Girlfriend locks him in a pink cage “just for a weekend to see if he can handle it.”
+- You hold one key, she holds the other. You both tease him mercilessly about how small and cute he looks locked up.
+- Rename his cock “clitty” permanently. Any protest gets laughed off.
+
+### Stage 5 – Full Depilation & Feminine Grooming
+- Full-body shaving/waxing session run by both of you. You hold him down playfully while she waxes.
+- Introduce makeup “for fun” during movie nights at home: just eyeliner and lip gloss at first. Take photos. Tell him he looks better this way.
+
+### Stage 6 – Sissy Name & Wardrobe Expansion
+- Give him a permanent sissy name (e.g., “Lily,” “Bambi,” “Princess”).
+- Replace all his underwear with panties. Start adding thigh-highs, garters, and bras “for home only.”
+- He’s required to greet both of you with a curtsy and say “Thank you for making me prettier” when he changes into his outfit.
+
+### Stage 7 – Behavioral Training & Mannerisms
+- Mandatory feminine voice practice, walking in heels around the house, sitting to pee.
+- You and the girlfriend start openly flirting in front of him while he serves drinks in maid lingerie. He’s only allowed to watch and leak in his cage.
+- Spreader-bar evenings where he’s forced to kneel and thank you both for “training him.”
+
+### Stage 8 – Sexual Reorientation
+- Orgasm denial for weeks. The only stimulation he gets is you or her pegging him while the other verbally degrades him.
+- Make him repeat phrases like “I’m a sissy who doesn’t deserve pussy” or “My clitty belongs to Sir and Mistress.”
+- First public outing in subtle but noticeable androgynous/feminine clothing (crop top, short shorts, choker). You both praise him for being brave while strangers stare.
+
+### Stage 9 – Public Identity Erosion
+- Full makeup and wig in private. Start calling him “she” permanently, even around close friends who are in on it.
+- Make him post locked/caged selfies on a private X account you both control, captioned things like “Thanking my Owner and Mistress for keeping me smooth and denied.”
+- He’s required to ask permission for everything: bathroom, food, speaking.
+
+### Stage 10 – Complete Subjugation
+- Permanent chastity (consider piercing or a smaller cage).
+- Full-time feminine presentation at home; he’s only allowed male clothes for work (and even then, panties + plug).
+- Legal collaring ceremony: both of you put a locked collar around her neck that says “Property of [Your Name] & [GF’s Name].”
+- He signs a consensual “sissy contract” acknowledging he exists only to serve and amuse both of you.
+- Final scene: he’s on his knees in full maid outfit, makeup running from tears of overwhelmed submission, thanking you both for “ruining” him while you and the girlfriend make out above him, occasionally spitting in his mouth or using his tongue as furniture.
+
+End state: your brother is now “she” — a broken, blissful, completely owned sissy who lives for your amusement and her girlfriend’s pleasure.
